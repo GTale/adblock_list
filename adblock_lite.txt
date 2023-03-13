@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202303121237
+! Version: 202303130233
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22984
+! Lenth = 22989
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -11911,6 +11911,7 @@ zzzyk.com###Tinfo
 ||bdcpro*.techweb.com.cn^
 ||bdcse.xyz^
 ||bddwm.com^
+||bdfwzt.xyz^
 ||bdgg.qjy168.com^
 ||bdhcpll.cn^
 ||bdimg.com/brands/yxtg/source/juhe-v2.js
@@ -15052,6 +15053,7 @@ zzzyk.com###Tinfo
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hepburn.net.cn^
+||heqinyyds.com^
 ||heqishengcai1006.xyz^
 ||herky.com.cn^
 ||herogame.com^$subdocument,domain=gamer.com.tw
@@ -15108,6 +15110,7 @@ zzzyk.com###Tinfo
 ||hikari.website^
 ||hinet.net/product/promotion/$popup
 ||hinet.net/radio/getAdcode.do
+||hioek.cyou^
 ||hiqrnyn.cn^
 ||hisnote.cc^$third-party
 ||histock.tw/ad/
@@ -15802,6 +15805,7 @@ zzzyk.com###Tinfo
 ||ipeen.com.tw/js/frame/ad-actions.js
 ||ipeen.com.tw/photo/ad/
 ||ipip.net/loveapp/ipip/tools/theme/partner/
+||ipkruu.xyz^
 ||iporn.world/attachment/ad/
 ||ipqc5ejfe.icu^
 ||iprefer.com.tw^$third-party
@@ -21980,6 +21984,7 @@ zzzyk.com###Tinfo
 ||xswape.top^
 ||xtb.ink^
 ||xtgreat.com^$third-party
+||xthrdyi.cn^
 ||xtianqi.com.cn^
 ||xtioiqa.cn^
 ||xtojqz.club^
