@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202303130233
+! Version: 202303140127
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22989
+! Lenth = 22998
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -8584,6 +8584,7 @@ vpsmm.com###uc
 vpsmm.com##.top_a1
 vpsmm.com##div[class*="xx"]
 vpsmm.com#?#.sidexbar div:-abp-has(>a>img)
+vuejs.org##.text-ad
 vuetifyjs.com##.v-sponsors
 vx666.com##.async[href^="http"]
 w3cplus.com###block-block-49
@@ -9854,6 +9855,7 @@ zzzyk.com###Tinfo
 ||3.ssqzj.com^
 ||301848.com^
 ||302y.fun^
+||304p.xyz^
 ||306842.com^
 ||310v.com/images/lingdai.gif
 ||310v.com/images/wap_520x60.gif
@@ -10058,6 +10060,7 @@ zzzyk.com###Tinfo
 ||484r.com/images/flash/gallery_
 ||4936.cn^$third-party
 ||49468220.com^
+||4bds.xyz^
 ||4btbtt.com/slade.js
 ||4excel.cn^
 ||4gamers.com.tw/ads-
@@ -12165,6 +12168,7 @@ zzzyk.com###Tinfo
 ||bnextmedia.com.tw/feed/fetch.js
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/cp_prebid
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/mt_programmatic_ad.js
+||bnhxxj.xyz^
 ||bnlg.fun^
 ||bnman.net/static/manhua/bd/
 ||bnman.net^*/com1
@@ -13558,6 +13562,7 @@ zzzyk.com###Tinfo
 ||dreamfull.cn^
 ||dreanrh.cn^
 ||drebz4f.shop^
+||drfvtgbyk.xyz^
 ||drjgjngf.com^
 ||drkqjje.cn^
 ||drmcmm.baidu.com^
@@ -15609,6 +15614,7 @@ zzzyk.com###Tinfo
 ||ii1.chajiaotong.com^
 ||iia1.pikacn.com^
 ||iiauu.cn/777/
+||iicke.cyou^
 ||iid97.com/bdgo/
 ||iid97.com/wp-content/cache/autoptimize/js/
 ||iigushi.com^
@@ -15953,6 +15959,7 @@ zzzyk.com###Tinfo
 ||iyuedu.cn.com^
 ||iyurw.xyz^
 ||iyxuude.cn^
+||izmssk.xyz^
 ||iztwp.com/images/
 ||izuis.com^
 ||izzcwww7.live^
@@ -16620,6 +16627,7 @@ zzzyk.com###Tinfo
 ||keyrun.cn^$third-party
 ||keysmw.xyz^
 ||keywin.org/templates/kw_v2/images/youbianad.png
+||kezldfv.cn^
 ||kf.qingwk.com^
 ||kf94.club^
 ||kfc.com.cn^$popup,domain=iqiyi.com
@@ -21282,6 +21290,7 @@ zzzyk.com###Tinfo
 ||wangkuang.net.cn^
 ||wangpan.ltd^
 ||wangqing7.top^
+||wangsf.ltd^
 ||wangyc.club^
 ||wangye.icu^
 ||wangyuekun.xyz^
