@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202303140127
+! Version: 202303150228
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22998
+! Lenth = 23011
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -9032,6 +9032,7 @@ ytbbs.com###dd1
 ytbbs.com##.ftop_ad_2016
 yule.iqiyi.com##div[style="width:180px;padding:25px 0 20px 20px;float:right;margin-right: 30px;"]
 yun.cn##div[class*="ad-block"]
+yunduanxin.xyz###adb-mask
 yutu.cn###botfocus-res
 yx.kimg.cn##ul#feedList > li.feed-list-ad
 yxbao.com###gs_down
@@ -14025,6 +14026,7 @@ zzzyk.com###Tinfo
 ||familydoctor.com.cn/c/a/000/ggw_
 ||fang.com/house/ajaxrequest/adverTlGet.
 ||fang99.com^*/advjs/
+||fangbaba.xyz^
 ||fangfeng001.xyz^
 ||fangfeng002.xyz^
 ||fangfeng005.xyz^
@@ -14381,6 +14383,7 @@ zzzyk.com###Tinfo
 ||gaofen.com/source/plugin/gaofen_ad/
 ||gaofuwu.org/js/dd.js
 ||gaofuwu.org/js/dd2.js
+||gaohexiang.xyz^
 ||gaoimg.xyz/images/
 ||gaojiedesign.cn^
 ||gaoqing.la/wp-content/uploads/*/gg
@@ -14600,6 +14603,7 @@ zzzyk.com###Tinfo
 ||goasdfa.top^
 ||gocye.com^$third-party
 ||gocyghol.vip^
+||godie.cyou^
 ||godloveme.cn^
 ||gog.cn/sys/online_calc.js
 ||gogfhq.xyz^
@@ -15839,6 +15843,7 @@ zzzyk.com###Tinfo
 ||iqshw.com/d/js/m/thea
 ||iqzt3ec.cn^
 ||ir002423.cn^
+||irqqwqk.cn^
 ||irygym.xyz^
 ||irzwlux.cn^
 ||is686.com^$third-party
@@ -16049,6 +16054,7 @@ zzzyk.com###Tinfo
 ||jd.com/static/js/cpc.js
 ||jd.com^$domain=gw54.com|xgw5.com
 ||jd100.com/cwmpc/
+||jd186.club^
 ||jd5c.top^
 ||jd6pq31f.site^
 ||jdaa22.top^
@@ -16458,6 +16464,7 @@ zzzyk.com###Tinfo
 ||jxdown.com/statics/js/all.js
 ||jxdown.com^$third-party
 ||jxhcyc.com^
+||jxjvtr.xyz^
 ||jxlida.ink^
 ||jxlqgs.com^
 ||jxmzyg.com^
@@ -18725,6 +18732,7 @@ zzzyk.com###Tinfo
 ||porlsbll.cyou^
 ||porn87.com/static/stream_ads/
 ||pos.baidu.com^
+||posdhu5.xyz^
 ||poster.weather.com.cn^
 ||postimg.cc^*-960x60.
 ||pothouse.cn^
@@ -19051,6 +19059,7 @@ zzzyk.com###Tinfo
 ||qj86.cn^
 ||qjing39.top^
 ||qjkfqcmxzxhg.ink^
+||qjoqos.xyz^
 ||qk6.org/file/script/
 ||qkixi.com^
 ||qkkgish.cn^
@@ -19638,6 +19647,7 @@ zzzyk.com###Tinfo
 ||seallife.club^
 ||sec-cloud.cn^
 ||seectech.cn/scm/ad/list
+||seeingcare.com^
 ||seek68.cn/img/*.gif
 ||sefu8j.com/index.php?m=poster&
 ||segmentfault.com/sponsor/
@@ -20645,6 +20655,7 @@ zzzyk.com###Tinfo
 ||tq.cn/floatcard?
 ||tq121.com.cn/j/ad/
 ||tqnggnsi.fun^
+||tqxthzy.cn^
 ||tracking.kdnet.net^
 ||trafficjam.cn^$third-party
 ||traktalent.com^
@@ -20981,6 +20992,7 @@ zzzyk.com###Tinfo
 ||usbkngf.cn^
 ||usbvhzg.cn^
 ||uscdn.top^
+||usejj.makepolo.cn^
 ||usejj.wangkl.com^
 ||usingde.com^$third-party
 ||usmhimw.cn^
@@ -21296,6 +21308,7 @@ zzzyk.com###Tinfo
 ||wangyuekun.xyz^
 ||wangzezhong.top^
 ||wangzhanmeng.com/link/link.html
+||wangzhe.cx^
 ||wangzj.top^
 ||wanmei.la/a*.js
 ||wantgoo.com/wantgoofiles/banner/
