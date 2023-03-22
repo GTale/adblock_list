@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202303210157
+! Version: 202303220237
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23098
+! Lenth = 23115
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -5826,8 +5826,11 @@ jable.tv##a[href="http://uus52.com/"]
 jable.tv##div[class^="root-"]
 jable.tv#?#div.col-6.col-sm-4.col-lg-12:-abp-has(> div.video-img-box > div.img-box > a[href*="?banner="])
 jandan.net###random-ads
+jandan.net###sidebar > div#box
 jandan.net##.goods2-list
 jandan.net##a[href*="/money.php?"]
+jandan.net#?##sidebar > ul:-abp-has(> h3:contains(广告))
+jandan.net#?#.commentlist > li.row:-abp-has(> div > font:contains(广告))
 jav777.xyz##iframe[src^="//ads.exoclick.com/"]
 jav777.xyz#%#//scriptlet("prevent-eval-if", "ADS_BLOCKED")
 javdb002.com##.moj-content
@@ -10366,6 +10369,7 @@ zzzyk.com###Tinfo
 ||652696.com^
 ||65432.shop^
 ||65688qp.com^
+||658bbb.us^
 ||65fsgsv.com^
 ||65oml.cn^
 ||65tgh.com^
@@ -11141,6 +11145,7 @@ zzzyk.com###Tinfo
 ||agrantsem.com^$third-party
 ||agtsjb.com^
 ||aguo.com^$third-party
+||aguterl.cn^
 ||ah.sina.com.cn/iframe/
 ||ah58tc.com^
 ||ah808.com^
@@ -11519,6 +11524,7 @@ zzzyk.com###Tinfo
 ||ark.le.com/s?vid=
 ||ark.letv.com/t?
 ||arkn81.com^
+||arks.red^
 ||arlbper.cn^
 ||artz3keya.cyou^
 ||arwygug.cn^
@@ -12071,6 +12077,7 @@ zzzyk.com###Tinfo
 ||bharalhallahs.com^
 ||bhcwr.cn^
 ||bhduan.xyz^
+||bhhkmzn.cn^
 ||bhicxb.cn^
 ||bhj691.com^
 ||bhj699.com^
@@ -13274,6 +13281,8 @@ zzzyk.com###Tinfo
 ||dduu.buzz^
 ||ddwant.cn^
 ||ddxs.xyz^
+||ddyueshu.com/js/dj
+||ddyueshu.com/js/pfad
 ||de.as.pptv.com^
 ||dealmoon.com/build/js/www/home/activity-pop/index.
 ||dealmoon.com/hotdeals/hotdeals_scroller.php
@@ -13574,6 +13583,7 @@ zzzyk.com###Tinfo
 ||dqcztxmu.com^
 ||dqh.ink^
 ||dqhxczj.cn^
+||dqsrnfg.cn^
 ||dqzirj.xyz^
 ||dqzsteel.com/Website/Image/Index/ytgg.gif
 ||dr.atwoodubre.com^$third-party
@@ -15459,6 +15469,7 @@ zzzyk.com###Tinfo
 ||hyhfimgg.com^
 ||hyhfsj.com^
 ||hyjdz.cn^
+||hyk9.xyz^
 ||hylmimgg.com^
 ||hylmkele.com^
 ||hylmxing.com^
@@ -16078,6 +16089,7 @@ zzzyk.com###Tinfo
 ||jcdbae.cn^
 ||jcdf99.com/hzz/scripts/new
 ||jcelyj.com^
+||jched3.com^
 ||jckdusa.cn^
 ||jcodecraeer.com/plus/fuckblok.
 ||jcrb.com/ZYW$subdocument
@@ -16494,6 +16506,7 @@ zzzyk.com###Tinfo
 ||jwgihca.cn^
 ||jwhfkj.cn^
 ||jwoglda.top^
+||jwujvjo.cn^
 ||jx.flzyw.com/js/foot.js
 ||jx.renrensousuo.com^
 ||jx8200o4h2.cn^
@@ -18604,6 +18617,7 @@ zzzyk.com###Tinfo
 ||pcstore.com.tw/adm/psearch_payad_
 ||pcstore.com.tw/css/myacc_init.js
 ||pcvideoyf.titan.mgtv.com/pb/*.mp4
+||pcxtvr.xyz^
 ||pddbtn.xyz^
 ||pdfbook.cn/wp-content/uploads/2017/11/049.jpg
 ||pdqwaan.cn^
@@ -19176,6 +19190,7 @@ zzzyk.com###Tinfo
 ||qq.com/mobi/js/app-bar-
 ||qq.com/mp/cps_product_info?
 ||qq.com/nodeapi/api/ads
+||qq.com/pc/batch_get_ads
 ||qq.com/playgame/videoweb/
 ||qq.com/static/web/websites/newsplugin/ssp_ad_
 ||qq.com/tbs/tbsAd/
@@ -21355,6 +21370,7 @@ zzzyk.com###Tinfo
 ||waituo.ren^
 ||waiyuyou.com^
 ||wake-up-neo.com/bnet/
+||waking.pro^
 ||walibao.com^$third-party
 ||wan.liebao.cn/zt/
 ||wan.sogoucdn.com/cdn/flash/$domain=~sogou.com
@@ -21620,6 +21636,7 @@ zzzyk.com###Tinfo
 ||woaidu.org/images/20180802/3.jpg
 ||woaiseo.com.cn^
 ||wocexaa.cn^
+||wocoqs.xyz^
 ||wodenongtian.com^
 ||wodeshougong.com^
 ||wofan.net^$third-party
