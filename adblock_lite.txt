@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202303260203
+! Version: 202303270232
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23176
+! Lenth = 23188
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1083,8 +1083,8 @@
 77mh.cc###bdcotopnew
 7808.cn###float-chat
 7808.cn###force-popup
+789ys.com##h1[style]
 789ys.com,calmlab.com,ruanyifeng.com##div[style*="important"]
-789ys.com,domp4.cc##h1[style]
 789ys.com,fffdm.com##ul[style]
 78dm.net###qpgg
 78dm.net##.ad_logor
@@ -10392,6 +10392,7 @@ zzzyk.com###Tinfo
 ||6669667.com^
 ||666video.asia^
 ||668559.com^$third-party
+||6686bb.app^
 ||66885aaa.com^
 ||66996.top^
 ||66997.top^
@@ -11232,6 +11233,7 @@ zzzyk.com###Tinfo
 ||aishan.shop^
 ||aishangcan.com^
 ||aisixiang.com/images/*-20
+||aisnj.cn^
 ||aisy19.com/dm/
 ||aitaoshegnqian.cn^$third-party
 ||aitaotu.com/style/js/aitaotu
@@ -12603,6 +12605,7 @@ zzzyk.com###Tinfo
 ||changge.info^
 ||changqingteng.ltd^
 ||changsha.cn/front_js/site_ad/4/site_ad_284.js
+||changyangcd.com^
 ||chaochaogege.net^
 ||chaomi.cc/js/cms_
 ||chaospace.fun/wp-content/uploads/*/%E6%A3%8B%E7%89%8C-
@@ -13551,7 +13554,6 @@ zzzyk.com###Tinfo
 ||dol.tianya.cn/s?z=tianya&
 ||domain1.chahaoba.cn^
 ||domddcut.cyou^
-||domp4.cc/Style/*/images/640200.gif
 ||dongchedi.com/motor/ad/
 ||dongdong.world^
 ||dongfangtai.com/2018/
@@ -13953,6 +13955,7 @@ zzzyk.com###Tinfo
 ||eoof.net/PicZone/qzgg
 ||eoop6vepv.cyou^
 ||eopa5tepa.icu^
+||eopad.cyou^
 ||eoqygep.cn^
 ||eotglx.top^
 ||eoyqzzk.cn^
@@ -14083,6 +14086,7 @@ zzzyk.com###Tinfo
 ||fang.com/house/ajaxrequest/adverTlGet.
 ||fang99.com^*/advjs/
 ||fangbaba.xyz^
+||fangbai.online^
 ||fangfeng001.xyz^
 ||fangfeng002.xyz^
 ||fangfeng005.xyz^
@@ -14283,6 +14287,7 @@ zzzyk.com###Tinfo
 ||fpdisplay.com/templates/default/js/palyflash_
 ||fpdisplay.com/upload/n_ad/
 ||fpvdxd5.com^
+||fq67.top^
 ||fqla.top^
 ||fqsokh.xyz^
 ||fqtra.com^
@@ -18072,6 +18077,7 @@ zzzyk.com###Tinfo
 ||n6579.com^
 ||n7181.com^
 ||naajie.com/float.js
+||nahsfl.xyz^
 ||nai7.xyz^
 ||naifei.shop/static/banner/banner_mobile.jpg
 ||naiki.top^
@@ -19927,6 +19933,7 @@ zzzyk.com###Tinfo
 ||shzzzz.dftoutiao.com^
 ||si9377.com^
 ||sicentlife.com^
+||sicongyyds.com^
 ||siduohua.top^
 ||siejp.cyou^
 ||sifang.info^
@@ -20428,6 +20435,7 @@ zzzyk.com###Tinfo
 ||sz7g.top^
 ||sz88.oss-cn-shenzhen.aliyuncs.com^
 ||szasm8.com^
+||szcmcs.com^
 ||szdzbx.com^
 ||szfcol.com/images/wxright240.jpg
 ||szfcol.com/js/siteAd.js
@@ -20894,6 +20902,7 @@ zzzyk.com###Tinfo
 ||twtiq.xyz^
 ||twuafbj.cn^
 ||twuekgl.cn^
+||twuipte.cn^
 ||twunbbs.com/images/
 ||twzui6.com^
 ||tx888.wang^
@@ -21068,6 +21077,7 @@ zzzyk.com###Tinfo
 ||umami.is^
 ||umhfrtu.cn^
 ||umkezbh.cn^
+||ummnam.xyz^
 ||un.ubaike.cn^
 ||un1.lawyernet.cn^
 ||underpad.asia^
@@ -21901,6 +21911,7 @@ zzzyk.com###Tinfo
 ||xdw9.top^
 ||xdwan.com^$third-party
 ||xdyjt.com^
+||xeiatmf.cn^
 ||xeihy.com^
 ||xeiyt.cyou^
 ||xektyy.cn^
@@ -22836,6 +22847,7 @@ zzzyk.com###Tinfo
 ||zhangmingqin.tech^
 ||zhangshiyuan.com^
 ||zhangwanwan.online^
+||zhangxiaoluo.xyz^
 ||zhangzhiyang01.cn^
 ||zhangzishi.cc/cdn-cgi/apps/
 ||zhanjiangletian.com^
