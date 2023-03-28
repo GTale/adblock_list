@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202303270232
+! Version: 202303280216
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23188
+! Lenth = 23201
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -9113,6 +9113,7 @@ zhihu.com##.AppMagicBanner
 zhihu.com##.Banner-link
 zhihu.com##.Banner-link + .Pc-card-button-close
 zhihu.com##.Card.Banner
+zhihu.com##.GoodsRecommendCard
 zhihu.com##.HitQrcode
 zhihu.com##.KanshanDiversion
 zhihu.com##.MBannerAd
@@ -11725,6 +11726,7 @@ zzzyk.com###Tinfo
 ||badmintoncn.com/cbo_include/js/cboaaa.js
 ||badmniop.top^
 ||bahamut.com.tw/js/ad.js
+||baidbsjvb.com^
 ||baidnblkdn.com^
 ||baidu-image-qqcom.com^
 ||baidu-jxf.co^$popup
@@ -12723,6 +12725,7 @@ zzzyk.com###Tinfo
 ||choujue.net/script/
 ||chouti.com/js/tingyun-rum.js
 ||chqsw.cn^
+||chrislee.ltd^
 ||chromeba.net/wp-content/uploads/
 ||chuantu.biz/t2/22/1450961822x1822613148.gif
 ||chuantu.biz^$domain=7mav2.com|thztv.cc
@@ -13083,6 +13086,7 @@ zzzyk.com###Tinfo
 ||cwhsmgs1.cn^
 ||cwmlm.com^$third-party
 ||cwobgp.cn^
+||cwolwc.xyz^
 ||cwpbohx.cn^
 ||cwphgqu.cn^
 ||cww.net.cn/include/show.asp?boardID=
@@ -13297,6 +13301,7 @@ zzzyk.com###Tinfo
 ||dd6364.com/js/777/
 ||dddwz.cn^
 ||ddgjjj.com^$third-party
+||ddhs.site^
 ||ddnzn.xyz^
 ||ddqhnjb.cn^
 ||ddshu.net/a_d_code/
@@ -16920,6 +16925,7 @@ zzzyk.com###Tinfo
 ||kuwo.cn/static/swf/xctg.swf
 ||kuwoyy.com^
 ||kuxinqi.com^
+||kuyw.cn^
 ||kv61xc8.xyz^
 ||kvbgoc.com^
 ||kveff.com^
@@ -17322,6 +17328,7 @@ zzzyk.com###Tinfo
 ||longzhu.com/i/api/videos/dailyRecommend?
 ||longzhu.com/recommendad/
 ||looktt.xyz^
+||loopd.cyou^
 ||looyu.com^$third-party
 ||lorlsblh.cyou^
 ||lotour.net/analytics/statsv2.js
@@ -17698,6 +17705,7 @@ zzzyk.com###Tinfo
 ||meteor.today/ad/
 ||metvb.com/js/bofangwei.js
 ||meueeq.xyz^
+||meximexi.me^
 ||mezhai.net^
 ||mfacelive.com/Scripts/social/openchannel_min.js
 ||mfaec.cn^
@@ -18676,6 +18684,7 @@ zzzyk.com###Tinfo
 ||pejrq.xyz^
 ||pekingpk10.com^
 ||penglangyyds.com^
+||pengpailm.online^
 ||pengtu.cc^*.png
 ||pengwei168.com/addons/321.gif
 ||pengwei168.com/template/stui_tpl/html/vod/f.js
@@ -20142,6 +20151,7 @@ zzzyk.com###Tinfo
 ||sogou.com/wap_ask_service?
 ||sogoucdn.com/app/a/100540022/2021012518561139502233.png
 ||sogoucdn.com/app/a/100540022/2021022016080586548810.jpg
+||sogoucdn.com/app/a/200692/960_80_feedback_
 ||sogoucdn.com/dhfe/
 ||sogoucdn.com/nstatic/js/bottom_shopping.
 ||sogoucdn.com/nstatic/js/showtime.js
@@ -20632,6 +20642,7 @@ zzzyk.com###Tinfo
 ||tianji520.cn^$third-party
 ||tianjiunion.cn^
 ||tianlans.xyz^
+||tianlaoyyds.com^
 ||tianmaogroup.cn^
 ||tianmel.xyz^
 ||tianmenshan.top^
@@ -20780,6 +20791,7 @@ zzzyk.com###Tinfo
 ||toutiao.haotui.com/data/js/0.js
 ||toutiaoimg.com^$domain=1024pz.com
 ||toutiaoyule.com/n/dspshow.
+||touwengyyds.com^
 ||tp.sgcn.com^
 ||tp4sul.jwzd.com.cn^
 ||tpe163.com^
@@ -21320,6 +21332,7 @@ zzzyk.com###Tinfo
 ||vk9f.top^
 ||vkandian.cn/footjs/
 ||vkandian.cn/peitu/
+||vkjqbb.xyz^
 ||vkoehsx.cn^
 ||vkygseu.cn^
 ||vl1m.cn^
