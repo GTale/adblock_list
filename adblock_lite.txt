@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202303290241
+! Version: 202303300255
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23215
+! Lenth = 23227
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -2788,7 +2788,6 @@ baidu.com##.ec_ad
 baidu.com##.ec_im_container
 baidu.com##.ec_pc_ad
 baidu.com##.ec_sma_im
-baidu.com##.ec_wise_ad
 baidu.com##.ecom_pingzhuan
 baidu.com##.ecomad-banner-loading
 baidu.com##.experience-card-bar-wrap
@@ -2879,7 +2878,6 @@ baidu.com##div[id^="toast"]
 baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250px;"]
 baidu.com#$##content_left > div[style*="display:block !important;"]:not(.result) { position: absolute!important; left: -4000px!important; }
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
-baidu.com#?#.ec_wise_ad
 baidu.com#?#.rec-item:-abp-has(> .vbox > div > .appad-relate-rectpl)
 baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar)
 baidu.com#@#.share-line
@@ -2893,6 +2891,7 @@ baidu.com,bdimg.com#?#.thread_item_box:-abp-has(div[class*=" fc-"])
 baidu.com,cntour2.com##.topBanner
 baidu.com,comefromchina.com#@#.ad-block
 baidu.com,youdao.com,yun.cn#@#.share-content
+baidu.com,~m.baidu.com##.ec_wise_ad
 baidu.dj###ETE
 baiduyun.wiki##.tecent-adsense
 baihe.com##.scrollULeft
@@ -9952,6 +9951,7 @@ zzzyk.com###Tinfo
 ||3400.org^
 ||34283078.com^
 ||34iq.com/index
+||34it.ren^
 ||34jthg.info/api/oort2bunny?
 ||3520.cc/js/3520/
 ||35336.net/35336.jpg
@@ -11459,6 +11459,7 @@ zzzyk.com###Tinfo
 ||anhuigecui.cn^
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
+||anioz3b.cc^
 ||anixwallpaper.com^$csp=script-src 'self' * 'unsafe-inline'
 ||anjuke.com^*/ajax/business_area_search/
 ||ankangwang.com/js/info.js
@@ -11953,6 +11954,7 @@ zzzyk.com###Tinfo
 ||bdasd.chinabig.com.cn^
 ||bdasd.wmxa.cn^
 ||bdcanef.cn^$third-party
+||bdcd2.com^
 ||bdcm.kandianla.com^
 ||bdcode.2345.com^
 ||bdcode.35d1.com^
@@ -13336,6 +13338,7 @@ zzzyk.com###Tinfo
 ||dengbalt.fun^
 ||dengtao.link^
 ||dengzhou.us^
+||denpvh.xyz^
 ||detinetcallant.com^
 ||detowd.com^*.php
 ||deude.ltd^
@@ -13410,6 +13413,7 @@ zzzyk.com###Tinfo
 ||dianping.com/wedding/pro/jsonppage
 ||dianxin.com^$third-party
 ||dianyingim.com/statics/recommend/
+||diaocha.site^
 ||diaoyu123.com/cpro/show.js
 ||dididi.love^
 ||diejs.com^
@@ -14553,6 +14557,7 @@ zzzyk.com###Tinfo
 ||gfnormal07ae.com^
 ||gfqquls.cn^
 ||gfqsded.cn^
+||gfrzzzx.cn^
 ||gfvip06ab.com^
 ||gfvip06af.com^
 ||gfvip06al.com^
@@ -16866,6 +16871,7 @@ zzzyk.com###Tinfo
 ||kq7k.icu^
 ||kqirf.xyz^
 ||kqnggnsd.fun^
+||kqskqi.xyz^
 ||kqvkvc3.com^
 ||kqwip.cyou^
 ||kravma.xyz^
@@ -17103,6 +17109,7 @@ zzzyk.com###Tinfo
 ||lefengtv.com/js/tj.js
 ||leiersuqd.com^
 ||leiphone.com/uploads/new/category/pic/*/740x140/
+||leirsw.com^
 ||leiwo.xyz^
 ||lejlb.com^
 ||lejso.com^
@@ -17470,6 +17477,7 @@ zzzyk.com###Tinfo
 ||lzk.hl.cn/lctp/
 ||lzkj.shop^
 ||lzngisyl.xyz^
+||lztmrdv.cn^
 ||lzwdq.xyz^
 ||lzxnhul.cn^
 ||lzyysw.com/upload/
@@ -19010,6 +19018,7 @@ zzzyk.com###Tinfo
 ||qbj8.com^
 ||qbjsymmi0w.cn^
 ||qbkybab.cn^
+||qbtd.xyz^
 ||qbyyvg3.com^
 ||qc1.cheshipin.com^
 ||qcjycg.com/template/conch/asset/js/hl
@@ -19565,6 +19574,7 @@ zzzyk.com###Tinfo
 ||rourouwu.uk^
 ||route34.cn^
 ||rowemfg.com^
+||rp5o.top^
 ||rpacnud.cn^
 ||rppg.pro^
 ||rptjx.xyz^
@@ -20608,6 +20618,7 @@ zzzyk.com###Tinfo
 ||tfaftemail.com^
 ||tfallview.live^
 ||tfbulkidn.com^
+||tfcoverss.live^
 ||tffindmarket.live^
 ||tffytdo.cn^
 ||tfg2.com/images/upfile/AD/
@@ -22117,6 +22128,7 @@ zzzyk.com###Tinfo
 ||xmcimg.com/js/m.js
 ||xmgdgo.cn^
 ||xmhaorizi.cn^
+||xmi1.top^
 ||xmjikcz.xyz^
 ||xmmnsl.com^
 ||xmrc.com.cn/net/info/html/
