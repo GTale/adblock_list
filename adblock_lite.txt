@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202303300255
+! Version: 202303310239
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 23227
+! Lenth = 23241
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -6477,6 +6477,7 @@ m.youku.com##.recommend
 m.youku.com##body > [style="width: 100px; height: 100px; position: fixed; top: auto; right: 0px; bottom: 0px; left: auto; z-index: 188;"]:not([class]):not([id])
 m.youku.com,v.youku.com#%#//scriptlet('set-constant', 'Object.prototype._adData', 'emptyObj')
 m.zhanqi.tv##.footer
+m1.nivod.tv,m.nivod4.tv#%#(function(){window.eval=new Proxy(eval,{apply:(a,b,c)=>{if(c[0]&&c[0].includes("commercial")&&c[0].startsWith("(")&&c[0].endsWith(")")){let a=c[0].slice(1).slice(0,-1),b=JSON.parse(a);b.entity?.commercial&&(b.entity.commercial=void 0),c[0]=`(${JSON.stringify(b)})`}return Reflect.apply(a,b,c)}})})();
 m4ff.com##.content2
 m4ff.com##.index_gg_wz
 m4fz.com##a[data-etime]
@@ -10929,6 +10930,7 @@ zzzyk.com###Tinfo
 ||a304.top^$image,domain=hihbt.com
 ||a32a.com.cn^$third-party
 ||a3vy69.cn^
+||a44u.icu^
 ||a5jf.xyz^
 ||a5xiazai.com/z/
 ||a6.hujiang.com^$domain=~class.hujiang.com
@@ -11460,6 +11462,7 @@ zzzyk.com###Tinfo
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
 ||anioz3b.cc^
+||aniqfwz.cc^
 ||anixwallpaper.com^$csp=script-src 'self' * 'unsafe-inline'
 ||anjuke.com^*/ajax/business_area_search/
 ||ankangwang.com/js/info.js
@@ -11552,6 +11555,7 @@ zzzyk.com###Tinfo
 ||as-oss2.com^
 ||as1.m.hao123.com^
 ||as1.wenku.baidu.com^
+||asa2.cn^
 ||ascloud.tech^
 ||asd8900.oss-*.aliyuncs.com^
 ||asdffe22.com^
@@ -11821,6 +11825,7 @@ zzzyk.com###Tinfo
 ||baidujavascript.com^
 ||baidujs.cnys.com^
 ||baidujsvbj.com^
+||baidunnd.top^
 ||baidutm999.xyz^
 ||baiduwudi929.xyz^
 ||baiduyoukualiyun.com^
@@ -11990,6 +11995,7 @@ zzzyk.com###Tinfo
 ||bdm.911cha.com^
 ||bdm.ye-su.cn^
 ||bdmjs.xywy.com^
+||bdnvklavbklabl.com^
 ||bdp.cn^$third-party
 ||bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/data/5e4103a342883a925a81aea7fe356bef
 ||bdstatic.com/??/tb/_/diamond_mall_frs_aside_*.js
@@ -14335,6 +14341,7 @@ zzzyk.com###Tinfo
 ||ftdmfxq.cn^
 ||ftfnewu.cn^
 ||ftimg.net/s?z=
+||ftnthzv.cn^
 ||ftrtnr.xyz^
 ||fttxt.com/static/mh
 ||fugufeimaotui.cn^
@@ -14488,6 +14495,7 @@ zzzyk.com###Tinfo
 ||gbpofla.cn^
 ||gbzumh.cn^
 ||gccode.gongchang.com^
+||gcejdac.cn^
 ||gcihkyd.cn^
 ||gcpvkfe.cn^
 ||gctd.xyz^
@@ -17346,6 +17354,7 @@ zzzyk.com###Tinfo
 ||looktt.xyz^
 ||loopd.cyou^
 ||looyu.com^$third-party
+||lopqrx.xyz^
 ||lorlsblh.cyou^
 ||lotour.net/analytics/statsv2.js
 ||lotour.net/bcef/388.js
@@ -19102,6 +19111,7 @@ zzzyk.com###Tinfo
 ||qiangqi.shop^
 ||qianhua.*/data/attachment/portal/
 ||qianmeiby.com^
+||qianqian.red^
 ||qianrenge.cc/qian/
 ||qiantubao.asia^
 ||qianyan.love^
@@ -19732,6 +19742,7 @@ zzzyk.com###Tinfo
 ||sass.hk/js/ggcn.js
 ||sass.hk/plus/mytag_js.php?aid=
 ||satroki.tech/api/JdUnion
+||saulmy.xyz^
 ||sawadeca.com^
 ||sax*.sina.
 ||sb6688.xyz^
@@ -22020,6 +22031,7 @@ zzzyk.com###Tinfo
 ||xiaoxiaozhijia.shop^
 ||xiaoyida.com^$third-party
 ||xiaoz.top/assets/imgurl.js
+||xiaozengyyds.com^
 ||xiatian.buzz^
 ||xiazaicdnapk.com^*.mp4
 ||xiazaizhijia.com/w2/js/wxzzj.js
@@ -22098,6 +22110,7 @@ zzzyk.com###Tinfo
 ||xiu8.com/baidu-tieba/*&forum_name=
 ||xiulishanzhuang.com^
 ||xiurenji.cc/heji/
+||xiuwaiyyds.com^
 ||xixhx.com^
 ||xixianad.com^$third-party
 ||xiyouence.com^$popup,third-party
@@ -22327,6 +22340,7 @@ zzzyk.com###Tinfo
 ||yangll.xin^
 ||yangpinwang.com/wp-content/uploads/*E5%B9%BF%E5%91%8A.
 ||yangshengzu.cn^
+||yangsir.xyz^
 ||yangtianc.xyz^
 ||yangxu.store^
 ||yangyiluo.xin^
