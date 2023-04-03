@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202304020238
+! Version: 202304030108
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22564
+! Lenth = 22570
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -3163,12 +3163,12 @@ bookrb.com##a[href="/rmtj.html"]
 books.com.tw##.header_box_pop > [class^="flash_banner"]
 booom.net,x6d.com##.tmall_tab
 bootcss.com##.bs-docs-sidebar a[href^="http://click.aliyun.com/"]
-boylov.xyz,boylove.cc###fake_avivid_waterfall_webpush
-boylov.xyz,boylove.cc##.owl-carousel
-boylov.xyz,boylove.cc##.swiper-wrapper
-boylov.xyz,boylove.cc##div[data-type="1"]
-boylov.xyz,boylove.cc##div[style="display: block"]
-boylov.xyz,boylove.cc#?#:-abp-has(>.adsbyexoclick)
+boylov.xyz,boylove.cc,boyloves.fun###fake_avivid_waterfall_webpush
+boylov.xyz,boylove.cc,boyloves.fun##.owl-carousel
+boylov.xyz,boylove.cc,boyloves.fun##.swiper-wrapper
+boylov.xyz,boylove.cc,boyloves.fun##div[data-type="1"]
+boylov.xyz,boylove.cc,boyloves.fun##div[style="display: block"]
+boylov.xyz,boylove.cc,boyloves.fun#?#:-abp-has(>.adsbyexoclick)
 boylove.cc###fake_avivid_waterfall_webpush
 boylove.cc###floating_page
 boylove.cc###yteggbue
@@ -12180,6 +12180,7 @@ zzzyk.com###Tinfo
 ||boylove.cc/bookimages/img/
 ||boylove.cc/static/js/yymh.js
 ||boylove.cc^*/img/20*.gif
+||boyloves.fun^*/img/20*.gif
 ||bozhihua.com^$third-party
 ||bozhixiang.top^
 ||bp.blogspot.com^$domain=avmimi.com
@@ -14676,6 +14677,7 @@ zzzyk.com###Tinfo
 ||gwbnsh.net.cn/hd/unicom/ad.html
 ||gwf0.icu^
 ||gwmeinq.cn^
+||gwvzgjb.cn^
 ||gwwsevy.cn^
 ||gwzqbnh.cn^
 ||gx2f.top^
@@ -18200,6 +18202,7 @@ zzzyk.com###Tinfo
 ||p3tt.com^
 ||p4f52tll.cn^
 ||p4p.sina.com.cn^
+||p4pd.cn^
 ||p7ivj09f.xyz^
 ||p7lvj09f.shop^
 ||p8u.hinet.net^
@@ -19150,6 +19153,7 @@ zzzyk.com###Tinfo
 ||rsykksw.cn^
 ||rtcegcp.cn^
 ||rthmnj.xyz^
+||rtjmln.xyz^
 ||rtkyvd.xyz^
 ||rtmtgf.xyz^
 ||rtnigaz.cyou^
@@ -20796,7 +20800,6 @@ zzzyk.com###Tinfo
 ||videojj.com/flash/bin/vjj_config.xml
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
-||vidhub.cc/huimee/
 ||vieldeold.xyz^
 ||vilki.cn^
 ||viope.cyou^
@@ -20943,6 +20946,7 @@ zzzyk.com###Tinfo
 ||wangduoduo.pw^
 ||wanghu2020.ltd^
 ||wangjianxd.site^
+||wangjiayi.fun^
 ||wangjing.cn*/upload/com/
 ||wangjing.cn/iframe/zhounian.php?
 ||wangjing.cn/images/js/YlFloat.js
@@ -21802,6 +21806,7 @@ zzzyk.com###Tinfo
 ||yfkgnqu.cn^
 ||yflog.me^
 ||yfmhik.xyz^
+||yfohgo.xyz^
 ||yfot.com.cn^
 ||yfue99.xyz^
 ||yfunkgk.cn^
@@ -22053,6 +22058,7 @@ zzzyk.com###Tinfo
 ||yular.cn^
 ||yulidianshang.com^
 ||yuliglsd.space^
+||yulingaa.xyz^
 ||yumingroot.xyz^
 ||yumnxwvd.ink^
 ||yun-pdm2000.cn^
