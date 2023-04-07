@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202304060114
+! Version: 202304070156
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22602
+! Lenth = 22615
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -5072,6 +5072,8 @@ hcomic.net##.main-container > .swiper
 hcomic.net##div[class^="horizontalBanner_"]
 hcomic.net##div[class^="multiBanner_bannerBox"]
 hdchina.org##.sitead
+hdmoli.com###index_banner
+hdmoli.com#?#.row > div.myui-panel:-abp-has(div[style^="text-align:"] > a[href][target="_blank"] > img#index_banner)
 hdshare.cn,it168.com###adv
 hdwan.net##body > div[style]
 hdzone.org##a[style*="fixed"]
@@ -14088,6 +14090,7 @@ zzzyk.com###Tinfo
 ||flighty.cn/images/
 ||flowcodeapp.com^
 ||flsfzr.cn^
+||flyinsky2009.ltd^
 ||flyv.tv/a/$xmlhttprequest
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
 ||fm086.com/Plugins/search
@@ -14398,6 +14401,7 @@ zzzyk.com###Tinfo
 ||gg.miinaa.com^
 ||gg.miued.com^
 ||gg.sonhoo.com^
+||gg.taoseyy.cn^
 ||gg.uuu9.com^
 ||gg1.mengchongzu.com^
 ||gg123456789gg.com^*.js
@@ -14979,6 +14983,7 @@ zzzyk.com###Tinfo
 ||hhizcfv.cn^
 ||hhnlhl.cn^
 ||hhppy.top^
+||hhrnxr.xyz^
 ||hhsoftinfo.com^
 ||hht687.site^
 ||hhyyt.top^
@@ -17909,6 +17914,7 @@ zzzyk.com###Tinfo
 ||norse.mingxiaow.com^
 ||nouivjv.cn^
 ||novaleafgroup.cn^
+||novipnoad.com/bd/
 ||novipnoad.com/theme/js/helper.
 ||nownews.com/assets/js/setAds.js
 ||np176.com^
@@ -18161,6 +18167,7 @@ zzzyk.com###Tinfo
 ||otoeew.xyz^
 ||otownx.xyz^
 ||otreh.xyz^
+||otwiss.xyz^
 ||oujirkb.cn^
 ||oulibf.xin^
 ||ouliglsu.space^
@@ -18474,6 +18481,7 @@ zzzyk.com###Tinfo
 ||polkmnhytgb.com^
 ||pongsone.uno^
 ||ponymi.xyz^
+||poopd.xyz^
 ||pop.wioau.com^$third-party
 ||pop800.com^$third-party
 ||poqjnkdsou.net^
@@ -18515,6 +18523,7 @@ zzzyk.com###Tinfo
 ||priry.com^
 ||prju.top^
 ||prjwqs.xyz^
+||prlioxb.cn^
 ||pro.cn^$third-party
 ||pro.iweihai.cn^
 ||proewildfire.cn/fd.js
@@ -19014,6 +19023,7 @@ zzzyk.com###Tinfo
 ||rc7e.top^
 ||rcnnqsd.cn^
 ||rcswbr.cn^
+||rcxysoj.cn^
 ||rcyl-uni.com^
 ||rdance.cn^
 ||rdbd.xsread.com^
@@ -19667,6 +19677,7 @@ zzzyk.com###Tinfo
 ||slsyuulb.cam^
 ||sm3nq.cn^
 ||sm45k.com^
+||smailes.pro^
 ||smartfarming.cn^
 ||smfierf.xyz^
 ||smfjfgie.xyz^
@@ -19763,7 +19774,7 @@ zzzyk.com###Tinfo
 ||soso.com/wenwen/i/ad/
 ||soso.ws^
 ||sosodo.xyz^
-||souche.com^$third-party
+||souche.com^*.gif
 ||soufunimg.com/common_m/m_public/js/wa
 ||soufunimg.com/homepage/new/*/buttomLayer.js
 ||soufunimg.com/imgd/viewimage/*/640x210
@@ -20886,6 +20897,7 @@ zzzyk.com###Tinfo
 ||vongsond.uno^
 ||voocl.com^
 ||vorlsblf.cyou^
+||vorluic.cn^
 ||vouninked.com^
 ||vpbbc.cn^
 ||vpie.net^$third-party
@@ -22216,6 +22228,7 @@ zzzyk.com###Tinfo
 ||zbjimg.com/static/union/
 ||zbpx.xyz^
 ||zbsybh.cn^$third-party
+||zbvchabjbcj.com^
 ||zbzbzzz.top^
 ||zc173.com/173fee/
 ||zcaijing.com/images/
