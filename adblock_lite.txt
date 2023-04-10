@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202304090232
+! Version: 202304100145
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22641
+! Lenth = 22652
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -3043,6 +3043,7 @@ bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
 bilibili.com#$?#.ex-card-common:-abp-has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:-abp-has(.bypb-icon) { remove: true; }
+bilibili.com#?#.bili-video-card.is-rcmd > div > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]) + .bili-video-card__info:upward(2)
 bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > .bili-video-card__info--creative-img)
 bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
@@ -6418,6 +6419,7 @@ luanren.com##.luanren_dbhfad
 luanren.com##.luanren_dbhfad2
 ludashi.com##.div_mask
 ludashi.com##.div_text
+lukedreyer.com##div[style$="width: 125px;z-index:2000;"]
 luogu.com.cn##.side > div:last-child:not([class])
 lusongsong.com###main > center
 luyixian.cn##.side
@@ -10160,6 +10162,7 @@ zzzyk.com###Tinfo
 ||520meirenyu.com^
 ||520myjj.xyz^
 ||520xingyun.com/images/*.gif$domain=mcpcourse.com
+||520xingyun.com/images/188*.gif
 ||520xs.la/js/dianrui-
 ||520z-2.com/uploadfile/sucai/
 ||521000.com/co/
@@ -12785,6 +12788,7 @@ zzzyk.com###Tinfo
 ||cnki.com.cn/cnki/js/adrightdetail.js
 ||cnlg.cn/attached/script/
 ||cnlongshou.com^
+||cnmmcjn.cn^
 ||cnmo-img.com.cn/oddjs/
 ||cnmo.com/pv.js
 ||cnmoad.com/wp-content/uploads/*_banner.
@@ -13894,6 +13898,7 @@ zzzyk.com###Tinfo
 ||ewogldw.top^
 ||ewrwf.com^
 ||ewwgqjn.cn^
+||excfig.xyz^
 ||exeqzb.cn^
 ||exgzyg.cn^
 ||exlidw.ink^
@@ -15778,6 +15783,7 @@ zzzyk.com###Tinfo
 ||itmsc.cn^*ad0
 ||itnxqd.xyz^
 ||itnxxa.xyz^
+||itoken.pro^
 ||itongcheng.cc/amm/
 ||itopdog.cn/itopdog/ad.js
 ||itopdog.cn/itopdog/d*.js
@@ -15930,6 +15936,7 @@ zzzyk.com###Tinfo
 ||jdwx.info/api.php?mod=ad&
 ||jdyz3.cn^
 ||jeanrace.com^
+||jeedi.xyz^
 ||jeepyy.com^$third-party
 ||jenniferlaurax.com^
 ||jennyrace.com^
@@ -15937,6 +15944,7 @@ zzzyk.com###Tinfo
 ||jessicalaurax.com^
 ||jessicarace.com^
 ||jevlcjc.cn^
+||jfanhao.com^
 ||jfmfmgj.cn^
 ||jfzbgzv.cn^
 ||jg1668.com^$third-party
@@ -16294,6 +16302,7 @@ zzzyk.com###Tinfo
 ||juzi6.com/js/dp.js
 ||juzi6.com/js/gd.js
 ||juzwrl.xyz^
+||jvkckeg.cn^
 ||jvpook.cn^
 ||jvyigg.biqugeq.com^
 ||jvyigg.zbzw.la^
@@ -21613,6 +21622,7 @@ zzzyk.com###Tinfo
 ||xlhnkpw.cn^
 ||xlpu.cc/adv/
 ||xls.go.sohu.com^
+||xlxknf.xyz^
 ||xmcimg.com/js/m.js
 ||xmgdgo.cn^
 ||xmhaorizi.cn^
@@ -21938,6 +21948,7 @@ zzzyk.com###Tinfo
 ||yingav.net/images/content/spot01.jpg
 ||yinghuacd.com/bar/
 ||yingjiawm.com^
+||yingnanyyds.com^
 ||yingshidaquan.cc^$third-party
 ||yingshizxw.com/js/tc/
 ||yingyeping.com^
