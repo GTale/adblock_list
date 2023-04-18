@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202304170249
+! Version: 202304180108
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22756
+! Lenth = 22768
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -3043,13 +3043,13 @@ bilibili.com##a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=
 bilibili.com##a[href="/video/av8587236/?tg"]
 bilibili.com##div[style*="height:"][data-loc-id]
 bilibili.com##span[style*="height:"][data-loc-id]
+bilibili.com#$?#.bili-video-card:-abp-has(.bili-video-card__info--ad) > .bili-video-card__skeleton { visibility: visible !important; }
+bilibili.com#$?#.bili-video-card:-abp-has(.bili-video-card__info--creative-ad) > .bili-video-card__skeleton { visibility: visible !important; }
 bilibili.com#$?#.ex-card-common:-abp-has(.gg-icon) { remove: true; }
 bilibili.com#$?#.van-slide > .item:-abp-has(.bypb-icon) { remove: true; }
-bilibili.com#?#.bili-video-card > div.bili-video-card__wrap > a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bili"]):upward(2)
-bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > .bili-video-card__info--creative-img)
-bilibili.com#?#.bili-video-card:-abp-has(> .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
+bilibili.com#?#.bili-video-card:-abp-has(.bili-video-card__info--ad) > .bili-video-card__wrap
+bilibili.com#?#.bili-video-card:-abp-has(.bili-video-card__info--creative-ad) > .bili-video-card__wrap
 bilibili.com#?#.eva-extension-body > .bili-video-card:-abp-has(.bili-video-card__info--ad)
-bilibili.com#?#.eva-extension-feed-body > div:not([class], [id]):-abp-has(> .bili-video-card > .bili-video-card__wrap > .bili-video-card__info > .bili-video-card__info--right > .bili-video-card__info--tit > a > [class^="bili-video-card__info--ad"])
 bilibili.com#?#.video-card-common:-abp-has(>.card-pic>a[href*="cm.bilibili.com"][data-target-url])
 bilibili.to###yytf
 bimiacg.net##.tuiguang
@@ -10506,6 +10506,7 @@ zzzyk.com###Tinfo
 ||7xdown.com/idcgg/
 ||7xi9g1.com1.z0.glb.clouddn.com^
 ||7xsf3h.com1.z0.glb.clouddn.com^
+||7xwx.cn^
 ||8*.tianya.cn^
 ||801.tianyaui.com^
 ||80538w2f.cn^
@@ -11496,6 +11497,7 @@ zzzyk.com###Tinfo
 ||aqdy.net/js/tj.js
 ||aqlife.com/data/attachment/portal/
 ||aqnpbpa.cn^
+||aqpvglv.cn^
 ||aqsj.xyz^
 ||aqtcw.cn^
 ||aqy103.com/js/aqy/
@@ -14835,6 +14837,7 @@ zzzyk.com###Tinfo
 ||handuwl.top^
 ||hangchen.icu^
 ||hangoutairbags.com^
+||hangtuo.pub^
 ||hanjutv2020.com/index.php?c=dudu_
 ||hanjutv2020.com/statics/skin/*/js/plus.js
 ||hanjutvn.com/template/alifun/js/Tmall/
@@ -15321,6 +15324,7 @@ zzzyk.com###Tinfo
 ||hxapafn.cn^
 ||hxbt.alading123.com^
 ||hxcrlt.cn^
+||hxes.cn^
 ||hxjs.tool.hexun.com$domain=~quote.hexun.com
 ||hxles.top^
 ||hxnzyy.com^
@@ -15845,6 +15849,7 @@ zzzyk.com###Tinfo
 ||iu9g.top^
 ||iuerxw.xyz^
 ||iugbjkqwc.xyz^
+||iughyy7919.com^
 ||iuliglsh.space^
 ||iumnxwvh.ink^
 ||iuou.myadobe.cn^
@@ -17068,6 +17073,7 @@ zzzyk.com###Tinfo
 ||lnd.com.cn/sys/real_calc.js
 ||lndayp.com/4567/
 ||lnhsjob.com^$third-party
+||lnnjnv.xyz^
 ||lnr1.com^$third-party
 ||lntnhtc.cn^
 ||lnzqw.net/js/
@@ -17604,6 +17610,7 @@ zzzyk.com###Tinfo
 ||moe123.net/static/img/1200x200_
 ||moedao.com/js/top.js
 ||moegirl.org.cn/insight/MoegirlInsight.
+||moend.xyz^
 ||moerats.com/usr/affpc/
 ||moes3quba.cyou^
 ||mohaijishu.cn^
@@ -18410,6 +18417,7 @@ zzzyk.com###Tinfo
 ||pehlvl.xyz^
 ||peigbv.cn^
 ||peise.net/Skin/js/global.
+||peishuning1.cn^
 ||pejrq.xyz^
 ||pekingpk10.com^
 ||penglangyyds.com^
@@ -19282,6 +19290,7 @@ zzzyk.com###Tinfo
 ||rst2.y3600.cn^
 ||rsykksw.cn^
 ||rtcegcp.cn^
+||rtdxqq.com^
 ||rthmnj.xyz^
 ||rtjmln.xyz^
 ||rtkyvd.xyz^
@@ -19716,6 +19725,7 @@ zzzyk.com###Tinfo
 ||siqwfy.cn^
 ||sisafnib.space^
 ||sisgirlav.info^
+||sisjwol.xyz^
 ||site-bk.oss-cn-shenzhen.aliyuncs.com/img/aliyun/
 ||sitv.com.cn/cookiead.php
 ||siuscs.xyz^
@@ -20133,6 +20143,7 @@ zzzyk.com###Tinfo
 ||sznj91.com^
 ||szonline.net/static/js/ads.js
 ||szpgzn.com^
+||szsbiw.xyz^
 ||szsxy.vip^
 ||szwjzl.cn^$third-party
 ||szxljdsb.com/tl
@@ -22624,6 +22635,7 @@ zzzyk.com###Tinfo
 ||zrys.xyz^
 ||zrysogsiq.uno^
 ||zs.rzijjeb.cn^
+||zsblog.vip^
 ||zscgoqt.cn^
 ||zsgwed.cn^
 ||zsjjob.com/user/member/google.htm
