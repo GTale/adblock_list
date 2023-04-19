@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202304180108
+! Version: 202304190225
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22768
+! Lenth = 22786
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -7022,6 +7022,8 @@ nodejs.cn###biz_nav
 nongjitong.com##.ad_sms
 novipnoad.com##.ad_single_title
 novipnoad.com##.bg-ad
+novipnoad.com##img[src*="/bd/"] + span
+novipnoad.com#?#.video-item:-abp-has(img[src*="/bd/"])
 nowcoder.com###jsSideTopicList
 nowcoder.com##.mini-banner
 nownews.com###ads-footer-bar
@@ -9539,6 +9541,7 @@ zzzyk.com###Tinfo
 ||136.0.56.196^
 ||1368999.com^
 ||137.175.69.92^
+||138txt.net/js/ssgdd.
 ||138vps.com/fa/
 ||139file.com/jsa/
 ||13owamwp6c.cn^
@@ -11225,6 +11228,7 @@ zzzyk.com###Tinfo
 ||ajfkwwpo.xyz^
 ||ajiez.com^
 ||ajkcdpm.cn^
+||ajucem.xyz^
 ||ajxukah.cn^
 ||ak530.com/js/*.js
 ||akabebe.com/jgg/*.gif
@@ -12420,6 +12424,7 @@ zzzyk.com###Tinfo
 ||cbdm.weathercn.com^
 ||cbfw.cn/gonggong/chibi/cf_
 ||cbgyhe.cn^
+||cbhwekr.cn^
 ||cbjg.cqnews.net^
 ||cbjs.baidu.com^
 ||cbjs.ciwei.in^
@@ -12466,6 +12471,7 @@ zzzyk.com###Tinfo
 ||cdcc3.com^
 ||cdcd.ink^
 ||cdeledu.com/ADVC/$domain=~chinaacc.com|~ruidaedu.com
+||cdfda.xyz^
 ||cdgfa.ifeng.com^
 ||cdgtw3.guapaijia.com^
 ||cdhhbyy.cn^
@@ -12655,6 +12661,7 @@ zzzyk.com###Tinfo
 ||chlinb.xyz^
 ||chnci.com^$third-party
 ||chnmoney.com/dfile/
+||chnuuee.xyz^
 ||chocolate521.online^
 ||chok8.com/statics/ad/
 ||chong-wu.net^
@@ -13674,6 +13681,7 @@ zzzyk.com###Tinfo
 ||e9377f.com^$rewrite=abp-resource:blank-mp3,domain=eastday.com
 ||ea0jlu8jie.cn^
 ||ea3w.com/pv.js
+||ealdi.xyz^
 ||ealooov.cn^
 ||eap.big5.enorth.com.cn^
 ||eap.enorth.com.cn^
@@ -14099,6 +14107,7 @@ zzzyk.com###Tinfo
 ||files.jb51.net/image/
 ||files.zmzjstu.com/g3^
 ||fillidutt.tw^
+||findnam.xyz^
 ||fioem.cyou^
 ||fionamignon.com^
 ||firefoxchina.cn/2014/*_foxphone.png
@@ -14241,6 +14250,7 @@ zzzyk.com###Tinfo
 ||fvtrx.cyou^
 ||fvzljv.xyz^
 ||fwccw.com^
+||fweia.xyz^
 ||fwesx.com^
 ||fwrpq.cyou^
 ||fwsir.com/static/cpt/
@@ -15052,6 +15062,7 @@ zzzyk.com###Tinfo
 ||hiibcfr.cn^
 ||hiido.com^$third-party
 ||hikari.website^
+||himeneko.ink^
 ||hinet.net/product/promotion/$popup
 ||hinet.net/radio/getAdcode.do
 ||hioek.cyou^
@@ -18537,6 +18548,8 @@ zzzyk.com###Tinfo
 ||pjtime.com/js/show_ad
 ||pk331.cn^
 ||pkeog.cn^
+||pki.net.cn/public/*/plugins/
+||pki.net.cn/public/1/assets/js/custom/tt.
 ||pkk1.zuimeiniwo.com^
 ||pkkylyx.xyz^
 ||pkvs.com/public/300/
@@ -18569,6 +18582,7 @@ zzzyk.com###Tinfo
 ||poeid.cyou^
 ||poereawer.top^
 ||pofang.com^
+||poiqwnekb.com^
 ||pojihfnkbllg.net^
 ||pojjtt.xyz^
 ||poke88.com^
@@ -18583,6 +18597,7 @@ zzzyk.com###Tinfo
 ||pop800.com^$third-party
 ||poqjnkdsou.net^
 ||poqoiwn.com^
+||poqwnllkm.com^
 ||porjjhu.cn^
 ||porlsbll.cyou^
 ||porn87.com/static/stream_ads/
@@ -18948,6 +18963,7 @@ zzzyk.com###Tinfo
 ||qpic.cn/wwpic/471270_J6SyU3sDRNuKUnZ_1680798399/0
 ||qpic.ws/images/pk*.gif
 ||qpix.com/2021/05/20/Aqcp.gif
+||qpoiwnelc.com^
 ||qponfva.cn^
 ||qptnew.com^
 ||qq.com/Index/getAdsAndHotspot
@@ -20403,8 +20419,6 @@ zzzyk.com###Tinfo
 ||tlsynmli.fun^
 ||tlula507.com/Public/js/dui
 ||tlula507.com/Public/js/float
-||tlxxw.cc/public/*/plugins/
-||tlxxw.cc/public/1/assets/js/custom/tt.
 ||tmall.com^$popup,domain=eyusky.net|iqiyi.com
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
 ||tmea116.oss-cn-beijing.aliyuncs.com^
@@ -20589,6 +20603,7 @@ zzzyk.com###Tinfo
 ||txlidi.ink^
 ||txnnhz.cn^
 ||txnwq.xyz^
+||txphjl.xyz^
 ||txtcw.cn^
 ||txzlc.cn^
 ||txzqw.*/js/float.js
@@ -21535,6 +21550,7 @@ zzzyk.com###Tinfo
 ||xchina.pro/upload/ad/
 ||xcjcy.pro^
 ||xcjwq.world^
+||xckyqq.com^
 ||xcmno.xyz^
 ||xcmz999.com^
 ||xcvdd.xyz^
@@ -21603,6 +21619,7 @@ zzzyk.com###Tinfo
 ||xianzhice.com^
 ||xiaobaipan.com/tb.html
 ||xiaobi*.com/layer/layer.js
+||xiaochen1.cn^
 ||xiaodongrui.com^
 ||xiaodutv.com/xda?
 ||xiaohui.ink^
@@ -21755,6 +21772,7 @@ zzzyk.com###Tinfo
 ||xn--xhq9mt12cf5v.xn--io0a7i^$third-party
 ||xne1ocient87zxz.360doc.cn^
 ||xng02.com/api.php?mod=ad&
+||xni.ink^
 ||xniexnz.cn^
 ||xnimg.cn^*/liveinc/rightlive.js
 ||xnklgas.cn/common/getBannerList
