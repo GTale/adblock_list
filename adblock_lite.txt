@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202304200136
+! Version: 202304210145
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22806
+! Lenth = 22815
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1413,6 +1413,7 @@
 @@/show_ads_$domain=ygo-sem.cn
 @@/site/ad/*$domain=islide.cc
 @@/social-share.$domain=patentguru.com
+@@/static/ad/main.$domain=bhuai.top|bhuan.top
 @@/store_ad/*$domain=pcstore.com.tw
 @@/unadblock/adjs_$domain=hepan.com
 @@/urchin.js$domain=on.cc
@@ -1642,7 +1643,6 @@
 @@||bbs.tgfcer.com^$generichide
 @@||bcebos.com/static/translation/widget/translate/output/AdBanner/AdBanner.js
 @@||bcebos.com^$script,domain=31xiaoshuo.com|biququ.info|jingwubook.com
-@@||bcong.top/static/ad/main.js
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||bdimg.com/libs/$domain=00ksw.com|147xiaoshuo.com|1biqug.com|23xstxt.net|24kwx.net|52biquge.com|8181zw.com|abcxs.net|b520.cc|b5200.net|biqiuge8.cc|biqiugexsw.com|biquge99.cc|biqugecd.com|biqugeq.com|biqugesk.org|biqugewu.net|biqulu.net|bixia.org|boquku.com|bqg999.net|bqkan8.com|bqwxg8.com|bxwx.live|cascoo.net|cits0871.com|ddbqgtxt.cc|exiaoshuo.com|gdbzkz.org|ggkxs.com|huanyue123.com|huixsw.com|ibiquw.com|ishuquge.com|janpn.com|jx.la|lindiankanshu.cc|lingdianxs.net|paoshu8.com|piaotian5.net|qbiqu.com|qianrenge.cc|quge66.com|shuyy8.com|sytxt.cc|taiuu.com|ttzw.tv|txtwan.com|u33.me|viviyzw.com|x23us.me|xbiqugecc.com|xiaoshuwu5.com|xinxs.la|xqianqian.com|xxbiqudu.com|xxqb5200.com|xygwh.cc|ygshu.com|ymxwx.com|yuyougu.com|zbzw.la
 @@||bdimg.com/libs/$domain=dybee.tv
@@ -1716,7 +1716,6 @@
 @@||cibntv.net/youku/*.mp4?$domain=v.youku.com
 @@||citysbs.com^*/swfupload/
 @@||citytalk.tw/js/ct/common/v3/ui/fblike/FBLike.html
-@@||cl9a.com/static/ad/main.js
 @@||cloudflare.com/ajax/libs/fingerprintjs2/*/fingerprint2.min.js$domain=nfmovies.com
 @@||cloudflare.com/ajax/libs/fuckadblock/$domain=seselah.com
 @@||cloudflare.net^$script,domain=colamanhua.com
@@ -10459,7 +10458,6 @@ zzzyk.com###Tinfo
 ||77ds.vip/js/shichuang.js
 ||77tel.com^
 ||77vcd.com/js/
-||77xn11.net/js/
 ||77xsw.la/novel/js/pagebottom.js
 ||77xsw.la/novel/js/pagetop.js
 ||7893com.com/img/*.gif
@@ -12048,6 +12046,7 @@ zzzyk.com###Tinfo
 ||bestpush.pconline.com.cn^
 ||bestqikan.com/static/js/swt.js
 ||bestvogue.com/fans/
+||betgdr.xyz^
 ||betteredu.net/js/pop_tuiguang_
 ||betylife.com^
 ||bf99.com/User*/Ad_
@@ -14230,6 +14229,7 @@ zzzyk.com###Tinfo
 ||ftchinese.com/m/marketing/
 ||ftdmfxq.cn^
 ||ftfnewu.cn^
+||fthqzxq.cn^
 ||ftimg.net/s?z=
 ||ftnthzv.cn^
 ||ftrtnr.xyz^
@@ -14985,6 +14985,7 @@ zzzyk.com###Tinfo
 ||heibaizhibo.com/_nuxt/87a5efd04908651591f7.js
 ||heiguang.com/_r/2015/js/hrBottomBar.
 ||heiguang.com/f/uad/
+||heild.xyz^
 ||heima8.com^$third-party
 ||heip3keop.cyou^
 ||heipa666.xyz/hp/
@@ -15385,6 +15386,7 @@ zzzyk.com###Tinfo
 ||hzhyhm.com^
 ||hzma.xyz^
 ||hznzcn.com/moban/youxiajiao.js
+||hzoijcm.cn^
 ||hzrrmh.cn^
 ||hztv.xyz^
 ||hzxlly.com^
@@ -15782,6 +15784,7 @@ zzzyk.com###Tinfo
 ||iqmbao.xyz^
 ||iqnew.com/d/js/m/thea
 ||iqshw.com/d/js/m/thea
+||iqybys.xyz^
 ||ir002423.cn^
 ||irqqwqk.cn^
 ||irygym.xyz^
@@ -17884,6 +17887,7 @@ zzzyk.com###Tinfo
 ||ncoeqz.today^
 ||ncrkff.xyz^
 ||ncvkzz.cn^
+||ncyx.ltd^
 ||nczsks.com/SCWB/WebResource.axd
 ||ndfqoqo.cn^
 ||neaqi.top^
@@ -18439,6 +18443,7 @@ zzzyk.com###Tinfo
 ||pdxubxc.cn^
 ||pe5a.top^
 ||pedailyu.com^
+||pedjqkl.xyz^
 ||pehlvl.xyz^
 ||peigbv.cn^
 ||peise.net/Skin/js/global.
@@ -19573,6 +19578,7 @@ zzzyk.com###Tinfo
 ||shangqun.com/webforms/embed/
 ||shangrongxin.cn^
 ||shangxueba.com/ask/images/woxiaoyun.jpg
+||shangyuan.ltd^
 ||shanyu178.com/agg$script
 ||shaokaodaren.top^
 ||shaonlt.love^
@@ -19790,6 +19796,7 @@ zzzyk.com###Tinfo
 ||skfjdf.xyz^
 ||skfqxkk.cn^
 ||skiyvwu.cn^
+||skluff.com^
 ||skmtyaw.cn^
 ||sky.dunsuan.com^
 ||skzlz.cn^
@@ -20779,6 +20786,7 @@ zzzyk.com###Tinfo
 ||um29.com^$third-party
 ||um5xcgngmart.xyz^
 ||umami.is^
+||umcpebi.cn^
 ||umhfrtu.cn^
 ||umkezbh.cn^
 ||ummnam.xyz^
@@ -21482,6 +21490,7 @@ zzzyk.com###Tinfo
 ||ww9874.com/asset/playerInit.js
 ||wwads.cn^$third-party
 ||wwggnaw.xyz^
+||wwgqqq.com^
 ||wwnyubs.cn^
 ||wwoglde.top^
 ||www-dnwx-com.anquanbao.cn/pic
