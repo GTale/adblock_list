@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202305090220
+! Version: 202305100136
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22407
+! Lenth = 22417
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -3839,7 +3839,7 @@ ddooo.com#?#span:-abp-has(>p:-abp-contains(高速))
 ddooo.com#?#ul:-abp-has(>dd:-abp-contains(高速))
 ddrk.me##a[onclick^="ClickobayST();"]
 ddxsku.com##.adhtml
-ddys.*#%#//scriptlet('set-constant', 'Object.prototype.cnobpreroll_', 'true')
+ddys.*#%#//scriptlet('set-constant', 'Object.prototype.canobpreroll_', 'true')
 dealmoon.com,weibo.com##.pic_ad
 demaxiya.com##.tp_box
 dep-family.hccg.gov.tw#@#.ad_1
@@ -10971,6 +10971,7 @@ zzzyk.com###Tinfo
 ||ad123.ynet.com^
 ||ad8888.top^
 ||adadmin.house365.com^
+||adadu.cn^
 ||adbd.liuxue86.com^
 ||adblock.sina.cn^
 ||adbot.tw^
@@ -11057,6 +11058,7 @@ zzzyk.com###Tinfo
 ||afjk001.xyz^
 ||afjlb.com^
 ||afk3rs.xyz^
+||afndhou.xyz^
 ||afocus.com.cn/s?
 ||afp.chinanews.com^
 ||afrazanna.com^
@@ -11118,6 +11120,7 @@ zzzyk.com###Tinfo
 ||aibing.cc/vip/img/gou.gif
 ||aichuangfu.cn/jquery/
 ||aiclicash.com^$third-party
+||aicpa.club^
 ||aiedduop.cyou^
 ||aiedwhb.cn^
 ||aifei0755.net/123/
@@ -12881,6 +12884,7 @@ zzzyk.com###Tinfo
 ||csekct.xyz^
 ||csfphpn.cn^
 ||csgw.xyz^
+||csh253.cn^
 ||cspb1.5w5w.com^
 ||csqiulong.com^
 ||css.huvmi.com^
@@ -13190,6 +13194,7 @@ zzzyk.com###Tinfo
 ||dgozp.com^
 ||dgtauto.com^
 ||dharkyu.cn^
+||dhaxhsa325.com^
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
 ||dhl.135320.com^
 ||dhl4.xyz^
@@ -16210,6 +16215,7 @@ zzzyk.com###Tinfo
 ||jxnews.com.cn^*_ad_
 ||jxtest.bolecdn.com/player/*.gif
 ||jxuu.online^
+||jxvyrv.xyz^
 ||jy.zhongxues.com^
 ||jy135.com/js/pubuliu.
 ||jy135.com^$third-party
@@ -16304,6 +16310,7 @@ zzzyk.com###Tinfo
 ||kccdk.com/Content/img/*.gif
 ||kcedmk.xyz^
 ||kcfuzhj.cn^
+||kcieo.xyz^
 ||kcmomkn.cn^
 ||kd1c.top^
 ||kd1s.icu^
@@ -16369,6 +16376,7 @@ zzzyk.com###Tinfo
 ||khrtac.xiangha.com^
 ||khufaw2.com^
 ||khuokpj.cn^
+||kianakaslana.club^
 ||kidisland.cn^
 ||kiees.cn/img/
 ||kiees.cn/jm.png
@@ -18081,6 +18089,7 @@ zzzyk.com###Tinfo
 ||p1.qxzsw.com^
 ||p1.zhongyoo.com^
 ||p23jac.top^
+||p2oh1.xyz^
 ||p2p.v.yyclouds.com/crossdomain.xml
 ||p2peye.com/ajax.php?mod=ad&
 ||p2peye.com/ajax.php?mod=advertisement&
@@ -18946,6 +18955,7 @@ zzzyk.com###Tinfo
 ||rglctlo.cn^
 ||rglvbpi.cn^
 ||rgnlaigz.fun^
+||rgyfqq.com^
 ||rhcknl.xyz^
 ||rhxshop.com^
 ||riaway.com/statics/idea.jpg
