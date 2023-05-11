@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202305100136
+! Version: 202305110118
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22417
+! Lenth = 22427
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -7162,9 +7162,9 @@ pcauto.com.cn##.ivy-250
 pcauto.com.cn##div[id^="middle_ad_"]
 pcbaby.com.cn###jpopWinBottom
 pcbeta.com#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'make_rand_div')
-pcbeta.com#?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:-abp-has(div[style="display:none"])
 pcbeta.com#?##wp > div[class][id]:-abp-properties(width: 980px;)
 pcbeta.com#?#div[class]:-abp-properties(/height: (169|171)px;/)
+pcbeta.com#@?##toptb ~ #wp > *:not(div):not(style):not(ul):not(script) + div[class][id]:-abp-has(div[style="display:none"])
 pcccp.cn##DIV[id^="xydl"]
 pcdown.net##.bzxz
 pcdown.net##.sort_list > .clearfix:first-child
@@ -7620,6 +7620,7 @@ rfidworld.com.cn##.indexBanner
 rfidworld.com.cn##.rfidADClass
 rfidworld.com.cn##div[style="width: 100%;position: fixed;top: 0;margin:0;"]
 riaway.com##.info_message_container
+right.com.cn###hd > div.wp > div.hdc > h2
 right.com.cn##a[href^="https://jd.dangbei.com/"]
 rising.cn###left50
 rising.cn###lowerrightAd
@@ -9863,6 +9864,7 @@ zzzyk.com###Tinfo
 ||321.jintang114.org^
 ||321mh.com/v1/getadvertise?
 ||321tui.com^$third-party
+||32fi.com^
 ||32xp.com/upimg/
 ||331qka.cn^
 ||3324.cn^$third-party
@@ -12506,6 +12508,8 @@ zzzyk.com###Tinfo
 ||chengtu.com/api.php?mod=ad&adid=
 ||chenhao.name^
 ||chenjiayu.cn/gg.js
+||chenyt.club^
+||chenyuhuan.icu^
 ||chenyuzhou1.cn^
 ||chenze1.cn^
 ||cheon2buy.xyz^
@@ -13152,6 +13156,7 @@ zzzyk.com###Tinfo
 ||detowd.com^*.php
 ||deude.ltd^
 ||develenv.com^$third-party
+||devofei.xyz^
 ||dewalt-sales.com^
 ||dewapa.top^
 ||dexinyi.cn^
@@ -14767,6 +14772,7 @@ zzzyk.com###Tinfo
 ||harahero.top^
 ||haruepy.cn^
 ||hb8a.top^
+||hbbxwan.cn^
 ||hbcl.ltd^
 ||hbhnwy.com^
 ||hbmcfcd.cn^
@@ -16956,6 +16962,7 @@ zzzyk.com###Tinfo
 ||lubao-food.mobi^
 ||lucasyyy.ltd^
 ||luckydino.ren^
+||ludie.xyz^
 ||lunhua5.com/images/more.gif
 ||lunivr.xyz^
 ||lunt.cx^
@@ -17760,6 +17767,7 @@ zzzyk.com###Tinfo
 ||nnllupyu.top^
 ||nnocsin.cn^
 ||no1.168abc.net/upload/
+||nogff.top^
 ||noiea.xyz^
 ||nonabh.xyz^
 ||nongjih.cn^
@@ -18958,10 +18966,12 @@ zzzyk.com###Tinfo
 ||rgyfqq.com^
 ||rhcknl.xyz^
 ||rhxshop.com^
+||rhxwnd.xyz^
 ||riaway.com/statics/idea.jpg
 ||ribffmg.cn^
 ||richh.cn^
 ||rigengjihua.cn/banner/
+||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
 ||right.com.cn/logo/*.gif
 ||right.com.cn/logo/yyb.png
