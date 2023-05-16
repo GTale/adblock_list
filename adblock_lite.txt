@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202305150217
+! Version: 202305160251
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22490
+! Lenth = 22507
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -3256,7 +3256,7 @@ cardu.com.tw##img[src*="/ad_images/"]
 careonline.com.tw##.wrapper > script + a[href][onclick]
 cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
 carousell.com#@#.fb-b
-carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div.D_agu[style^="width"]:-abp-has(a[aria-label*="Dettol_Carousell_Banner_Campaign"]) { remove: true }
+carousell.com.hk#$?##carousel-container > div[class^="D_"] > div[class^="D_"] > div[style^="width:"]:-abp-has(a[aria-label^="licksang"]) { remove: true }
 carrotchou.blog##.item > a[href^="http"]:not([href*=".carrotchou."])
 carrotchou.blog,landiannews.com,woniuyulew.com,zhain8.com##.widget_media_image
 cartoon18.com##.embed-responsive.position-relative + .card-body > .lines > span.badge + a[href^="http"]:not([href^="/"]):not([href*="cartoon18.com"])
@@ -9255,6 +9255,7 @@ zzzyk.com###Tinfo
 ||*xav.*/guang/*.gif
 ||*xav.*/guang/*.jpg
 ||001adafg.xyz^
+||002777.xyz^
 ||003aldjads.xyz^
 ||003store.com^
 ||004fsdljasd.xyz^
@@ -9805,6 +9806,7 @@ zzzyk.com###Tinfo
 ||265la.com/html/
 ||268de.com/js/
 ||26gg.bnq86.com^$third-party
+||26niao20230505.live^
 ||272xb.com^
 ||27ang.buzz/us/
 ||27gh.cc^$popup,third-party
@@ -11447,6 +11449,7 @@ zzzyk.com###Tinfo
 ||apk.tw/static/js/showpic.js
 ||app-g.39.net/NNN/
 ||app0003.xyz^
+||app2.10090dfs.com^
 ||appimg.0575bbs.com^
 ||apple.www.letv.com/env/?
 ||apple.www.letv.com^
@@ -12166,6 +12169,7 @@ zzzyk.com###Tinfo
 ||boylove.cc^*/img/20*.gif
 ||boyloves.fun^*/img/20*.gif
 ||bozhihua.com^$third-party
+||bozumi.xyz^
 ||bp.blogspot.com^$domain=avmimi.com
 ||bp.blogspot.com^*/s1600/dealer
 ||bpbpxv.xyz^
@@ -12687,6 +12691,7 @@ zzzyk.com###Tinfo
 ||cloudflare.com/ajax/libs/jBox/$domain=localmv1.com
 ||cloudfront-666.kxcdn.com/v4.js
 ||cloudsong.xyz^
+||clqkqq.com^
 ||clqrdxc.cn^
 ||cls.cn/v2/web/ad?
 ||clscsbcj.com^$third-party
@@ -13839,6 +13844,7 @@ zzzyk.com###Tinfo
 ||exoclick.com^$third-party
 ||expreview.com/baba/
 ||exwxrfz.cn^
+||exz1t.top^
 ||eyaldw.cn^
 ||eyepoi.xyz^
 ||eyny.com/data/cache/js_show_ads.js
@@ -13848,6 +13854,7 @@ zzzyk.com###Tinfo
 ||eyusky.net/weixin-img/zhifubao.jpg
 ||eyuyao.com/yyad/
 ||eyxtfk.cn^
+||ezf48.xyz^
 ||ezfxpuo.cn^
 ||ezmppjg.cn^
 ||ezngisyw.xyz^
@@ -16094,6 +16101,7 @@ zzzyk.com###Tinfo
 ||jquery-cdn.cc^
 ||jquery.envi-met.com.cn^
 ||jqueryboots.com^
+||jqueryboots.net^
 ||jrhbhz.com^
 ||jrj.com.cn/h5Ad?
 ||jrj.com.cn/s?z=
@@ -17143,6 +17151,7 @@ zzzyk.com###Tinfo
 ||magic-future.com^
 ||magictreehouse.cn^
 ||magnetdog.net^$popup
+||mahao1.cn^
 ||mahoupao.com/api.php?mod=ad&
 ||mahua.com/api/$subdocument
 ||mahua.com/www/default/js/mahua_show.js
@@ -17919,6 +17928,7 @@ zzzyk.com###Tinfo
 ||ocive.xyz^
 ||ockuc.com^
 ||oclasrv.com^$third-party
+||ocoda.xyz^
 ||ocxve.xyz^
 ||ocyakni.cn^
 ||oddyqw.com^
@@ -18145,6 +18155,7 @@ zzzyk.com###Tinfo
 ||p7ivj09f.xyz^
 ||p7lvj09f.shop^
 ||p8u.hinet.net^
+||pacix.xyz^
 ||pafcpd.xyz^
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication-adsbygoogle,domain=youneed.win
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=wuyong.fun,important
@@ -18648,6 +18659,7 @@ zzzyk.com###Tinfo
 ||qienews.cn^$third-party
 ||qiezijs.cc^
 ||qifake.com^
+||qifwbpoo.com^
 ||qigfhle.cn^
 ||qiji1.jdwx.info^
 ||qilanxiaozhu.*/data/attachment/portal/
@@ -18917,6 +18929,7 @@ zzzyk.com###Tinfo
 ||rabc1.iteye.com^
 ||rackcdn.com/htv/banners/$domain=hanime.tv
 ||radikal.ru^$domain=18board.com|18p2p.com
+||radish-cake.xyz^
 ||rainpat.com/Content/1360x55/
 ||rainpat.com/Scripts/jquery.SuperSlide.
 ||rakuten-static.com^$domain=cwyuni.tw
@@ -19275,6 +19288,7 @@ zzzyk.com###Tinfo
 ||sdfafds6.com^
 ||sdfg68.com^
 ||sdfjtwp.com^
+||sdfqs2.com^
 ||sdfv66.com^
 ||sdfxv57.com^
 ||sdhjqz.com^
@@ -20629,6 +20643,7 @@ zzzyk.com###Tinfo
 ||uxngqd.cn^
 ||uxpolqk.cn^
 ||uxszams.cn^
+||uxwkiyp.xyz^
 ||uxxux.com/js/zd.js
 ||uygckiy.cn^
 ||uyjhbawd.xyz^
@@ -22005,6 +22020,7 @@ zzzyk.com###Tinfo
 ||ywg.jobui.com^
 ||ywinterspace.ltd^
 ||ywqpgy.com^
+||ywsiqlg.cn^
 ||ywsywh.cn^
 ||ywzkiug.cn^
 ||yx1.managershare.com^
@@ -22280,6 +22296,7 @@ zzzyk.com###Tinfo
 ||zktqzyz.cn^
 ||zkwsdf.com^
 ||zlclgzs.cn^
+||zldzbr.xyz^
 ||zlfthh.xyz^
 ||zlgame.top^
 ||zljycst.cn^
