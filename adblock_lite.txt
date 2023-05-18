@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202305170259
+! Version: 202305180241
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22522
+! Lenth = 22548
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -2511,6 +2511,7 @@ alibabacloud.com###carousel-whois
 alibabacloud.com##.b-alicloud-bottom
 alibabacloud.com##.hmod-alicloud-contact-sales-support
 alipay.com###J-cooperant-banner
+alist.nn.ci##.ss
 aliyun.com###yq-a-r-bottom
 aliyun.com##.aliyun-delivery-view-container
 aliyun.com##.yq-ads-blog
@@ -4274,6 +4275,8 @@ elecfans.com##div[id^="new-listAd"]
 elecfans.com##div[style^="width: 960px;height: 40px;"]
 elecinfo.com##div[class$="-advert"]
 element-plus.gitee.io##.sidebar > .page-content
+element-plus.gitee.io,element-plus.org##.toc-content > .m-t-16px
+element-plus.gitee.io,element-plus.org##aside > .page-content
 element-plus.org##.sponsor-container
 element-plus.org##.sponsors
 emome.net##.source_advertising
@@ -6320,7 +6323,7 @@ liba.com##.avdert1190
 liba.com##.bottom-pic
 libaclub.com##.merchant-link
 libaclub.com##.ui-adsame
-libvio.cc,libvio.me,smdyy.cc##.t-img-box
+libvio.cc,libvio.me##.t-img-box
 libvio.me##.hidden-log
 liepin.com##DIV[id^="nodetpl_g_"]
 life.tw###fbFixedAd
@@ -7689,6 +7692,7 @@ ruten.com.tw###search_u_970x90
 ruten.com.tw##.act-promo
 ruten.com.tw##.side-advertise
 ruten.com.tw#@#.adslot
+ruyo.net##.textwidget a > img
 ruyo.net##.widget_custom_html
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+40)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+45)
 rvlev.com,t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+50)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+55)
@@ -7765,6 +7769,9 @@ sgamer.com##.plc > div > a[href*=".vgcool.com"]
 sgcn.com##.bigaimg
 sgcn.com##.oyad2.cl
 sgcn.com,wangjing.cn##.fad
+shangyexinzhi.com##.advert
+shangyexinzhi.com##.hang-baidu_adv
+shangyexinzhi.com##.img2text-adv_wrapper
 shanxivideo.com##.ad_panelAR
 shanxivideo.com##.ads-container
 shanxivideo.com##.banner
@@ -9938,6 +9945,7 @@ zzzyk.com###Tinfo
 ||360640.com^
 ||360buyimg.com$domain=73thz.com
 ||360buyimg.com/babel/jfs/t1/209256/22/21888/60206/627b7a6aEa5f2d78b/219868beb169203f.jpg
+||360buyimg.com/ddimg/jfs/t1/27218/8/19964/31194/636a1930E1de2ae78/e3ff134116579b95.jpg
 ||360buyimg.com/jzt/temp/js/
 ||360buyimg.com^$domain=1024pz.com|chdbits.co|gw54.com|qianggou5.com|xgw5.com
 ||360doc.com/js/index7/mask_index_yc.js
@@ -10202,6 +10210,7 @@ zzzyk.com###Tinfo
 ||5442tu.com/style/ads5442.js
 ||54admin.net/images/ad_
 ||54askjdklm.xyz^
+||54ha.cn^
 ||54kefu.net^$third-party
 ||54new.com*/da/
 ||551vip.xyz^
@@ -10931,6 +10940,7 @@ zzzyk.com###Tinfo
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||ac1.pingpingw.com^
 ||acbe.club^
+||accid.xyz^
 ||accommodatingremindauntie.com^
 ||aceik.xyz^
 ||acfun.cn/appSpreadContents/danmuad/
@@ -12086,6 +12096,7 @@ zzzyk.com###Tinfo
 ||bjqwllp.cn^
 ||bjs.faxingzhan.com^
 ||bjsxt.com/statics/js/bjsxt/js.js
+||bjtel.cn^
 ||bjwh8.xyz^
 ||bjwj2y.com/JS/LsJS.aspx
 ||bjws.xyz^
@@ -12140,6 +12151,7 @@ zzzyk.com###Tinfo
 ||bobo.com/special/mod-follow/
 ||bobo.com^$third-party
 ||boce.com/statics/img/img27b.png
+||bockd.xyz^
 ||bocvb.xyz^
 ||bodu365.co/t/
 ||bojebd.xyz^
@@ -12435,6 +12447,7 @@ zzzyk.com###Tinfo
 ||cdn.haocaa.com^
 ||cdn.haokongbu1.com^*.js
 ||cdn.shdsp.net/ad
+||cdn.sinam.top^
 ||cdn.upthinking.cn^$third-party
 ||cdn.vidcrunch.com/integrations/*_Responsive_Floating_DFP_$domain=discuss.com.hk
 ||cdn.wenzhangba.cn^
@@ -13140,6 +13153,7 @@ zzzyk.com###Tinfo
 ||dchxxvk.cn^
 ||dcmh.xyz^
 ||dcnjc4.com^
+||dcnytdpke.xyz^
 ||dcqs4.com^
 ||dcs.conac.cn/js/
 ||dcvbnzss.xyz^
@@ -13949,6 +13963,7 @@ zzzyk.com###Tinfo
 ||fdtrjz.xyz^
 ||fdveqpc.cn^
 ||fdxpfeb.cn^
+||fdytdc.xyz^
 ||fedlugk.cn^
 ||feedou.com/nzq/style/pc/js/popbig.js
 ||feedou.com/nzq/style/pc/js/zt_bottom.js
@@ -14914,6 +14929,7 @@ zzzyk.com###Tinfo
 ||hf365.com/0/14/60/93/14609355_921128.jpg
 ||hf365.com/0/15/64/87/15648725_922274.jpg
 ||hffxc.com^
+||hfhytx.xyz^
 ||hfjsbf.xyz^
 ||hflssy.com^
 ||hfwzbp.cn^
@@ -15037,6 +15053,7 @@ zzzyk.com###Tinfo
 ||hongshikai.com^
 ||hongyingbbs.com/jj/
 ||honqdyg.cn^
+||hontont.com^
 ||hoopchina.com.cn/common/lazyLoadAd.js
 ||hoopchina.com.cn/gamecenter/side-stg.js
 ||hoopchina.com.cn/static/www/*340-230.
@@ -15163,6 +15180,7 @@ zzzyk.com###Tinfo
 ||huimg.cn/e/hd.e.wap.
 ||huineihan.com^
 ||huishangjituan.cn^
+||huishengqihang.xyz^
 ||huishij.net^
 ||huisifa.com^
 ||huissl.com^
@@ -15180,6 +15198,7 @@ zzzyk.com###Tinfo
 ||hujiang.com/ciku/getDetailSoftText/
 ||hujiang.com/ciku/getLesson
 ||huluxia.com^$third-party
+||humgrww.xyz^
 ||hunlimd.cn^
 ||huo720.com/back/ad_
 ||huobaowang.com/meeting/js/hbchat.
@@ -16536,6 +16555,7 @@ zzzyk.com###Tinfo
 ||krp3g.top^
 ||krqole.xyz^
 ||krurkex.com^
+||kryjqq.com^
 ||krysogsid.uno^
 ||ks2g.top^
 ||ks9f.top^
@@ -17138,6 +17158,7 @@ zzzyk.com###Tinfo
 ||m1955.com/template/qq/images/playad/
 ||m1saka.love^
 ||m2.lelemh.com^
+||m5.66077.cn^
 ||m6ku1.cn^
 ||m7dmtv.top^
 ||ma.baiducdn2.com^*/main.js?t=
@@ -17324,7 +17345,6 @@ zzzyk.com###Tinfo
 ||mgowec.xyz^
 ||mgsue.cn^
 ||mgtcw.top^
-||mgtv-bbqn.oss-cn-beijing.aliyuncs.com^
 ||mgwcn.com^
 ||mgzjin.cn^$third-party
 ||mgzs.cdn.bcebos.com^
@@ -17881,6 +17901,7 @@ zzzyk.com###Tinfo
 ||nvwanyyds.com^
 ||nvzffl.cn^
 ||nwadakesc.cyou^
+||nwandlc.top^
 ||nwdjlx.xyz^
 ||nwecd.xyz^
 ||nweon.com/wp-content/repo/ad/
@@ -18552,6 +18573,7 @@ zzzyk.com###Tinfo
 ||q7tl.icu^
 ||q88j2.top^
 ||qanduan.com^
+||qange.com^
 ||qaolyke.cn^
 ||qaops.jgwsmqx.com^$third-party
 ||qaou.top^
@@ -21094,6 +21116,7 @@ zzzyk.com###Tinfo
 ||wjlzs.cn^
 ||wjr9.cn^
 ||wjslw.mobi^
+||wjtij.top^
 ||wjylfla.cn^
 ||wk4y.cn^
 ||wkbslub.cn^
@@ -21370,6 +21393,7 @@ zzzyk.com###Tinfo
 ||xhymsq.com/data/attachment/portal/
 ||xiacaidd.com/xiacai/ad/
 ||xiakedy.org/js/jquery.
+||xiangfenyabu.xyz^
 ||xianglong360.cn^
 ||xianguangergaozhi.com^
 ||xiangwangdesh.com^
@@ -21570,6 +21594,7 @@ zzzyk.com###Tinfo
 ||xryjyfb.cn^
 ||xs.houyi.baofeng.net^
 ||xs8.cn/qreport?
+||xsbdj6.com^
 ||xsdizch.cn^
 ||xsjh001.xyz^
 ||xsjh002.xyz^
@@ -21657,6 +21682,7 @@ zzzyk.com###Tinfo
 ||xyyejhm.cn^
 ||xyzyqq.com^
 ||xzji.com/data/block_js/softShow_
+||xzlurd.xyz^
 ||xznrtl.xyz^
 ||xzvfd.xyz^
 ||xzwk.hk^
