@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202305200129
+! Version: 202305210200
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22593
+! Lenth = 22607
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -7248,7 +7248,6 @@ phpvar.com##.post_content_linkad
 phpvar.com##.qrcode-swiper-container
 pianba.net###jiedoubanban
 pianba.tv,pianba.net##.play-btn > a[target="_blank"]
-pianbus.com,pianmas.com##li[class]:not(.index):not(.hidden-ps):not(.hidden-xs):not(.active)
 pianhd.com###myCarousel
 pianku.me###playad
 pianyuan.org###myModal
@@ -10386,6 +10385,7 @@ zzzyk.com###Tinfo
 ||69688qp.com^
 ||69adu.com/bootstrap.
 ||69t49.com/floating/layer.js
+||69wx1.top^
 ||6avz.com^$script,third-party
 ||6dad.com^$third-party
 ||6dkl1vb.site^
@@ -10967,6 +10967,7 @@ zzzyk.com###Tinfo
 ||acqc9.com^
 ||acs86.com^$third-party
 ||acsc10.com^
+||acsydez.cn^
 ||act.chinatimes.com/aimg/
 ||act.cmcmcdn.com/*/liondance/dist/js/bundle.js$domain=duba.com
 ||actoys.net/index.php?m=poster&
@@ -13614,6 +13615,7 @@ zzzyk.com###Tinfo
 ||e9377f.com^$rewrite=abp-resource:blank-mp3,domain=eastday.com
 ||ea0jlu8jie.cn^
 ||ea3w.com/pv.js
+||eaica.xyz^
 ||ealdi.xyz^
 ||ealooov.cn^
 ||eap.big5.enorth.com.cn^
@@ -13810,6 +13812,7 @@ zzzyk.com###Tinfo
 ||eprice.com.tw/img/tw_m/ad/
 ||eprxasz.cn^
 ||eq.af31f.site^
+||eqknlsw.xyz^
 ||eqnggnsw.fun^
 ||eqpzy.cyou^
 ||eqyzc.cyou^
@@ -14060,6 +14063,7 @@ zzzyk.com###Tinfo
 ||fjsjsj.com^
 ||fjttbkoxer.xyz^
 ||fjzimaoqu.cn^$third-party
+||fkading38.xyz^
 ||fkesfg.com^
 ||fkf5.com/public/js/static.js
 ||fkhfk.cn^
@@ -16267,6 +16271,7 @@ zzzyk.com###Tinfo
 ||jusha.com^$third-party
 ||jushikk.com^
 ||just4kira.cn^
+||justasimple.top^
 ||juuhe.com^
 ||juvtpeb.cn^
 ||juweixin.com/static/spk
@@ -16987,6 +16992,7 @@ zzzyk.com###Tinfo
 ||loli.net/2019/04/24/5cc0027b4f2f1.png
 ||loli.net/2020/06/17/gpRx7AzGwI4kQmV.gif
 ||loli.net/2020/06/17/vGALJ4mQx26T75u.gif
+||loli.net/2023/05/08/w4aGFUIVmKgOT78.
 ||loli.net^$domain=1090ys8.com|520film.net|9kanqq.com|acglover.me|hdsky.me|magnet2048.com|nulltm.com
 ||loli.net^$domain=xinqingdou.net
 ||lolshipin.com/zt/sxx/
@@ -17077,6 +17083,7 @@ zzzyk.com###Tinfo
 ||lvse.com/9
 ||lvuptech.com/wp-content/plugins/deblocker/
 ||lvxingzhe.store^
+||lvy0.cn^
 ||lw0mp.fun^
 ||lw54.com/js/
 ||lw881.com/public/js/gw.js
@@ -17187,6 +17194,7 @@ zzzyk.com###Tinfo
 ||m5.66077.cn^
 ||m6ku1.cn^
 ||m7dmtv.top^
+||m9d6p03.com^
 ||ma.baiducdn2.com^*/main.js?t=
 ||ma1.meishij.net^
 ||ma3s.top^
@@ -17746,6 +17754,7 @@ zzzyk.com###Tinfo
 ||nczsks.com/SCWB/WebResource.axd
 ||ndfqoqo.cn^
 ||ndqzqmb.xyz^
+||ndruhz.xyz^
 ||neaqi.top^
 ||necmdow.cn^
 ||nedes.xyz^
@@ -18396,6 +18405,7 @@ zzzyk.com###Tinfo
 ||pincai.com/js/pubuliu.
 ||pincai.com^$third-party
 ||pincidao.cn^
+||pingfang.icu^
 ||pinggu.org/api/bbsgg.
 ||pingmeibang.com/zt/zx.jpg
 ||pingpang.info/themes/v1.0/images/temp/ad/
@@ -19957,6 +19967,7 @@ zzzyk.com###Tinfo
 ||svrojrv.cn^
 ||sw76r85eda3k.com/need/h5.
 ||swadakesb.cyou^
+||swandlb.top^
 ||swicgq.xyz^
 ||swml.xyz^
 ||swogldb.top^
@@ -20723,6 +20734,7 @@ zzzyk.com###Tinfo
 ||uxxux.com/js/zd.js
 ||uygckiy.cn^
 ||uyjhbawd.xyz^
+||uysdxmo.com^
 ||uyueread.com^
 ||uyydww.xyz^
 ||uz44x.xyz^
@@ -21548,6 +21560,7 @@ zzzyk.com###Tinfo
 ||xizi.com/js/rotator.js
 ||xjhjtz.cn^
 ||xjjkxcg.cn^
+||xjnyjt.xyz^
 ||xjpphoto.com^
 ||xjpsrb.xyz^
 ||xjwrq.com^
@@ -22239,6 +22252,7 @@ zzzyk.com###Tinfo
 ||zdy1.xyz^
 ||zdyuoae.xyz^
 ||ze5.com^$third-party
+||zeatse.buzz^
 ||zebjlt.buzz^
 ||zefmsbu.cn^
 ||zeipw.xyz^
