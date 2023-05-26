@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202305250207
+! Version: 202305260253
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22670
+! Lenth = 22684
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1413,7 +1413,7 @@
 @@/show_ads_$domain=ygo-sem.cn
 @@/site/ad/*$domain=islide.cc
 @@/social-share.$domain=patentguru.com
-@@/static/ad/main.$domain=bhuai.top|bhuan.top
+@@/static/ad/main.$domain=bbmei.top|bbmen.top
 @@/store_ad/*$domain=pcstore.com.tw
 @@/unadblock/adjs_$domain=hepan.com
 @@/urchin.js$domain=on.cc
@@ -5284,6 +5284,7 @@ hupu.com##div[class*="ad728-90"]
 hupu.com##div[class*="ad980-60"]
 hur.cn###ad810_2
 hur.cn###ad810_6
+hutool.cn##.hutool-top-ad
 huya.com###J_roomGg2 + a
 huya.com###ggcomment
 huya.com###huya-ab
@@ -10447,6 +10448,7 @@ zzzyk.com###Tinfo
 ||7794.com^$third-party
 ||77ds.*/js/77ad.js
 ||77ds.vip/js/shichuang.js
+||77tum.top^
 ||77vcd.com/js/
 ||77xsw.la/novel/js/pagebottom.js
 ||77xsw.la/novel/js/pagetop.js
@@ -10901,7 +10903,6 @@ zzzyk.com###Tinfo
 ||aaaimg.com/images*.gif
 ||aaapvu.cn^
 ||aab-proxy.tld^
-||aabook.cc/images/apps/
 ||aafuck.xyz^$third-party
 ||aagomsi.xyz^
 ||aamv.vip^
@@ -12158,6 +12159,7 @@ zzzyk.com###Tinfo
 ||bnlg.fun^
 ||bnqlgdj.cn^
 ||bnsdk.top^
+||bnz9.cn^
 ||boardx.huanqiu.com^
 ||bob4885.com^
 ||bob4915.com^
@@ -12357,6 +12359,7 @@ zzzyk.com###Tinfo
 ||c4d.cn/template/iscwo_zcool/iscwo/ad/
 ||c6.friok.com^
 ||c6890.cn^$third-party
+||c9cc.icu^
 ||c9tt3jj.top^
 ||ca.cbsi.com.cn/rpv?
 ||ca.cydp5.com^
@@ -12923,7 +12926,6 @@ zzzyk.com###Tinfo
 ||cr173.com/skinb/
 ||craa.fun^
 ||crayon.meishichina.com^
-||crazyasia.ml/myupdatelist.
 ||cre99.com^
 ||creaders.net*/ad_func.js
 ||creawww.top^
@@ -13297,6 +13299,7 @@ zzzyk.com###Tinfo
 ||dierguanggao.xyz^
 ||dig.chouti.com/advert
 ||dig.qbao.com^
+||diggtp001.com^
 ||dilidd.com^
 ||dilidili.wang/uploads/allimg/171227/1_1520203421.png
 ||dingbu.bj.bcebos.com^
@@ -15152,6 +15155,7 @@ zzzyk.com###Tinfo
 ||hr44.com^
 ||hrecsxu.cn^
 ||hrjg.com.cn^$third-party
+||hrngmf.com^
 ||hrrbc.top^
 ||hs.cnfol.com/Cm/Imgs/Load.gif
 ||hs640.com/js/jquery.js
@@ -16320,6 +16324,7 @@ zzzyk.com###Tinfo
 ||jvpook.cn^
 ||jwadakesa.cyou^
 ||jwandla.top^
+||jweod.xyz^
 ||jwghphm.cn^
 ||jwgihca.cn^
 ||jwjdpab.cn^
@@ -16601,6 +16606,7 @@ zzzyk.com###Tinfo
 ||koudaiyundong.com^$third-party
 ||koukou7.com^
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
+||kpiwgio.cn^
 ||kppav.info^
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
@@ -17008,6 +17014,7 @@ zzzyk.com###Tinfo
 ||lnpqqq.com^
 ||lnzqw.net/js/
 ||lo9b.top^
+||lobqpt.xyz^
 ||local.hniux.cn^$third-party
 ||localau.vip/plugin/ad_
 ||localau.vip/plugin/pause.php
@@ -18077,6 +18084,7 @@ zzzyk.com###Tinfo
 ||oicchina.com^$third-party
 ||oicode.com^
 ||oicvvnm.cn^
+||oiljomy.xyz^
 ||oimzak.xyz^
 ||oiqdjksgpo.com^
 ||oisafnik.space^
@@ -18891,6 +18899,7 @@ zzzyk.com###Tinfo
 ||qofvpbo.cn^
 ||qomdf.top^
 ||qongsonw.uno^
+||qooav.top^
 ||qopj.xyz^
 ||qorlsbls.cyou^
 ||qosbbzw.cyou^
@@ -19002,6 +19011,7 @@ zzzyk.com###Tinfo
 ||qunlove.com^*.gif
 ||quxiangkeji.cn^$third-party
 ||qvbwras.cn^
+||qvcyeknp.xyz^
 ||qvkjkc.xyz^
 ||qvpublish.com^
 ||qvxhgni.cn^
@@ -19265,6 +19275,7 @@ zzzyk.com###Tinfo
 ||ruian.com/img/y13/
 ||ruigezx.com^
 ||ruishungp.com/assetscms2019/js/get_content.js
+||ruiwen.com/css_
 ||ruiwen.com/js/p.js
 ||ruiwen.com/sp/
 ||ruliglso.space^
@@ -20979,6 +20990,7 @@ zzzyk.com###Tinfo
 ||vulrxr.xyz^
 ||vumnxwvf.ink^
 ||vupload.duowan.com^
+||vuxxtn.xyz^
 ||vv1.pyhfxdm.cn^
 ||vvfht.fun^
 ||vviikig.cn^
@@ -21752,6 +21764,7 @@ zzzyk.com###Tinfo
 ||xunsu.cc/js/indexbottom.js
 ||xunyugong.xyz/sitejs/xunyugong.js
 ||xuruochen.cn^
+||xuxiaoran.xyz^
 ||xuzhi.net/uploadfile/poster/960x50.jpg
 ||xv98.com/js/daohang
 ||xv98.com/js/hengfu
@@ -21834,6 +21847,7 @@ zzzyk.com###Tinfo
 ||yangyiluo.xin^
 ||yangyuqing.xyz^
 ||yanjiusuo.cc^
+||yankuojjqq.com^
 ||yankuoyyds.com^
 ||yanping521.vip^
 ||yantuchina.com/Upload/Ad/
@@ -22321,6 +22335,7 @@ zzzyk.com###Tinfo
 ||zeipw.xyz^
 ||zengbalg.fun^
 ||zenknho.cn^
+||zetcul.xyz^
 ||zfood029.com^
 ||zfykvns.cn^
 ||zg.mmyuer.com^
@@ -22656,7 +22671,6 @@ zzzyk.com###Tinfo
 ~hrtsea.com##.widget_ui_ads
 ~hupu.com##div[id][style="width: 100%;"] > iframe[scrolling="no"][src^="http"][src*="?"][src*="="][src*="&"][width][height][frameborder="0"]
 ~ix8.la##div[class^="ADTOPLB_"]
-~jd.com##a[target="_blank"] > img[height="60"][src*=".360buyimg.com"][src$=".gif"]
 ~jxedu.com###haoetv
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"]
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"] + .bg + img

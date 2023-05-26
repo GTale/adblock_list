@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202305250207
+! Version: 202305260253
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 60070
+! Lenth = 60080
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -383,10 +383,12 @@ $removeparam=AffiliateID,domain=otto.de|ottoversand.at
 $removeparam=__hsfp
 $removeparam=__hssc
 $removeparam=__hstc
+$removeparam=__io_lv
 $removeparam=_branch_match_id
 $removeparam=_clde
 $removeparam=_cldee
 $removeparam=_hsenc
+$removeparam=_io_session_id
 $removeparam=_kx
 $removeparam=_openstat
 $removeparam=_sgm_action
@@ -1505,7 +1507,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /analytics.do
 /analytics.gif?
 /analytics.html?
-/analytics.js$domain=techcult.com|inbox.lv|kopeda.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr|rusvideos.porn
+/analytics.js$domain=resumes.breakdownexpress.com|techcult.com|inbox.lv|kopeda.com|freexcafe.com|rusvideos.tv|nakubani.ru|lun.com|songsara.net|newsmax.com|bolgehastanesi.com|ewtc.de|newsdig.tbs.co.jp|imore.com|city.kushiro.lg.jp|emeraldbridal.com.au|emarat-news.ae|imobie.jp|tikla.com.tr|rusvideos.porn
 /analytics.js/v1/*
 /analytics.prod.
 /analytics.v1.js
@@ -6240,6 +6242,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 @@||amplitude.com/libs/amplitude-4.5.2-min.gz.js$script,domain=pdfexpert.com
 @@||amplitude.com/libs/amplitude-8.5.0-min.gz.js$script,domain=kink.com
 @@||analysys.cn^$domain=analysys.cn
+@@||analytics-*.clickdimensions.com/*/pages/*.html$subdocument,domain=nhs.uk
+@@||analytics-*.clickdimensions.com/forms/$subdocument,domain=nhs.uk|clickdimensions.com
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com
@@ -8818,6 +8822,7 @@ culture.ru###page-error-modal
 curazy.com##.sponsor-link-text
 customeriomail.com/e/o$image
 cw.com.tw#%#//scriptlet("set-constant", "qg", "noopFunc")
+cyclestyle.net,rbbtoday.com##.cx-top-news
 dealdoktor.de##img[src*="//vg09.met.vgwort.de/"]
 demae-can.com#%#//scriptlet('remove-attr', 'data-trm-action|data-trm-category|data-trm-label', '.trm_event')
 diamond.jp###main-column > article > div.main-special
@@ -9024,7 +9029,6 @@ qiita.com#?#div[class^="css"] > div > div[id^="logly-"]:upward(2)
 radioprofusion.com##.revolvermaps
 radioprofusion.com##footer > div.counter
 radiotimes.com#%#(function(){window.DD_LOGS={onReady:function(){},logger:{log:function(){}}}})();
-rbbtoday.com##.cx-top-news
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[href="#pixel"]
 register.appsflyersdk.com^
 repubblica.it#%#//scriptlet('prevent-element-src-loading', 'script', 'static.chartbeat.com/js/chartbeat_brightcove_plugin.js')
@@ -14353,6 +14357,7 @@ znak.com##.relap
 ||analytics.spun.com.br^
 ||analytics.ss88.us^
 ||analytics.stanby.com^
+||analytics.starlink.com^
 ||analytics.staticiv.com^
 ||analytics.stg.springboardvideo.com^
 ||analytics.strangeloopnetworks.com^
@@ -15824,6 +15829,7 @@ znak.com##.relap
 ||arizonapuzzle.com^
 ||arizonapuzzle.com^$third-party
 ||arkayne.com^$third-party
+||arkoselabs.com/metrics/
 ||arlime.com^$third-party
 ||arlt.com/analytics/
 ||arm.tt.omtrdc.net^
@@ -17551,6 +17557,8 @@ znak.com##.relap
 ||breadbalance.com^$third-party
 ||breakableinsurance.com^
 ||breakableinsurance.com^$third-party
+||breakdownexpress.com^$cookie=DV
+||breakdownexpress.com^$cookie=NID
 ||breakfastboat.com^$third-party
 ||breakthrough.kronos.com^
 ||breaktime.com.tw^$third-party
@@ -20550,6 +20558,7 @@ znak.com##.relap
 ||crow.claudiakeil.de^
 ||crow.voracious.dev^
 ||crowdedmass.com^
+||crowdedmass.com^$third-party
 ||crowdfactory.com/tracker/
 ||crowdscience.com^$third-party
 ||crowdskout.com/analytics.js
@@ -41196,6 +41205,7 @@ znak.com##.relap
 ||practicequiz.com/responsive/js/ga.js
 ||pradaspa.tt.omtrdc.net^
 ||prairiedog.hashnode.com^
+||pravda.com.ua^$removeparam=pageviewCount
 ||pravo.ru/assets/*/js/event.js
 ||prawn.fffuel.co^
 ||prawn.lionsmouth.digital^
