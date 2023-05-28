@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202305270147
+! Version: 202305280214
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 60077
+! Lenth = 60058
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -593,8 +593,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 -amp-error-reporting.
 -analytics-events.
 -analytics-state?
--analytics-wi.
--analytics/analytics.
 -appanalytics-
 -asset-tag.
 -click-tracker.
@@ -616,12 +614,10 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 -monero-miner.$domain=~wp-monero-miner.com
 -monero-miner/
 -optimization-metrics.
--optimost-
 -page-analytics.
 -pcre-js-gen.herokuapp.com/tracking-event|
 -pixelfront-analytics.
 -quantcast-measurement.
--realtime-logging-
 -rttracking.
 -sa-tracker-
 -scroll-tracker.js
@@ -631,7 +627,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 -telemetry.officeapps.live.com^
 -track-email-open?
 -track-inview.
--tracker-geoip.
 -tracker.biliapi.net^
 -tracking-pixel.
 -tracking?referrer=
@@ -728,7 +723,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 .demdex.net/id^$redirect=nooptext,important
 .doctolib.de/tr/op/$image
 .doubleclick.net/$image
-.drive-analytics.
 .duolingo.com/open/
 .efeedbacktrk.com/$third-party
 .eloqua.js
@@ -949,7 +943,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /AssyncCSStats.aspx
 /AutoTracker.js
 /Avada-Child-Theme/js/GA.*js$domain=allurekorea.com|vogue.co.kr
-/BALinkImpressionTracking/*
 /BKVTrack.js
 /BehaviourCaptureHandler.
 /BlueKaiPixel/*
@@ -1751,14 +1744,12 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /backlink2.
 /baiduStatistics.js
 /banalytics.js$domain=posta.com.tr|cnnturk.com|fanatik.com.tr|gazetevatan.com|kanald.com.tr|teve2.com.tr|milliyet.com.tr|hurriyet.com.tr
-/banner-tracker.
 /banner.stats?
 /banners-stat.
 /base/es5/bundle.js
 /base/es6/bundle.js
 /basesdc.js
 /basicMetricsTracking.
-/basilic.php
 /batch.gif?
 /batch/1/OE/*
 /batch/1/OP/*
@@ -1766,10 +1757,7 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /baynote-$script
 /baynote.
 /baynote/*
-/baynote3.
-/baynote80.
 /baynote_
-/baynoteobserver/*
 /bb-analytics-
 /bbtstats/*
 /bc-track.
@@ -1790,10 +1778,8 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /beacon.min.js
 /beacon.php3?
 /beacon.php?
-/beacon/*?appKey=
 /beacon/affiliates
 /beacon/b.ashx?
-/beacon/baminsights.
 /beacon/collector/*
 /beacon/cpcookie.
 /beacon/error?
@@ -1812,7 +1798,6 @@ $xmlhttprequest,domain=flashx.cc|nowvideo.sx|povw1deo.com|powvideo.net|sleeptime
 /beacon/track/*
 /beacon/user-data
 /beacon/v1/batch?
-/beacon/vtn_loader.gif?
 /beacon?cust=
 /beacon_async.
 /beacon_img?
@@ -16743,6 +16728,7 @@ znak.com##.relap
 ||beacon.gutefrage.net^
 ||beacon.indieclicktv.com^
 ||beacon.itmedia.jp^
+||beacon.klm.com^
 ||beacon.kmi-us.com^
 ||beacon.kmi-us.com^$third-party
 ||beacon.livefyre.com^
@@ -26919,7 +26905,6 @@ znak.com##.relap
 ||fma7.aegon.es^
 ||fmbankva.actonservice.com^
 ||fmc-stj.tt.omtrdc.net^
-||fme.safe.com^
 ||fmnetwork.nl/tracking/
 ||fmnetwork.nl^$third-party
 ||fmqidg.letras.com^
@@ -32577,9 +32562,7 @@ znak.com##.relap
 ||l.fairblocker.com^$third-party
 ||l.ffsagami.com^
 ||l.ffx.io^
-||l.franceculture.fr^
 ||l.francetvinfo.fr^
-||l.gentside.com^
 ||l.ghostery.com/api/page/?d=
 ||l.hamazo.tv^
 ||l.ialoc.app^
@@ -34397,7 +34380,6 @@ znak.com##.relap
 ||maricich.actonservice.com^
 ||mariesideer.tns-gallup.dk^
 ||marinsm.com^$third-party
-||mark.isbank.com.tr^
 ||markedcrayon.com^
 ||markedcrayon.com^$third-party
 ||markedmeasure.com^$third-party
@@ -49470,7 +49452,6 @@ znak.com##.relap
 ||stadtbibliothek-rostock.de/weblication/grid5/gui/scripts/wClickLogger.js
 ||stadvtools.akamaized.net/trackingservice/
 ||staff-start.com/js/track
-||staff-start.com/js/track/
 ||stag.yves.tt.omtrdc.net^
 ||stage.www.data.srf.ch^
 ||staging-c.vcty.co^

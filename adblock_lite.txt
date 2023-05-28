@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202305270147
+! Version: 202305280214
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22691
+! Lenth = 22706
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -727,6 +727,7 @@
 3boys2girls.com###hotbar
 3boys2girls.com###overture_ads_long
 3boys2girls.com##.float320
+3czol.com##[class^="ban_"]
 3czol.com##div[class^="ban_"]
 3d66.com###botfocus-soft
 3d66.com##.King_Chance_LayerCont
@@ -9998,6 +9999,7 @@ zzzyk.com###Tinfo
 ||3boys2girls.com/templates/default/2013/life/160b5.js
 ||3boys2girls.com/templates/default/2013/randlinks.js
 ||3boys2girls.com^$subdocument
+||3czol.com/ad/
 ||3dcn.me^
 ||3dmax8.com/atu4/
 ||3dmax8.com/jiaoche
@@ -10747,6 +10749,7 @@ zzzyk.com###Tinfo
 ||9eu7c.top^
 ||9ez.me/embd.php?type=
 ||9f11.win^
+||9fa20230518.live^
 ||9fh6m.cn^
 ||9fum.ifeng.com^
 ||9h5qq.cn^$third-party
@@ -11618,6 +11621,7 @@ zzzyk.com###Tinfo
 ||ayverwe.cn^
 ||ayxz.com/images/$script
 ||ayxz.com/images/enkj_small.gif
+||ayynsdp.xyz^
 ||azdadf.com^
 ||azfqoeq.cn^
 ||azfrij.cn^
@@ -12228,6 +12232,7 @@ zzzyk.com###Tinfo
 ||brmzopt.cn^
 ||brstke.top^
 ||brysogsiv.uno^
+||brzfqq.com^
 ||bs.baidu.com/app-ads%
 ||bs777.net^$third-party
 ||bs7li.cn^
@@ -13297,6 +13302,7 @@ zzzyk.com###Tinfo
 ||dig.chouti.com/advert
 ||dig.qbao.com^
 ||diggtp001.com^
+||dikmnhyxz.xyz^
 ||dilidd.com^
 ||dilidili.wang/uploads/allimg/171227/1_1520203421.png
 ||dingbu.bj.bcebos.com^
@@ -13417,6 +13423,7 @@ zzzyk.com###Tinfo
 ||dnwx.com/pic_ad/
 ||dnyzbp.cn^
 ||dobiez.com/statics/wap_v1/js/qwd.
+||dobwll.xyz^
 ||doc88.com^*/count.js
 ||doccd.xyz^
 ||docer.org/static/utils/jquery.min.js
@@ -15428,6 +15435,7 @@ zzzyk.com###Tinfo
 ||iemwbu.cn^
 ||iepda.xyz^
 ||ifautzg.cn^
+||ifbfksf.xyz^
 ||ifbqves.cn^
 ||ifc-edu.cn^$third-party
 ||ifeng.com/a_if/
@@ -15947,6 +15955,7 @@ zzzyk.com###Tinfo
 ||jd5c.top^
 ||jd6pq31f.site^
 ||jdaa22.top^
+||jdamc.top^
 ||jddaw.com^
 ||jdexcgb.cn^
 ||jdgsgl.com^
@@ -17104,6 +17113,7 @@ zzzyk.com###Tinfo
 ||lucasyyy.ltd^
 ||luckydino.ren^
 ||ludie.xyz^
+||ludpa.xyz^
 ||lunhua5.com/images/more.gif
 ||lunivr.xyz^
 ||lunt.cx^
@@ -17318,6 +17328,7 @@ zzzyk.com###Tinfo
 ||mbalib.com/common/a_mbalib/
 ||mbazhaheix.top^
 ||mbepa.xyz^
+||mbly0.xyz^
 ||mbmqgo.cn^
 ||mbqwwa.cn^
 ||mbtpzcb.cn^
@@ -17414,6 +17425,7 @@ zzzyk.com###Tinfo
 ||mffdn.xyz^
 ||mfifsux.xyz^
 ||mfjiaoyu.cn^
+||mfoevvy.com^
 ||mfwlis.xyz^
 ||mg.32r.com^
 ||mg.glwxw.net^
@@ -18877,6 +18889,7 @@ zzzyk.com###Tinfo
 ||qlogo.cn^$domain=250dgj.ga
 ||qlogo.cn^$domain=chichiav1.xyz
 ||qlsynmly.fun^
+||qlwoglp.cn^
 ||qlzjwgb.cn^
 ||qm.qq.com^$domain=se8u.cc
 ||qm6ef.xyz^
@@ -20300,6 +20313,7 @@ zzzyk.com###Tinfo
 ||tiexue.net/domain-policy/
 ||tiexue.net/pic/tx_1220.jpg
 ||tiexue.net/zgg/
+||tifpjz.xyz^
 ||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
@@ -21537,6 +21551,7 @@ zzzyk.com###Tinfo
 ||xiaobixiaobi.com^
 ||xiaochen1.cn^
 ||xiaodongrui.com^
+||xiaodouding.club^
 ||xiaodutv.com/xda?
 ||xiaohui.ink^
 ||xiaoliublog.icu^
