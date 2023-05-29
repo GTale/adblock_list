@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202305280214
+! Version: 202305290227
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22706
+! Lenth = 22722
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -11764,6 +11764,7 @@ zzzyk.com###Tinfo
 ||baiducdnimages.com^$domain=chichiav1.xyz
 ||baiducom.bj.bcebos.com^
 ||baidudbvjksbvs.com^
+||baidudsvbshj.com^
 ||baidufkjnvbdsn.com^
 ||baidujavascript.com^
 ||baidujs.cnys.com^
@@ -13585,6 +13586,7 @@ zzzyk.com###Tinfo
 ||dybz44.com/js/html
 ||dycxkj.cn^
 ||dydab.com^
+||dydujb.xyz^
 ||dyguo.com/pc/*0.js
 ||dyguo.com/pc/nr336.js
 ||dyhjw.com/Public/v3/appdown/images/AppEntrance.png
@@ -13888,6 +13890,7 @@ zzzyk.com###Tinfo
 ||euyvpgn.cn^
 ||ev4f.top^
 ||evbb.xyz^
+||evenyw.xyz^
 ||everyonepiano.cn/Public/*0x
 ||evmnlpv.cn^
 ||evunmc.xyz^
@@ -14536,6 +14539,7 @@ zzzyk.com###Tinfo
 ||gogorenti.wang/js/m_cp
 ||gogpix.cn^
 ||goiagm.xyz^
+||goikbnjksdf.com^
 ||gold.szonline.net^
 ||gold678.com/news/js/layer/layer.js
 ||golden88.co^
@@ -16506,6 +16510,7 @@ zzzyk.com###Tinfo
 ||kfnvrt.xyz^
 ||kfocoq.xyz^
 ||kgacp.cyou^
+||kgcyvd.com^
 ||kgimg.com/public/root//images/hardware.jpg
 ||kgnlaigd.fun^
 ||kgnpwdf.cn^$third-party
@@ -16753,6 +16758,7 @@ zzzyk.com###Tinfo
 ||l45.xyz^
 ||l60.xyz^
 ||l6ssx.cn^
+||l74co.xyz^
 ||l7kuyg.site^
 ||l90.xyz^
 ||labgpz.xyz^
@@ -16863,6 +16869,7 @@ zzzyk.com###Tinfo
 ||letsread.club^
 ||letv.com/pzt/hyhmzq/index.shtml
 ||letzgr.cn^
+||lewqiiy.xyz^
 ||lexlufv.cn^
 ||lexph.com^
 ||lezbrja.cn^
@@ -17081,6 +17088,7 @@ zzzyk.com###Tinfo
 ||lqnggnsl.fun^
 ||lqrvkxk.cn^
 ||lr6e.top^
+||lrah0.top^
 ||lrkporm.cn^
 ||lrysogsil.uno^
 ||lrzsksw.cn^
@@ -17366,6 +17374,7 @@ zzzyk.com###Tinfo
 ||medsci.cn/images/wyg.jpg
 ||meexx.xyz^
 ||meidd.cyou^
+||meidd.xyz^
 ||meiguixsw.com/images/*.js
 ||meihaoxiangwang.com^
 ||meiju22.com/new/Public/gg.js
@@ -17754,6 +17763,7 @@ zzzyk.com###Tinfo
 ||mziwkyr.cn^
 ||mzlas.xyz^
 ||mzokqm.cn^
+||mzqf1.com^
 ||mztzba.cn^
 ||mzwfrp.cn^
 ||mzwzo.cn^
@@ -18160,6 +18170,7 @@ zzzyk.com###Tinfo
 ||oodcd.cn/pan/config/ad.json
 ||oodcd.cn/pan/config/copy.
 ||oodcd.cn/pan/config/history.
+||ooegpip.cn^
 ||ooeogk.xyz^
 ||ooexkqj.cn^
 ||oofyjik.xyz^
@@ -19443,6 +19454,7 @@ zzzyk.com###Tinfo
 ||sdfjtwp.com^
 ||sdfqs2.com^
 ||sdfv66.com^
+||sdfxcv.com^
 ||sdfxv57.com^
 ||sdhjqz.com^
 ||sdhongjia.com^
@@ -20172,6 +20184,7 @@ zzzyk.com###Tinfo
 ||taobc.com^
 ||taoguba.com.cn/res/js/tgbgg/
 ||taoguohe.com^$third-party
+||taoli.name^
 ||taosq.net/public/250x250.jpg
 ||taotaogeren.xyz^
 ||taoxiehui.cn^
@@ -20523,6 +20536,7 @@ zzzyk.com###Tinfo
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
 ||tw.rd.yahoo.com^$image
 ||twadakesi.cyou^
+||twandli.top^
 ||twavtv.com/js/jquery.colorbox
 ||twbqqq.com^
 ||twlcyc.cn^
@@ -21319,6 +21333,7 @@ zzzyk.com###Tinfo
 ||worldcup1.com/imgs/*.gif$domain=avcao.cc
 ||worlsbld.cyou^
 ||woshiyunying.com^
+||wosidnlkxq.com^
 ||wotto.cn^
 ||wotui.ltd^
 ||woven.pw^
@@ -22021,6 +22036,7 @@ zzzyk.com###Tinfo
 ||yiqiqgmy.cn^
 ||yiqiv.com^$third-party
 ||yiren34.com/js/
+||yisangyhqq.com^
 ||yisangyyds.com^
 ||yisd.press^
 ||yishuojiaoyu.cn^
