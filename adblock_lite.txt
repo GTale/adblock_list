@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202306010205
+! Version: 202306020224
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22779
+! Lenth = 22793
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -10406,6 +10406,7 @@ zzzyk.com###Tinfo
 ||69t49.com/floating/layer.js
 ||69wx1.top^
 ||6avz.com^$script,third-party
+||6cdwf.xyz^
 ||6dad.com^$third-party
 ||6dkl1vb.site^
 ||6dvip.com^
@@ -10686,6 +10687,7 @@ zzzyk.com###Tinfo
 ||949949.com/2013/end/hot_news.js
 ||94ab.com^$third-party
 ||94as.com/cxlnb.php
+||94evd.xyz^
 ||94itv.app/casino/
 ||94itv.net/f/
 ||94pr.cn^
@@ -11876,6 +11878,7 @@ zzzyk.com###Tinfo
 ||bcquan.me/front/*_ad
 ||bcquan.me/front/*_game
 ||bcquan.me/front/home/render
+||bcvxfgy.xyz^
 ||bcykbhb.cn^
 ||bd*-ys.km.com^
 ||bd-js1.2345.com^
@@ -12078,6 +12081,7 @@ zzzyk.com###Tinfo
 ||bianzhirensheng.com/img/bianzhiji.jpg
 ||biaoge.tv/fa
 ||bibotsays.com^
+||bicid.xyz^
 ||biddingx.com^$third-party
 ||bidvertiser.com^$third-party
 ||biedawo1004.xyz^
@@ -12585,6 +12589,7 @@ zzzyk.com###Tinfo
 ||chengjunjie.top^
 ||chengtongled.com/gg/
 ||chengtu.com/api.php?mod=ad&adid=
+||chenhaishan.info^
 ||chenhao.name^
 ||chenjiayu.cn/gg.js
 ||chenyt.club^
@@ -14119,6 +14124,7 @@ zzzyk.com###Tinfo
 ||fjsjsj.com^
 ||fjttbkoxer.xyz^
 ||fjzimaoqu.cn^$third-party
+||fka06.site^
 ||fkading38.xyz^
 ||fkesfg.com^
 ||fkf5.com/public/js/static.js
@@ -15520,6 +15526,7 @@ zzzyk.com###Tinfo
 ||ig1a.top^
 ||igamepark.biz/ads_output.php
 ||igao17.com/need/h5.js
+||igegeda.club^
 ||igiene.club^
 ||igig87.cn^
 ||igo.cn/liuxue/js/slideBar
@@ -16320,6 +16327,7 @@ zzzyk.com###Tinfo
 ||jstucdn.com/g3/
 ||jsuboyp.cn^
 ||jswz8.com/images/
+||jsx.luyouwang.com^
 ||jsyd139.com^$third-party
 ||jsyefc.com^
 ||jsztl.com/img/particular/tbyhq.jpg
@@ -19143,6 +19151,7 @@ zzzyk.com###Tinfo
 ||rayli.com.cn^$third-party
 ||rayss.host^
 ||razasot.cn^
+||razrzh.xyz^
 ||rbazhaheiz.top^
 ||rbbbdj.xyz^
 ||rbgfxxt.cn^
@@ -20193,6 +20202,7 @@ zzzyk.com###Tinfo
 ||t984kfjt37kjdh.wdach.com^$domain=pianba.net
 ||ta.trs.cn^$third-party
 ||tabyee.cn^
+||tacool.com^
 ||tad.suning.com^
 ||taidi.info^
 ||taiheian.top^
@@ -21474,6 +21484,7 @@ zzzyk.com###Tinfo
 ||wwzw.cc/img/
 ||wx.sina.com.cn/iframe/pdps/
 ||wx001.online^
+||wxbanking.com^
 ||wxfkanv.cn^
 ||wxlide.ink^
 ||wxumevd.cn^
@@ -22200,6 +22211,7 @@ zzzyk.com###Tinfo
 ||yrqwnc.cn^
 ||yrr56.com/mp4/pt_720.
 ||yrrcc.top^
+||yrszy.com.cn^
 ||yruvnmn.cn^
 ||ys.muhoujiemi.com^
 ||ys2000.cdn.bcebos.com^
@@ -22410,6 +22422,7 @@ zzzyk.com###Tinfo
 ||zdreo.cyou^
 ||zdrvtmj.cn^
 ||zdryg.com^
+||zdvzw.com^
 ||zdw.w8.com.cn/p.ht?
 ||zdx1.site^
 ||zdx10.site^
@@ -22510,6 +22523,7 @@ zzzyk.com###Tinfo
 ||zhoubo01.cn^
 ||zhoudm.love^
 ||zhouduanyyds.com^
+||zhouduayqq.com^
 ||zhpfl.cn^
 ||zhuashi.oss-cn-beijing.aliyuncs.com^$domain=~zhuashi.com
 ||zhuba8.com^
