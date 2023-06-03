@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202306020224
+! Version: 202306030243
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22793
+! Lenth = 22810
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -6843,6 +6843,7 @@ mydigit.cn,storyren.top###diyfastposttop
 mydowndown.com##p[style="color:#ff0000;"] > a[target="_blank"]
 mydowndown.com#?#.bs-component:-abp-has(>a[href*="97jez.com"])
 mydrivers.com###a_showhotnews_list_dia
+mydrivers.com###div_newsyjgg
 mydrivers.com###recommend
 mydrivers.com##.ab
 mydrivers.com##.adds
@@ -9871,6 +9872,7 @@ zzzyk.com###Tinfo
 ||2r45.cn^
 ||2r6.cn^
 ||2tyne.ic^
+||2tyne.icu^
 ||2ujj.com/js/bo.js
 ||2x8l63l0.cn^
 ||2yjw.com/statics/js/jquery.min.
@@ -11881,6 +11883,7 @@ zzzyk.com###Tinfo
 ||bcvxfgy.xyz^
 ||bcykbhb.cn^
 ||bd*-ys.km.com^
+||bd-china-1.appmobile.cn^
 ||bd-js1.2345.com^
 ||bd-s.baixing.net^
 ||bd.ahsrst.cn^
@@ -13720,6 +13723,7 @@ zzzyk.com###Tinfo
 ||ebioweb.com/newsf/js/news_top_banner.js
 ||ebp.renren.com^
 ||ebpu2.top^
+||ebqidwm.xyz^
 ||ebrun.com/jfile/position/js/*.js
 ||ebten.xyz^
 ||ebzqyow.cn^
@@ -13962,6 +13966,7 @@ zzzyk.com###Tinfo
 ||f1.pig66.com^
 ||f1.zaojv.com^
 ||f11.hackhome.com^
+||f1lws.top^
 ||f1t5pb.cn^
 ||f2dsex1.com/public/fb*.png
 ||f3go4jpwa.shop^
@@ -14295,6 +14300,7 @@ zzzyk.com###Tinfo
 ||g.lznews.cn^
 ||g.mnw.cn^
 ||g.rexian.net.cn/js/
+||g0cu3.top^
 ||g1.pptair.com^
 ||g1.tagtic.cn^
 ||g1.taijuba.com^
@@ -14578,6 +14584,7 @@ zzzyk.com###Tinfo
 ||gongshe99.com/d/js/gongshe/gsw
 ||gongwuyuan.name^
 ||gongxifc.com^
+||gongyuxinxi.xyz^
 ||gonpc.com^
 ||good8866.com/js/*.js
 ||goodcome.com.tw/block/ad/rndtopad.php
@@ -16033,6 +16040,7 @@ zzzyk.com###Tinfo
 ||jialingmm.net/img/gdw.jpg
 ||jialingmm.net/tj.js
 ||jiandan100.cn/images/site/union/
+||jiangxing.live^
 ||jiangxing.pub^
 ||jiangzimeng1.cn^
 ||jianhuadaily.com/wp-content/plugins/popup-
@@ -16589,6 +16597,7 @@ zzzyk.com###Tinfo
 ||kjhzwvq.cn^
 ||kjndc.xyz^
 ||kju369.cn^
+||kjugr.xyz^
 ||kjvnfhdgb.com^
 ||kjwx8.com^
 ||kjwysxs.cn^
@@ -16600,6 +16609,7 @@ zzzyk.com###Tinfo
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
 ||kkkqi.cn^
+||kkkqo.cn^
 ||kkpgv2.xunlei.com^
 ||kkqeqk.cn^
 ||kkuuu.top^
@@ -17188,6 +17198,7 @@ zzzyk.com###Tinfo
 ||lw0mp.fun^
 ||lw54.com/js/
 ||lw881.com/public/js/gw.js
+||lwandll.top^
 ||lwcsytn.cn^
 ||lwddrhp.cn^
 ||lwfcipd.cn^
@@ -18384,6 +18395,7 @@ zzzyk.com###Tinfo
 ||paradisemall.net^
 ||partner.googleadservices.com^$third-party
 ||payoneok.com^
+||pazz.xyz^
 ||pb.shuxigua.com^
 ||pbgtpjz.cn^
 ||pbhdwm.cn^
@@ -19777,6 +19789,7 @@ zzzyk.com###Tinfo
 ||sjcm.fun^
 ||sjjk.ltd^
 ||sjks88.com/templets/default/js/mydata4.js
+||sjzls.top^
 ||skads.gxsky.com^$script
 ||skbao.co^
 ||skdbarh.cn^
@@ -21647,6 +21660,7 @@ zzzyk.com###Tinfo
 ||xiaoxiangmovie.com^
 ||xiaoxiaozhijia.shop^
 ||xiaoyida.com^$third-party
+||xiaoyunong13.top^
 ||xiaoz.top/assets/imgurl.js
 ||xiaozengyyds.com^
 ||xiatian.buzz^
@@ -22473,6 +22487,7 @@ zzzyk.com###Tinfo
 ||zhanlan.asia^
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhaofuli.*/data/content
+||zhaozongqq.com^
 ||zhcps.cn^
 ||zhe8000.pw^
 ||zhemu.xyz^
@@ -22575,6 +22590,7 @@ zzzyk.com###Tinfo
 ||zk6.me^
 ||zk6c.top^
 ||zk789.cn/Res/Scripts/Show/NetSys/Show.ashx
+||zkbsvx.xyz^
 ||zkczbti.cn^
 ||zkdmdf.xyz^
 ||zkqfrti.cn^
@@ -22679,6 +22695,7 @@ zzzyk.com###Tinfo
 ||zt.chuanke.com/?mod=
 ||zt2088.com^
 ||zt5g.top^
+||ztaan.top^
 ||ztffac.com^
 ||ztidu.com^
 ||ztjal.info/wp-content/plugins/kill-adblock/
