@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202306040200
+! Version: 202306050220
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22825
+! Lenth = 22835
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -12189,6 +12189,7 @@ zzzyk.com###Tinfo
 ||bnqlgdj.cn^
 ||bnsdk.top^
 ||bny3.cn^
+||bny6.cn^
 ||bnz9.cn^
 ||boardx.huanqiu.com^
 ||bob4885.com^
@@ -12329,6 +12330,7 @@ zzzyk.com###Tinfo
 ||bvpaovs.cn^
 ||bvwxfok.cn^
 ||bw66.cn/template/default_pc/bbs/
+||bwandlv.top^
 ||bwogldv.top^
 ||bwwlw.cn^
 ||bx9000.top^
@@ -13489,6 +13491,7 @@ zzzyk.com###Tinfo
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
+||doubanio.com/view/photo/l/public/p2891976611.
 ||doubanio.com^*/js/ad.
 ||doublechen.online^
 ||doubleclick.ctfile.com^
@@ -14972,6 +14975,7 @@ zzzyk.com###Tinfo
 ||hefei.cc/templates/default/index_ad
 ||hefei64.com^
 ||hefeng-group.net/attach/20200605/Fl05PJWEPUSuVt1x6PeHbHiaQ59J.png
+||hefrpv.xyz^
 ||heha2cpoe.icu^
 ||hehehe.buzz^
 ||heibaizhibo.com/_nuxt/87a5efd04908651591f7.js
@@ -16870,6 +16874,7 @@ zzzyk.com###Tinfo
 ||lawtv.com.cn/skin/newplayer/ads_dianshi.php
 ||laxnlqn.cn^
 ||layuicdn.com/layer/layer.js$domain=hanjutvn.com
+||lazyii.icu^
 ||lbazhaheil.top^
 ||lbbyft.cn^
 ||lbjc.xyz^
@@ -18082,6 +18087,7 @@ zzzyk.com###Tinfo
 ||nwecd.xyz^
 ||nweon.com/wp-content/repo/ad/
 ||nwhvceb.cn^
+||nwmol.top^
 ||nwogldc.top^
 ||nwrazu.cn^
 ||nwuidsbjak.com^
@@ -21091,6 +21097,7 @@ zzzyk.com###Tinfo
 ||vqdjcy.com^
 ||vqhifd.xyz^
 ||vqjxlie.cn^
+||vrffwbf.cn^
 ||vrmgwvz.cn^
 ||vrrw.net//templets/default/js/ad.js
 ||vrtrdvx.cn^
@@ -21409,6 +21416,7 @@ zzzyk.com###Tinfo
 ||woaiseo.com.cn^
 ||wocexaa.cn^
 ||wocoqs.xyz^
+||wodw0.xyz^
 ||wofan.net^$third-party
 ||wogukcd.xyz^
 ||wojiabaoye.com^
@@ -22360,6 +22368,7 @@ zzzyk.com###Tinfo
 ||yystzl.cn^
 ||yyttc.top^
 ||yyttm.top^
+||yytxzct.xyz^
 ||yyujke.top^
 ||yyupphb.cn^
 ||yywccbdy.cyou^
@@ -22408,6 +22417,7 @@ zzzyk.com###Tinfo
 ||zaihu99.ltd^
 ||zaiyuanyqq.com^
 ||zanghaihua.org/js/
+||zangtankqq.com^
 ||zanlisgq.fun^
 ||zantainet.com^
 ||zantj.com/diao
