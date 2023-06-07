@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202306060201
+! Version: 202306070235
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21774
+! Lenth = 21796
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -4013,6 +4013,7 @@ douyu.com##.video-info-download
 douyu.com##a[href*=".miaozhen.com"]
 douyu.com##a[href*=".youzan.com"]
 douyu.com##a[href^="http://tracking.ad-survey.com/"]
+douyu.com##div[class^="ChargeTask"]
 douyu.com##div[id^="sign_p_"]
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
@@ -6866,6 +6867,7 @@ mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myexception.cn##.c_a_3
 myexception.cn##.m_a
+myfreax.com#?#main > div.w-full:has(> ins.adsbygoogle)
 myhack58.com##.adv32
 myk3.com##a[href*="?aid="]
 mypianku.net##div[style*="background:url"]
@@ -7469,6 +7471,8 @@ qiushibaike.com##.shopwindow
 qiuw.com##.con > a:nth-child(n+2)
 qiuziti.com##.popularize
 qiuziti.com##.search_wordimg
+qiuziti.com##a[href^="https://www.hellofont.cn/"] > img
+qiuziti.com#@#.banner
 qixin.com##.web-diversion-container
 qixingquan.com##.zdm
 qixingquan.com##div[style="float:right;margin-bottom:6px;"]
@@ -8517,6 +8521,7 @@ udn.com###sidebar_fix > .area.mag_topic > .nomurafunds > a[href^="https://p.udn.
 udn.com###simplemodal-container
 udn.com###simplemodal-overlay
 udn.com##.ad_mask
+udn.com##.bg-banner--link
 udn.com##.mag_topic > a[href][target="_blank"] > img[src^="https://p.udn.com.tw/upf/"][src*="_banners/Special/"]
 udn.com##.mag_topic > a[href^="https://goo.gl/"][target="_blank"] > img[src*="_banners/BD/"]
 udn.com##.more_ad
@@ -8525,6 +8530,7 @@ udn.com##.sponsor-wrapper
 udn.com##.udn-ads
 udn.com##div[class*="edn-ads"]
 udn.com##iframe[src*="udn.com/mall/cus/cat/OutWebAd.do"]
+udn.com#$#.main-content { background-image: none !important; }
 ufanw.com###banne
 uisdc.com##.archive-pm-top
 uisdc.com##.post-pm-content
@@ -9721,6 +9727,7 @@ zzzyk.com###Tinfo
 ||1n4o.icu^
 ||1papa.top^
 ||1porp.top^
+||1ppt.com/ads.
 ||1pwx.com/js/ck.js
 ||1qlgi.top^
 ||1qm5.top^
@@ -13342,6 +13349,7 @@ zzzyk.com###Tinfo
 ||drtyujgsg.xyz^
 ||drvsky.com/js/jolimark.gif
 ||ds9e.top^
+||dsbt7.com^
 ||dsctnsn.xyz^
 ||dsfd67.com^
 ||dsfhr.xyz^
@@ -13856,6 +13864,7 @@ zzzyk.com###Tinfo
 ||fijipic.xyz^
 ||files.jb51.net/image/
 ||files.zmzjstu.com/g3^
+||fillhr.xyz^
 ||fillidutt.tw^
 ||findnam.xyz^
 ||fioem.cyou^
@@ -14044,6 +14053,7 @@ zzzyk.com###Tinfo
 ||g2qb.top^
 ||g3f3.com/love/
 ||g77ds2.xyz^
+||g89zum.zaiceyjjqq.com^$domain=5yydstxt178.com
 ||g8ld.fun^
 ||g9o.cn^
 ||ga1.3dmgame.com^
@@ -14454,6 +14464,7 @@ zzzyk.com###Tinfo
 ||gutouwang.net^
 ||guuds.cyou^
 ||guzhimian.fun^
+||guzsjdl.cn^
 ||gv4e.top^
 ||gvqrclx.cn^
 ||gwaaz.cn^
@@ -14684,6 +14695,7 @@ zzzyk.com###Tinfo
 ||hepburn.net.cn^
 ||heqinyyds.com^
 ||heqishengcai1006.xyz^
+||heretrail.com^
 ||herky.com.cn^
 ||herogame.com^$subdocument,domain=gamer.com.tw
 ||heshun365.cn^
@@ -15374,6 +15386,7 @@ zzzyk.com###Tinfo
 ||irygym.xyz^
 ||irzwlux.cn^
 ||is686.com^$third-party
+||isancio.top^
 ||isdfbvkvsc.xyz^
 ||isdspeed.qq.com^
 ||ishanggao.com^
@@ -16044,6 +16057,7 @@ zzzyk.com###Tinfo
 ||keeearl.top^
 ||keentech.top^
 ||kefeng56.com^$third-party
+||kehbcv.top^
 ||keika.cyou^
 ||keiscithy.com^
 ||kejiadoor.cn^
@@ -16658,6 +16672,7 @@ zzzyk.com###Tinfo
 ||lv-play.com/web/adv/list
 ||lv.myapks.com^
 ||lvjoe.pw^
+||lvjtiaa.xyz^
 ||lvse.cn/output/block/html/
 ||lvse.com/9
 ||lvuptech.com/wp-content/plugins/deblocker/
@@ -16721,6 +16736,8 @@ zzzyk.com###Tinfo
 ||m.audio699.com/template/m/js/qqwweef
 ||m.bjdcfy.net^*.js
 ||m.danmeixsw.com/js/mwap.js
+||m.daomutxt.cc/dist/common.js
+||m.daomutxt.cc/js/
 ||m.dglscm.cn^$third-party
 ||m.ercos.cn^$third-party
 ||m.feisucn.com/assets/js/m.js
@@ -17181,6 +17198,7 @@ zzzyk.com###Tinfo
 ||mvxz.com/boximg/
 ||mvxz.com/img/
 ||mw6.me/images/*.gif
+||mwandlx.top^
 ||mwogldx.top^
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
@@ -18081,6 +18099,7 @@ zzzyk.com###Tinfo
 ||py.cn/static/images/advert/
 ||pygone.top^
 ||pyirw.xyz^
+||pyjqhb.xyz^
 ||pymby.top^
 ||pyntr.xyz^
 ||pyyhkn.com^
@@ -18623,6 +18642,7 @@ zzzyk.com###Tinfo
 ||rsdkk26.xyz^
 ||rsdop.icu^
 ||rshrpmk.xyz^
+||rsinnxoe.com^
 ||rsmdlk.cn^
 ||rsnignsz.xyz^
 ||rsnoownmz.fun^
@@ -19951,6 +19971,7 @@ zzzyk.com###Tinfo
 ||udn.com/common/iframe/
 ||udn.com/common2/iframe/
 ||udn.com/mall/cus/cat/OutWebAd.do
+||udn.com/upf/2014_sales/testpage/Bannerimage/*x*_*.jpg
 ||udn.com^*/ad/
 ||udnfunlife.com/mall/cus/cat/OutWebAd.do
 ||udpztkb.cn^
@@ -20071,6 +20092,7 @@ zzzyk.com###Tinfo
 ||uwhreur.cn^
 ||uwogldt.top^
 ||uwumr.cn^
+||uxcnhsf.cn^
 ||uxlidt.ink^
 ||uxwkiyp.xyz^
 ||uxxux.com/js/zd.js
