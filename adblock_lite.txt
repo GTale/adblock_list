@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202306120233
+! Version: 202306130205
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21866
+! Lenth = 21881
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -6552,6 +6552,7 @@ mangabz.com###cc1
 mangabz.com###cc2
 manhua.weibo.com###p-nav-fix + .p-area.w980
 manhuadb.com##a.d-block
+manhuadb.com#@#a.d-block
 manhuagui.com##.gg_728
 manhuagui.com##.gg_950
 manhuagui.com##.w250 > .mt10[style="width: 300px; height: 250px;"]
@@ -11706,6 +11707,7 @@ zzzyk.com###Tinfo
 ||baidu1.codejie.net^
 ||baiduada.babihu.com^
 ||baiduajbcjkabcav.com^
+||baidubvjsbvv.com^
 ||baiducdnimages.com^$domain=chichiav1.xyz
 ||baiducom.bj.bcebos.com^
 ||baidudbvjksbvs.com^
@@ -13944,6 +13946,7 @@ zzzyk.com###Tinfo
 ||fmild.xyz^
 ||fmzcdvx.cn^
 ||fn9u.fun^
+||fnfhjka.xyz^
 ||fnkio.cyou^
 ||fnnzr.cn^
 ||fo.iphonevip.cn^$third-party
@@ -14082,7 +14085,6 @@ zzzyk.com###Tinfo
 ||g2qb.top^
 ||g3f3.com/love/
 ||g77ds2.xyz^
-||g89zum.zaiceyjjqq.com^$domain=5yydstxt178.com
 ||g8ld.fun^
 ||g9o.cn^
 ||ga1.3dmgame.com^
@@ -14576,6 +14578,7 @@ zzzyk.com###Tinfo
 ||haiyunx.com^$third-party
 ||haizirv.cn^
 ||handanxinkai.com^
+||handerfix.com^
 ||handjob.tw/ad/
 ||handukeji.top^
 ||handuwangluo.top^
@@ -15592,6 +15595,7 @@ zzzyk.com###Tinfo
 ||jcelyj.com^
 ||jched3.com^
 ||jciske.top^
+||jciwztfj.com^
 ||jckdusa.cn^
 ||jcodecraeer.com/plus/fuckblok.
 ||jcrb.com/ZYW$subdocument
@@ -16420,6 +16424,7 @@ zzzyk.com###Tinfo
 ||ldmnq.com/bbs/$third-party
 ||ldmnq.com^$third-party,badfilter
 ||ldpsfa.com^
+||ldxinb.xyz^
 ||le123.cn^$third-party
 ||le258.cn^
 ||le4le.com^
@@ -16458,6 +16463,7 @@ zzzyk.com###Tinfo
 ||leztc.com^
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
 ||lfsenmei.com^
+||lfzk2cp.icu^
 ||lgecqrb.com^
 ||lgh2.fun^
 ||lgjxw.xyz^
@@ -16602,6 +16608,7 @@ zzzyk.com###Tinfo
 ||lnhsjob.com^$third-party
 ||lnnjnv.xyz^
 ||lnpqqq.com^
+||lnzjlr.xyz^
 ||lnzqw.net/js/
 ||lo9b.top^
 ||lobqpt.xyz^
@@ -18061,6 +18068,7 @@ zzzyk.com###Tinfo
 ||ppjttn.xyz^
 ||pplnjoow.com^
 ||ppltxv.xyz^
+||ppluoli.xyz^*.gif
 ||ppshk.com^*banner/
 ||ppshop.club^
 ||ppsj.com.cn/images/ppsj300.gif
@@ -18657,6 +18665,7 @@ zzzyk.com###Tinfo
 ||rmt.plus^
 ||rnajhyd.xyz^
 ||rngfavm.cn^
+||rnhqxh.com^
 ||rnzqde.xyz^
 ||robberyinscription.com^
 ||roeaasi.cyou^
@@ -18738,6 +18747,7 @@ zzzyk.com###Tinfo
 ||rxlidz.ink^
 ||rxmydyd.cn^
 ||rxuwtiv.cn^
+||rxyggrq.cn^
 ||rxys.cn^
 ||rylcbwg.cn^
 ||rz261.cn^$third-party
@@ -19160,6 +19170,7 @@ zzzyk.com###Tinfo
 ||slsyuulb.cam^
 ||sm3nq.cn^
 ||sm45k.com^
+||smabye.com^
 ||smailes.pro^
 ||smartfarming.cn^
 ||smgbka.xyz^
@@ -19802,6 +19813,7 @@ zzzyk.com###Tinfo
 ||trenhdg.com^
 ||trenhdg.com^$third-party
 ||troxa.xyz^
+||trp69.top^
 ||trqhf.xyz^
 ||truvidplayer.com^$domain=technews.tw
 ||trxs123.com/skin/default/js/jque.js
@@ -20108,6 +20120,7 @@ zzzyk.com###Tinfo
 ||urccncd.xyz^
 ||urwnsq.xyz^
 ||urysogsit.uno^
+||usancit.top^
 ||usbkngf.cn^
 ||uscdn.top^
 ||usejj.makepolo.cn^
@@ -20317,6 +20330,7 @@ zzzyk.com###Tinfo
 ||vsnoon.com^$third-party
 ||vt3a.top^
 ||vtfwgfo.cn^
+||vtvnnl.xyz^
 ||vue-js.cyou^
 ||vueegqt.xyz^
 ||vuetifyjs.com/notify.json
@@ -21126,6 +21140,7 @@ zzzyk.com###Tinfo
 ||ybayck.xyz^
 ||ybfljs.com^
 ||ybgo.xyz^
+||ybixvc.top^
 ||ybn4.top^
 ||ybsyyh.com^
 ||yc444.cn^
