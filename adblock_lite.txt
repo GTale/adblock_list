@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202306130205
+! Version: 202306140240
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21881
+! Lenth = 21890
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -707,6 +707,7 @@
 360kuai.com,hao.360.com###cangbao_redbags
 360zbz.com#@#.rightad
 365xuet.com##.cd-items
+368015.xyz##div[style="height:60px;width:100%;"]
 36dm.club,36dm.com,acgsou.com##.clear.text_center
 36dm.club,36dm.com,acgsou.com##a[style="color:red;"][href*="show-"]
 36dm.club,36dm.com,acgsou.com##img[width="250"][height="250"]
@@ -1062,7 +1063,7 @@
 69story.com###main > div[style="margin-top: 15px;"]
 69story.com##aside#secondary > section[id="text-2"]
 69vj.com###nta
-69xx.one,69xx487.xyz,8mav.cc,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
+69xx.one,69xx487.xyz,8mav.cc,av411.xyz,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
 6park.com##a[href*=".php?key="]
 6park.com##img[width="980"][height="90"]
 6park.com##table[width="89%"][height="60"]
@@ -1382,6 +1383,7 @@
 @@/bag2?r[]=*&r[]=$domain=free.com.tw
 @@/common/cf/*$domain=66u.com|changhong.com|fei3d.com|oneplusbbs.com|readboy.com
 @@/cpc_cpm_$domain=ygo-sem.cn
+@@/fingerprint.$domain=abchina.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|hnair.com|pop-fashion.com
 @@/fingerprint2.min.js$domain=csdn.net|neets.cc|passport.vpgame.com|shixiseng.com
 @@/fingerprintjs2.min.js$domain=imooc.com
@@ -7655,6 +7657,7 @@ rfidworld.com.cn##div[style="width: 100%;position: fixed;top: 0;margin:0;"]
 riaway.com##.info_message_container
 right.com.cn###hd > div.wp > div.hdc > h2
 right.com.cn##a[href^="https://jd.dangbei.com/"]
+right.com.cn#@##sitefocus.focus
 rising.cn###left50
 rising.cn###lowerrightAd
 rising.cn###pageflip
@@ -10452,6 +10455,7 @@ zzzyk.com###Tinfo
 ||778669.com^$third-party
 ||7791.com.cn^
 ||7794.com^$third-party
+||77aiav.me^
 ||77ds.*/js/77ad.js
 ||77ds.vip/js/shichuang.js
 ||77tum.top^
@@ -12814,6 +12818,7 @@ zzzyk.com###Tinfo
 ||cpu.baidu.com^$third-party
 ||cqfygc.xyz^
 ||cqjjlsy.com^
+||cqpczsu.cn^
 ||cqqwe2pea.xyz^
 ||cqvip.com/viewserver/ViewAD
 ||cqxykj.com.cn^
@@ -17370,6 +17375,7 @@ zzzyk.com###Tinfo
 ||nedes.xyz^
 ||neets.cc/assets/js/dup.js
 ||neg.hk^
+||neg2zos.icu^
 ||neipa.xyz^
 ||nekomasu.ltd^
 ||nen.com.cn/eap/
@@ -18528,6 +18534,7 @@ zzzyk.com###Tinfo
 ||r528e.cn^$third-party
 ||r5h6.icu^
 ||ra1.xyz^
+||ra5.xyz/z/*/code.
 ||ra5.xyz^
 ||rabbitcloud.ltd^
 ||rabc1.iteye.com^
@@ -18672,6 +18679,7 @@ zzzyk.com###Tinfo
 ||rongsonm.uno^
 ||rooby.cyou^
 ||rorlsblm.cyou^
+||rou.video/_next/static/chunks/pages/fuli-
 ||rou1.xyz^
 ||rou3.xyz^
 ||rouman5.com/a2/*.gif
@@ -18787,6 +18795,7 @@ zzzyk.com###Tinfo
 ||s3sng.cn^
 ||s4ls9.top^
 ||s65m.win^
+||s6in.cc^
 ||s7tu.com/images/*.gif
 ||s7w53.icu^
 ||s8bbs.com/ad/
