@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202306170258
+! Version: 202306180254
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21961
+! Lenth = 21972
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1300,6 +1300,7 @@
 :8888/zhu/wap_
 :8898/ads_
 :9001/code/
+:9875/vj2/
 :99/js/ads/
 =AdCode_$script,third-party
 =AdCode_sjdb
@@ -10555,6 +10556,7 @@ zzzyk.com###Tinfo
 ||8499234.com^
 ||8499258.com^
 ||8499683.com^
+||84zm8.xyz^
 ||8585go.com/recommend
 ||85tube.com/player/html.php?aid=*_html&video_id=*&*&referer
 ||85tube.com/player/html.php?aid=*_html&video_id=*&*&referer$redirect=nooptext
@@ -12321,6 +12323,7 @@ zzzyk.com###Tinfo
 ||ca.cydp5.com^
 ||ca30f.top^
 ||caaie.xyz^
+||caardinal.com^
 ||cacafly.net^
 ||cachead.com^*.js
 ||cadke.xyz^
@@ -13796,6 +13799,7 @@ zzzyk.com###Tinfo
 ||eyuyao.com/yyad/
 ||ezf48.xyz^
 ||ezfxpuo.cn^
+||ezlgszdb.icu^
 ||ezngisyw.xyz^
 ||ezprice.com.tw/ezysm/
 ||ezprice.com.tw/js/*_ysm_
@@ -15813,6 +15817,7 @@ zzzyk.com###Tinfo
 ||jkxty.mobi^
 ||jkxvvv.xyz^
 ||jlhygy.com^
+||jljftl.xyz^
 ||jllfxt.xyz^
 ||jlmhk.com/images/data/
 ||jlpcn.net/img/300p-
@@ -16477,6 +16482,7 @@ zzzyk.com###Tinfo
 ||le258.cn^
 ||le4le.com^
 ||leabd.douguo.com^
+||leadc7.icu^
 ||lebkrli.cn^
 ||lecai.com/page/zhuanti/baidu/
 ||lecuiwangluo.com^
@@ -17969,6 +17975,7 @@ zzzyk.com###Tinfo
 ||pfp.sina.com.cn^$script,subdocument
 ||pfp.sina.net/ea/ad/
 ||pfpmmxa.xyz^
+||pftdmmc.xyz^
 ||pg-ad-b1.nosdn.127.net^
 ||pgccaoy.cn^
 ||pgdt.gtimg.cn/gdt/$domain=info.3g.qq.com
@@ -18136,6 +18143,7 @@ zzzyk.com###Tinfo
 ||ppwrc.xyz^
 ||pqjprom.cn^
 ||pqldzp.xyz^
+||pqomnfbg.com^
 ||pqxyqq.com^
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
@@ -18546,6 +18554,7 @@ zzzyk.com###Tinfo
 ||qvcyeknp.xyz^
 ||qvkjkc.xyz^
 ||qvpublish.com^
+||qvxvvjom.com^
 ||qvyzdox.cn^
 ||qwadakesy.cyou^
 ||qwahk.com^
@@ -19882,6 +19891,7 @@ zzzyk.com###Tinfo
 ||trends.com.cn/k.js
 ||trenhdg.com^
 ||trenhdg.com^$third-party
+||trfmxf.xyz^
 ||troxa.xyz^
 ||trp69.top^
 ||trqhf.xyz^
@@ -21056,6 +21066,7 @@ zzzyk.com###Tinfo
 ||xnnews.com.cn/tpl/material/
 ||xnrcnz.xyz^
 ||xoimg.com^$domain=18board.com|18p2p.com
+||xokcaxw.cn^
 ||xonlines.com/upload/gg/
 ||xonlines.com/yyh_qp_200_200.png
 ||xopew.cyou^
