@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202306250211
+! Version: 202306260238
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22109
+! Lenth = 22121
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -12034,6 +12034,7 @@ zzzyk.com###Tinfo
 ||bh2q.fun^
 ||bhaoea.cn^
 ||bharalhallahs.com^
+||bhcnmrn.icu^
 ||bhcwr.cn^
 ||bhduan.xyz^
 ||bhfdgdounv.xyz^
@@ -12395,6 +12396,7 @@ zzzyk.com###Tinfo
 ||carnoc.com/noticejs/
 ||carstat.bitauto.com^
 ||cartoon18.com/images/friend/
+||casisi118.vip^
 ||catbox.moe/bb5wdv.jpg
 ||catdomepimyth.com^
 ||cattleman.cn^
@@ -13658,6 +13660,7 @@ zzzyk.com###Tinfo
 ||edu.jiukang.org^
 ||eduad.baidu.com^
 ||educity.cn/self_text/text_disp.aspx?id=
+||eduizioq.com^
 ||eduuu.com/website/public_js/pc_aso.js
 ||edwad.co^
 ||ee.32z8d.cn^$third-party
@@ -14143,6 +14146,7 @@ zzzyk.com###Tinfo
 ||fxx79.pro^
 ||fxxgw.com^$third-party
 ||fxxz.com/skin/know/all.js
+||fy14.cn^
 ||fy4zb.cn^
 ||fy6b.com^$image,third-party
 ||fydisk.com/images/showvip.gif
@@ -14232,6 +14236,7 @@ zzzyk.com###Tinfo
 ||gauqeo.xyz^
 ||gavbus*.com/assets/common/js/ad.js
 ||gavbus*.com/assets/common/js/admenu.js
+||gbcnvip15.com^
 ||gblvwv.com^
 ||gbzumh.cn^
 ||gccode.gongchang.com^
@@ -15032,6 +15037,7 @@ zzzyk.com###Tinfo
 ||htqyy.com/kiees/
 ||httpcn.com/Images/banner
 ||httpwwwdcom.com/js/aaa/
+||htvixv.xyz^
 ||hu.xbhy.com^
 ||hu4c.top^
 ||huadiximeng.cn^
@@ -16256,6 +16262,7 @@ zzzyk.com###Tinfo
 ||kgacp.cyou^
 ||kgcyvd.com^
 ||kgelugaz.com^
+||kgeshe.site^
 ||kgimg.com/public/root//images/hardware.jpg
 ||kgnlaigd.fun^
 ||kgnpwdf.cn^$third-party
@@ -17258,6 +17265,7 @@ zzzyk.com###Tinfo
 ||mobile01.com/groupbuying.php
 ||mobixc.vnfjsus.xyz^
 ||moe123.net/static/img/1200x
+||moead.xyz^
 ||moedao.com/js/top.js
 ||moegirl.org.cn/insight/MoegirlInsight.
 ||moend.xyz^
@@ -20849,6 +20857,7 @@ zzzyk.com###Tinfo
 ||wpozwh.com^
 ||wpqmiq.cn^
 ||wpqsmse.cn^
+||wqdro6us.icu^
 ||wqmgqm.xyz^
 ||wqnggnse.fun^
 ||wqweiog.xyz^
@@ -21185,6 +21194,7 @@ zzzyk.com###Tinfo
 ||xnnews.com.cn/adgl/
 ||xnnews.com.cn/tpl/material/
 ||xnrcnz.xyz^
+||xnzetb.xyz^
 ||xoimg.com^$domain=18board.com|18p2p.com
 ||xokcaxw.cn^
 ||xonlines.com/upload/gg/
@@ -21408,6 +21418,7 @@ zzzyk.com###Tinfo
 ||ygqrki.xyz^
 ||ygshu.com/js/h
 ||ygwdai.cn^
+||yh20230625tu.com^
 ||yhbdrnr.cn^
 ||yhdd1.com^$third-party
 ||yhdm.io/bar/
@@ -21984,6 +21995,7 @@ zzzyk.com###Tinfo
 ||zrblog.net/gg/
 ||zrblog.net/zanzhu/virpus.gif
 ||zrbn.ltd^
+||zrgbh6bm.icu^
 ||zrpyfgt.cn^
 ||zrrnqq.com^
 ||zrwba.cn^
