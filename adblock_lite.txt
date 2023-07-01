@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202306300242
+! Version: 202307010222
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 22186
+! Lenth = 22208
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -3774,6 +3774,7 @@ ctwant.com##.m-adpopup
 cupfox.app###page-wrap > div:nth-child(3)
 cupfox.app##.banner > div.banner-content.right
 cupfox.app##.banner-box
+cupfox.app##.cupfox-box
 cupfox.app##.t-img-box > a[target="_blank"] > img
 cupfox.app#?##outer-container > .model:has(> .model-content > a[href*=".jd.com"])
 cupfox.app#?#.model:-abp-has(> .model-content > a[href*=".jd.com"])
@@ -6743,6 +6744,7 @@ moegirl.org.cn##.moe-card[data-region="oversea"]
 moegirl.org.cn##.moe-card[region="oversea"]
 moerats.com##div[style="box-shadow: 1px 1px 5px 5px rgba(17, 150, 196, 0.35);border-radius: 15px;"]
 molure.cn##.adplan
+money.163.com##.ad1200
 money.163.com#$#.finance_header { height: auto !important; }
 money.163.com#$#.finance_header_gg { display: none !important; }
 money18.on.cc#@#.ads-bg
@@ -7437,6 +7439,9 @@ pujia8.com##.ad740
 pupudy.com##.asst-post_header
 pupudy.com##.sidebar
 pupudy.com##.sidebar > .widget-textasst:nth-child(n+3)
+pxedt.net##.ggtext
+pxedt.net##.index_nav_juzhong
+pxedt.net##.pf_dw
 py.cn##.index-advert
 py.cn##.right-pops
 py91.net##.widget_textads
@@ -8713,6 +8718,7 @@ wap.zol.com.cn###waitrep
 wapwenku.baidu.com,wk.baidu.com###bottomFixed
 wapwenku.baidu.com,wk.baidu.com##.tout
 wapwenku.baidu.com,wk.baidu.com##a[href^="http://www.baidu.com/cpro.php?"]
+war.163.com##.hotset
 warting.com##.hz2
 wasu.cn###scan_qrcode
 wasu.cn##.info_ads
@@ -9413,6 +9419,7 @@ zzzyk.com###Tinfo
 ||0ftyz.top^
 ||0hlc8.top^
 ||0kkbb.com/js/i.js
+||0krdn3.com^
 ||0l9x.cn^
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0p7w.cn^
@@ -10957,6 +10964,7 @@ zzzyk.com###Tinfo
 ||ab.cnbanbao.com^
 ||ab.rejushe.com^
 ||abab.com/pv.js
+||abalado.com^
 ||abbao.cn^*adblock
 ||abc.colayun.cn^
 ||abc.douguo.com^
@@ -11917,6 +11925,7 @@ zzzyk.com###Tinfo
 ||bdcpro*.techweb.com.cn^
 ||bdcse.xyz^
 ||bddwm.com^
+||bdfg9a.icu^
 ||bdfwzt.xyz^
 ||bdgg.qjy168.com^
 ||bdhcpll.cn^
@@ -13167,6 +13176,7 @@ zzzyk.com###Tinfo
 ||dcqs4.com^
 ||dcs.conac.cn/js/
 ||dcvbnzss.xyz^
+||dcvefz.xyz^
 ||dd1.diymianmo.com^
 ||dd112233dd.com^
 ||dd6364.com/js/777/
@@ -14937,6 +14947,7 @@ zzzyk.com###Tinfo
 ||hjfile.cn/site/js/pop_gift_plugin.js
 ||hjgrc.xyz^
 ||hjjkk66.xyz^
+||hjpqt.cn^
 ||hjtedf.xyz^
 ||hk-pub.com/forum/images/2009/gifbanner
 ||hk-pub.com/forum/images/banner/
@@ -17449,6 +17460,7 @@ zzzyk.com###Tinfo
 ||mwogldx.top^
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
+||mwzbp.iask.com.cn^
 ||mxdqfoo.cn^
 ||mxhbkj.cn^
 ||mxj.cx^
@@ -18241,6 +18253,7 @@ zzzyk.com###Tinfo
 ||pliaoboer.top^
 ||plkmd.com^
 ||plnshao.xyz^
+||plof69.com^
 ||plyuwqq.cn^
 ||pm.poqwua.cn^
 ||pm2b.top^
@@ -18392,6 +18405,7 @@ zzzyk.com###Tinfo
 ||q4ee.top^
 ||q7tl.icu^
 ||q88j2.top^
+||qaljfiwv.com^
 ||qanduan.com^
 ||qange.com^
 ||qaops.jgwsmqx.com^$third-party
@@ -19271,6 +19285,7 @@ zzzyk.com###Tinfo
 ||siduohua.top^
 ||siejp.cyou^
 ||sifang.info^
+||sifyeldb.top^
 ||sige20221230.xyz^
 ||sihbb.com/yang/
 ||sikqcwz.cn^
@@ -19776,6 +19791,7 @@ zzzyk.com###Tinfo
 ||taijuba.com/js/*_
 ||taijuba.com/js/tj
 ||taijuwang.com/template/alifun/js/unFavui.
+||tainec.fun^
 ||taisha.org/statics/js/pc2.0/common/form.bottom.
 ||taiwandaily.net/wp-content/uploads*_600x100.
 ||taiwannutrition.com/blog/wp-content/plugins/arscode-ninja-popups/
@@ -19817,6 +19833,7 @@ zzzyk.com###Tinfo
 ||tb58.net/plugin.php?id=tb58_
 ||tbazhaheii.top^
 ||tbcdn.cn/mm/tanxssp-custom/sina_
+||tbcgumkadc.xyz^
 ||tbxqbvt.cn^
 ||tc600.com^
 ||tc911.vip^
@@ -19825,6 +19842,7 @@ zzzyk.com###Tinfo
 ||tcnnnzt.cn^
 ||tcss.qq.com^
 ||tctltb.com^
+||tdavopl.icu^
 ||tdbwgrm.cn^
 ||tdjc.shop^
 ||teads.tv^$third-party
@@ -20149,6 +20167,7 @@ zzzyk.com###Tinfo
 ||twandli.top^
 ||twavtv.com/js/jquery.colorbox
 ||twbqqq.com^
+||twgzgqqu.com^
 ||twlcyc.cn^
 ||twn2e.cn^
 ||twnafj.xyz^
@@ -20161,6 +20180,7 @@ zzzyk.com###Tinfo
 ||twuipte.cn^
 ||twunbbs.com/images/
 ||twww.sbs^
+||twzadf.xyz^
 ||twzui6.com^
 ||tx888.wang^
 ||tx99y.net^
@@ -20424,6 +20444,7 @@ zzzyk.com###Tinfo
 ||uxxux.com/js/zd.js
 ||uygckiy.cn^
 ||uyjhbawd.xyz^
+||uym11.xyz^
 ||uysdxmo.com^
 ||uyt79.top^
 ||uyueread.com^
@@ -22106,6 +22127,7 @@ zzzyk.com###Tinfo
 ||zupulu.com/scripts/app/app.js
 ||zuqiuju.com^
 ||zuysfr.com^
+||zvdc9y.icu^
 ||zvfaxh.xyz^
 ||zvxwvny.cn^
 ||zw2b9.cn^
