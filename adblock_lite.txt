@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202307150215
+! Version: 202307160234
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21578
+! Lenth = 21587
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -66,9 +66,6 @@
 104.com.tw###aidma_128
 104.com.tw###aidma_588
 104.com.tw##.career-clinic-ad
-107cine.com##.flow-other
-107cine.com##.flow_right > div[style="margin-top:20px;"]
-107cine.com##a[href^="http://107cine.com/ads/"]
 1090ys8.com#%#//scriptlet("abort-on-property-read", "adBlockDetected")
 10co.biz,10co.xyz,10co.co,10co.me###popad
 10co.biz,10co.xyz,10co.co,10co.me#$##myTestAd { height: 1px!important; }
@@ -355,7 +352,7 @@
 1688.com.au##.ad_300_p
 16888.com##.cardataclass
 168gamer.com,168gamer.net##.b_tad
-16fan.com,jianshen8.com,manwa.me##.index-banner
+16fan.com##.item-newad
 16rd.com###diy_ad_article_right IMG
 16rd.com###diy_bbs_list_right IMG
 16rd.com###quick_pub_form
@@ -2043,6 +2040,7 @@
 @@||money18.on.cc/js/adbanner.js
 @@||moneysave.info^$generichide
 @@||monnsutogatya.com^$elemhide
+@@||moyens.net^$generichide
 @@||ms332.com^$generichide
 @@||msecnd.net/scripts/jsll-$domain=microsoft.com
 @@||msn.wrating.com/a1.js
@@ -3827,6 +3825,7 @@ dapenti.com##a[href*="sq.cc"]
 dasai8.com##.L > font[color="#0000FF"]
 dataguru.cn###bg
 dataguru.cn###popDiv
+datapps.org#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick^="setpos"]')
 dav01.com##.adwraper
 daweijita.com##.sidebar-right > .widget-box:first-child
 dayanzai.me##.at1
@@ -5917,6 +5916,7 @@ jianhuadaily.com##.alignnone[width="800"]
 jiankang.com##.all_eye
 jiankang.com##.three_hot
 jianshen114.com##.index_temp
+jianshen8.com,manwa.me##.index-banner
 jianshu.com###note-fixed-ad-container
 jianshu.com###web-note-ad-1
 jianshu.com##.aside > div[aria-label="3rd-ad"] + div:last-child
@@ -9541,7 +9541,6 @@ zzzyk.com###Tinfo
 ||107.182.131.103/cache/?q=/images/
 ||107.183.137.18^
 ||107.187.122.172^
-||107cine.com/front/js/layer.js
 ||108.171.248.234^
 ||109218er.xyz^
 ||10fang.com/static/skin/tfy/layer/layer.js
@@ -11339,6 +11338,7 @@ zzzyk.com###Tinfo
 ||aliyuni.xyz^
 ||aliyunsupercdn.com^
 ||allbeauty.com.tw/GoldPrice/*_CF.php
+||allcp.xyz^
 ||allicinarenig.com^
 ||alllget.com^$third-party
 ||allowfencelist.com^$third-party
@@ -11994,6 +11994,7 @@ zzzyk.com###Tinfo
 ||biddingx.com^$third-party
 ||bidvertiser.com^$third-party
 ||biedawo1004.xyz^
+||bifyeldv.top^
 ||bigear.cn/cache/htmlcache/
 ||bihaipack.com^
 ||bikannovel.com^
@@ -12175,6 +12176,7 @@ zzzyk.com###Tinfo
 ||btcfans.com/template/comiis_lssy/ad/
 ||btdb.in/beacon.html
 ||btdx8.com/tmp/
+||btescs.fun^
 ||btime.com/api/weblog?
 ||btkat.com/style/l.js
 ||btmao.cc/Public/yd/
@@ -12185,6 +12187,7 @@ zzzyk.com###Tinfo
 ||btpian.com/static/*960.js
 ||btpian.com/static/wenquan.js
 ||btschool.net/images/*/HDYGR
+||bttazsyk.icu^
 ||btwuji.com/jsj1/
 ||bu1.duba.com^
 ||bu1.vvvdj.com^
@@ -13271,6 +13274,7 @@ zzzyk.com###Tinfo
 ||dodo8.com/template/*/images/g_js/
 ||dogfight360.com/Usbeam/*_ad/
 ||dogfight360.com/Usbeam/yuelun_ad/
+||dojyiu8.com^
 ||doko.moe^$domain=pantsu.cat
 ||dol.tianya.cn/s?z=tianya&
 ||domain1.chahaoba.cn^
@@ -13415,6 +13419,7 @@ zzzyk.com###Tinfo
 ||dycxkj.cn^
 ||dydab.com^
 ||dydujb.xyz^
+||dyeperd.icu^
 ||dyguo.com/pc/*0.js
 ||dyguo.com/pc/nr336.js
 ||dyhjw.com/Public/v3/appdown/images/AppEntrance.png
@@ -13708,6 +13713,7 @@ zzzyk.com###Tinfo
 ||ewadakesw.cyou^
 ||ewahj.cyou^
 ||ewandlw.top^
+||ewfsef.com^
 ||ewmvim.xyz^
 ||ewogldw.top^
 ||ewrwf.com^
@@ -17351,6 +17357,7 @@ zzzyk.com###Tinfo
 ||npmeingm7.shop^
 ||nqbcf.cn/html/top
 ||nqcacox.cn^
+||nqdufv.xyz^
 ||nqezlls.cn^
 ||nqfrhd.xyz^
 ||nqnggnsc.fun^
@@ -18367,6 +18374,7 @@ zzzyk.com###Tinfo
 ||ra5.xyz/z/*/code.
 ||ra5.xyz^
 ||rabc1.iteye.com^
+||rabuagc.cn^
 ||rackcdn.com/htv/banners/$domain=hanime.tv
 ||radikal.ru^$domain=18board.com|18p2p.com
 ||radish-cake.xyz^
@@ -20662,6 +20670,7 @@ zzzyk.com###Tinfo
 ||xjpphoto.com^
 ||xjpsrb.xyz^
 ||xjwrq.com^
+||xjzyhp.xyz^
 ||xk3b.top^
 ||xkbinj.xyz^
 ||xkd*.com/layer/layer.js
