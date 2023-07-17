@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202307160234
+! Version: 202307170220
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21587
+! Lenth = 21601
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -410,6 +410,7 @@
 18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="20%"] > a[target="_blank"]
 18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="25%"]
 18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="33%"]
+18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="50%"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="320"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="330"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="900"]
@@ -5507,6 +5508,7 @@ ijiandao.com###index_top_ad
 ijiandao.com##div[class^="banner_h_"]
 ik123.com###aa960a
 ikandy.fun##.stui-banner__pic[href="/statics/js/ky-a.html"]
+ikandy1.com##A[href*="/ky-a.html"]
 ikjzd.com##.article-banner-wrap
 ikjzd.com##.foot-advert-box
 ikjzd.com##.wv-head-img > .wv-head-item-img:last-child
@@ -7411,6 +7413,7 @@ pptjia.com##.alert2_wrap
 pptstore.net#@#.ad-big
 pptv.com###installApp
 pptv.com##.mod_960x90
+ppys66.com##.container-slide + .container-slide
 pqworld.com##.left-float
 pqworld.com##.left-float-tx
 preface.ai##.cs-sidebar__inner > .widget_media_image
@@ -9629,6 +9632,7 @@ zzzyk.com###Tinfo
 ||136.0.56.196^
 ||1368999.com^
 ||137.175.69.92^
+||1379a.xyz^
 ||1381a.xyz^
 ||1383a.xyz^
 ||1385a.xyz^
@@ -11766,6 +11770,7 @@ zzzyk.com###Tinfo
 ||bb999.net/pic/n/agents/C-79.gif
 ||bbads.vip^
 ||bbazhaheiv.top^
+||bbges.xyz^
 ||bbhktv.xyz^
 ||bbk5921.yncjsc.cn^$third-party
 ||bbnnnb.com^*.js
@@ -13671,6 +13676,7 @@ zzzyk.com###Tinfo
 ||erwgj.xyz^
 ||es3984.review/02_cn_ad/
 ||esanciw.top^
+||esgher.fun^
 ||esgher.site^
 ||esiws.com^
 ||esjzj.cyou^
@@ -14692,6 +14698,7 @@ zzzyk.com###Tinfo
 ||hfk7j.top^
 ||hflssy.com^
 ||hfqdipw.cn^
+||hgf8hck.com^
 ||hgiafe.site^
 ||hgibbei.cyou^
 ||hgpdoa.cn^
@@ -15538,6 +15545,7 @@ zzzyk.com###Tinfo
 ||jh001.cc^
 ||jh16csf.com^
 ||jhgtf.com^
+||jhlazsot.icu^
 ||jhlxfw.cn^
 ||jhxcld.xyz^
 ||jhzfwl.cn^
@@ -16921,6 +16929,7 @@ zzzyk.com###Tinfo
 ||mipengine.baidu.com/common?
 ||mipujia.com^$third-party
 ||misafnix.space^
+||misapopait.com^
 ||missav.com/static/img/partners/
 ||missevan.com^$domain=jijidown.com
 ||missyuan.com/sy/
@@ -17323,6 +17332,7 @@ zzzyk.com###Tinfo
 ||niwota.com^$third-party
 ||njcengpianwang.cn^
 ||njdaily.cn/templates/njdaily2014/widget/njdaily-slideAds
+||njogejt.icu^
 ||njslx.cn^
 ||njtprv.xyz^
 ||njxzwh.com/pcsoft/statics/ycgg/
@@ -20089,6 +20099,7 @@ zzzyk.com###Tinfo
 ||vmvps.com/aoyohost-com-bann
 ||vnet.cn^*.html
 ||vnet.cn^*.html?$popup,third-party
+||vnfsbl.xyz^
 ||vnlqcod.cn^
 ||vnq3.top^
 ||vns86.oss-*.aliyuncs.com^
@@ -20733,6 +20744,7 @@ zzzyk.com###Tinfo
 ||xorlsblw.cyou^
 ||xp85.com/common/js/allpage.js
 ||xpcha.com/js/notice.js
+||xpcwrgy.cn^
 ||xpdjsd.cn^
 ||xpj08.oss-cn-beijing.aliyuncs.com^
 ||xpqy.xyz^
@@ -20752,6 +20764,7 @@ zzzyk.com###Tinfo
 ||xstt5.com/skin/v3/js/dibu.js
 ||xstt5.com/template/js/fx
 ||xswape.top^
+||xtbzff.xyz^
 ||xthrdyi.cn^
 ||xtpez.xyz^
 ||xtpwfb.xyz^
@@ -21374,6 +21387,7 @@ zzzyk.com###Tinfo
 ||zhy333.com^$third-party
 ||zhzyw.com/js/InsertJS.js
 ||ziedwr.com^
+||zifyeldq.top^
 ||zikao365.com/upload/js/pfgg/
 ||ziling.ink^
 ||zipeyrp.cn^
