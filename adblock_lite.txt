@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202307170220
+! Version: 202307180207
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21601
+! Lenth = 21616
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -2415,7 +2415,7 @@ acwifi.net##.article-content > div[style="float: none; margin:10px 0 10px 0; tex
 acwifi.net##.widget_ssr
 acwifi.net,zhain8.com##.ssr
 adbug.cn#@#.google_ads
-adguard.com,adguard.app##.hello_from_adguard_chinese
+adguard.info,adguard.com,adguard.app##.hello_from_adguard_chinese
 admaimai.com##.in16_w01 > div[class*="_ad0"]
 admin5.com##.float_both_index
 admin5.com##.notice
@@ -3961,6 +3961,7 @@ docsmall.com##.modal-connection.show
 docsmall.com#%#//scriptlet("set-constant", "_AdBlockInit", "noopFunc")
 dogedoge.com##.tag-home__item
 dogfight360.com#%#//scriptlet("abort-current-inline-script", "document.write", "document.write(ad);")
+doii.cc##.w-\[200px\].fixed
 dongao.com##div[class^="fu_"]
 dongao.com,zgsyz.com###ad
 dongtw.com#@#.post-share-container
@@ -5508,7 +5509,7 @@ ijiandao.com###index_top_ad
 ijiandao.com##div[class^="banner_h_"]
 ik123.com###aa960a
 ikandy.fun##.stui-banner__pic[href="/statics/js/ky-a.html"]
-ikandy1.com##A[href*="/ky-a.html"]
+ikandy1.com##a[href*="/ky-a.html"]
 ikjzd.com##.article-banner-wrap
 ikjzd.com##.foot-advert-box
 ikjzd.com##.wv-head-img > .wv-head-item-img:last-child
@@ -6670,6 +6671,7 @@ mianbao99.com##.downApp
 mianhuatang520.com###addiv2
 miaopai.com##.footer_banner
 miaopai.com,renren.com##.swiper-container
+miaoshangmanhua.com##.cy_menuright
 microcontrol.cn###body > table[width="758"]
 microsoftnews.msn.cn##div[class^="nativeAd-DS-card"]
 microsoftnews.msn.cn#?#.riverSections-DS-EntryPoint1-1 > div[style^="display: grid;"] > div[style^="grid-area:"]:last-child > .card-DS-card1-1 > div[class^="nativeAd-DS-card"]:upward(2)
@@ -10887,6 +10889,7 @@ zzzyk.com###Tinfo
 ||a6.hujiang.com^$domain=~class.hujiang.com
 ||a666.one^
 ||a78wt.top^
+||a8age.com^
 ||a907907.com^
 ||a962m.xyz^
 ||aa.gushiwen.org^
@@ -11515,7 +11518,6 @@ zzzyk.com###Tinfo
 ||autoimg.cn/club/v1Content/images/heycar
 ||autoimg.cn/club/v1Content/images/heycar1111.jpg
 ||autoimg.cn/club/v1Content/images/young
-||autoimg.cn/engine/root/fggxl.js
 ||autonet.com.tw/90/
 ||autopiano.cn/data/jd_
 ||auwehnw.cn^
@@ -11719,6 +11721,7 @@ zzzyk.com###Tinfo
 ||baishui.me^
 ||baishuku.com/news/$script
 ||baitaiad.com^$third-party
+||baitaiz.com^
 ||baiten.cn/images/weInternation/
 ||baitu1llbkotsfthllcjeg.com^
 ||baitugu.com^$third-party
@@ -12359,6 +12362,7 @@ zzzyk.com###Tinfo
 ||ccl1.icu^
 ||cclw.xyz^
 ||ccmeng.com^$third-party
+||ccnim.xyz^
 ||ccoo.cn/mystat.asp
 ||ccpufcj.cn^
 ||cctg.cc^
@@ -13279,6 +13283,7 @@ zzzyk.com###Tinfo
 ||dodo8.com/template/*/images/g_js/
 ||dogfight360.com/Usbeam/*_ad/
 ||dogfight360.com/Usbeam/yuelun_ad/
+||doii.cc/mmm/
 ||dojyiu8.com^
 ||doko.moe^$domain=pantsu.cat
 ||dol.tianya.cn/s?z=tianya&
@@ -13672,6 +13677,7 @@ zzzyk.com###Tinfo
 ||erhsxv.top^
 ||ermao20230220.live^
 ||erop.store^
+||ertgbme.com^
 ||ertjo.xyz^
 ||erwgj.xyz^
 ||es3984.review/02_cn_ad/
@@ -13816,6 +13822,7 @@ zzzyk.com###Tinfo
 ||fdbskb.cn^
 ||fdc.com.cn^*adv
 ||fdc.my0511.com^$script
+||fddxbn.xyz^
 ||fdfghgfdd.yunqishi.net^
 ||fdgem.com^
 ||fdrxdr.xyz^
@@ -14783,6 +14790,7 @@ zzzyk.com###Tinfo
 ||hnzhengtongkj.cn^
 ||hnzls8.cn^
 ||ho3ia.cn^
+||hohmaryt.com^
 ||hohpdld.cn^
 ||hoiea.xyz^
 ||homebao.me^
@@ -16894,6 +16902,7 @@ zzzyk.com###Tinfo
 ||mhysbwo.xyz^
 ||mianbao99.com/a/mianbao
 ||mianwww.com/wp-content/uploads/2014/05/insigmaedu1.gif
+||miaoshangmanhua.com/template/pc/skin01/images/250_250.
 ||miaozhen.com^$third-party
 ||micaitu.net/js/dibu.js
 ||micfu.cyou^
@@ -16903,6 +16912,7 @@ zzzyk.com###Tinfo
 ||miduoke.net^$third-party
 ||mifeng.buzz^
 ||mifengtd.cn/ad-
+||mifyeldx.top^
 ||miguyu.com/AD/
 ||mihouse.pw^
 ||mikanani.me/images/Masha/
@@ -18077,6 +18087,7 @@ zzzyk.com###Tinfo
 ||qectme.xyz^
 ||qehaxkl.cn^
 ||qerbert78.xyz^
+||qezpjlp.cn^
 ||qf1d.top^
 ||qfblqq.com^
 ||qfdtqq.com^
@@ -20142,11 +20153,13 @@ zzzyk.com###Tinfo
 ||vvtztj.xyz^
 ||vvv.ieduw.com^
 ||vvvkp.com/template/ttk/img/
+||vvwuqxp.icu^
 ||vw66i.top^
 ||vwtjvd.xyz^
 ||vwvjzd.xyz^
 ||vx2e.top^
 ||vx4n.icu^
+||vxhtxt.xyz^
 ||vxotu.com/i/*.gif
 ||vxvtzx.xyz^
 ||vydbvp.xyz^
@@ -21136,6 +21149,7 @@ zzzyk.com###Tinfo
 ||yuguo.shop^
 ||yui-nya.com/wp-content/uploads/2016/12/37011.jpg
 ||yui-nya.com/wp-content/uploads/2016/12/neta370-370.jpg
+||yuifgh.fun^
 ||yulidianshang.com^
 ||yuliglsd.space^
 ||yumingroot.xyz^
@@ -21299,6 +21313,7 @@ zzzyk.com###Tinfo
 ||zeookuv.xyz^
 ||zerolcp.cn^
 ||zetcul.xyz^
+||zexfzson.icu^
 ||zfcdirf.icu^
 ||zffymmdg.com^
 ||zfmtyv.buzz^
