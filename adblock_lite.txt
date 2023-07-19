@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202307180207
+! Version: 202307190307
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21616
+! Lenth = 21630
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -11974,6 +11974,7 @@ zzzyk.com###Tinfo
 ||bfsqtsn.cn^
 ||bg04y.xyz^
 ||bgbyzv.xyz^
+||bgdizsay.icu^
 ||bgnlaigv.fun^
 ||bh2q.fun^
 ||bhaoea.cn^
@@ -12195,6 +12196,7 @@ zzzyk.com###Tinfo
 ||btpian.com/static/*960.js
 ||btpian.com/static/wenquan.js
 ||btschool.net/images/*/HDYGR
+||btsvad8.com^
 ||bttazsyk.icu^
 ||btwuji.com/jsj1/
 ||bu1.duba.com^
@@ -12959,6 +12961,7 @@ zzzyk.com###Tinfo
 ||daede.cn^
 ||daenf.cn^
 ||daf-rs.com/imageViewer/wpAd
+||dafdf.cn^
 ||dagamemisdeed.com^
 ||dagft.cn^
 ||dagou2018.com/js/item
@@ -12995,6 +12998,7 @@ zzzyk.com###Tinfo
 ||daliantong.com.cn^$third-party
 ||dalingjia.ren^
 ||dalipan.com/api/taobao
+||dalld.xyz^
 ||damai.cn/phpstat/
 ||dameyuan.com^
 ||damhixs.cn^
@@ -13060,6 +13064,7 @@ zzzyk.com###Tinfo
 ||ddqkqq.com^
 ||ddshu.net/a_d_code/
 ||ddtx.fun^
+||ddush.xyz^
 ||dduu.buzz^
 ||ddxolb.xyz^
 ||ddxs.xyz^
@@ -13133,6 +13138,7 @@ zzzyk.com###Tinfo
 ||dheear.site^
 ||dherea.site^
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
+||dhjrvj.xyz^
 ||dhkipdsc.xyz^
 ||dhl.135320.com^
 ||dhl4.xyz^
@@ -13659,6 +13665,7 @@ zzzyk.com###Tinfo
 ||eotglx.top^
 ||ep6a.top^
 ||epmf4.cn^
+||epoid.xyz^
 ||epoun.top^
 ||eprice.com.tw/img/tw_m/ad/
 ||eq.af31f.site^
@@ -13867,6 +13874,7 @@ zzzyk.com###Tinfo
 ||fh21.com.cn/partners/
 ||fhddnh.xyz^
 ||fhfgg.com^
+||fhglcpf.icu^
 ||fhhvdzr.cn^
 ||fhiiyi.cn^
 ||fhpjoqi.cn^
@@ -14758,6 +14766,7 @@ zzzyk.com###Tinfo
 ||hkdm688.*/js/68/
 ||hkfuy.com^
 ||hkitblog.com^*-banner
+||hkkeafj.cn^
 ||hkmte.com/seo.js
 ||hktvmall.com/api/preroll/getList?
 ||hladalliance.com^
@@ -15862,6 +15871,7 @@ zzzyk.com###Tinfo
 ||jusha.com^$third-party
 ||just4kira.cn^
 ||justasimple.top^
+||jutwzssh.icu^
 ||juuhe.com^
 ||juvtpeb.cn^
 ||juweixin.com/static/spk
@@ -17317,6 +17327,7 @@ zzzyk.com###Tinfo
 ||ni87.com^
 ||nicelinks.site/ad-block-
 ||nieae.xyz^
+||nifyeldc.top^
 ||nihuwo.asia^
 ||niik9494.top^
 ||nijj990.xyz^
@@ -17356,6 +17367,7 @@ zzzyk.com###Tinfo
 ||nmhte.xyz^
 ||nmtibv.xyz^
 ||nmwbank.cn^
+||nnfyxd.xyz^
 ||nntsdp.xyz^
 ||no1.168abc.net/upload/
 ||nogff.top^
@@ -17633,6 +17645,7 @@ zzzyk.com###Tinfo
 ||owandlk.top^
 ||owdfxgc.cn^
 ||owihyg.xyz^
+||owlinggnomist.com^
 ||owogldk.top^
 ||oxmun.com^
 ||oxneww.co^
@@ -20575,6 +20588,7 @@ zzzyk.com###Tinfo
 ||xdwan.com^$third-party
 ||xdyjt.com^
 ||xecner.top^
+||xeghes.fun^
 ||xeiatmf.cn^
 ||xeiyt.cyou^
 ||xengbale.fun^
