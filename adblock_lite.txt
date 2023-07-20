@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202307190307
+! Version: 202307200201
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21630
+! Lenth = 21640
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -9174,6 +9174,8 @@ ytbbs.com##.ftop_ad_2016
 yule.iqiyi.com##div[style="width:180px;padding:25px 0 20px 20px;float:right;margin-right: 30px;"]
 yun.cn##div[class*="ad-block"]
 yunduanxin.xyz###adb-mask
+yunpan.com#@#.share-new
+yunpan.com#@#.share-wrapper
 yutu.cn###botfocus-res
 yx.kimg.cn##ul#feedList > li.feed-list-ad
 yxbao.com###gs_down
@@ -13642,6 +13644,7 @@ zzzyk.com###Tinfo
 ||enet.com.cn/counter.php
 ||enews10.yxlady.net^
 ||eng24.com/js_new/copyright_float.
+||enhad.xyz^
 ||ennde.cyou^
 ||enread.com/img/185-50.gif
 ||ent1.12584.cn^
@@ -14019,6 +14022,7 @@ zzzyk.com###Tinfo
 ||fvtrx.cyou^
 ||fvzljv.xyz^
 ||fweia.xyz^
+||fwepd.xyz^
 ||fwrpq.cyou^
 ||fwsir.com/static/cpt/
 ||fwwang.cn/templets/fw/js/art
@@ -14233,6 +14237,7 @@ zzzyk.com###Tinfo
 ||ghhtt.top^
 ||ghjie.com/JS/youcegg.js
 ||ghjie.com/images/2012/images/bg
+||ghland.site^
 ||ghoffice.com/bbs/js/float.js
 ||ghost.wang^
 ||ghost580.com/js/nei4.js
@@ -15677,6 +15682,7 @@ zzzyk.com###Tinfo
 ||jjj*.com/static/js/common.js
 ||jjjgame.com/images/ad11.jpg
 ||jjkiahh.icu^
+||jjklrcw.com^
 ||jjnrqq.com^
 ||jjwxc.net/adsmanage.
 ||jjwxc.net/jjPopup.php
@@ -16579,6 +16585,7 @@ zzzyk.com###Tinfo
 ||lr6e.top^
 ||lrah0.top^
 ||lrkporm.cn^
+||lrlsrz.xyz^
 ||lrysogsil.uno^
 ||lrzsksw.cn^
 ||lsancil.top^
@@ -17409,6 +17416,7 @@ zzzyk.com###Tinfo
 ||ntce.com/images/js/ntce_public.js
 ||ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||ntimg.cn/original/images/www_ads.jpg
+||ntozchv.icu^
 ||ntozr.top^
 ||ntppyc.cn^
 ||ntsibo.com^
@@ -17440,6 +17448,7 @@ zzzyk.com###Tinfo
 ||nwxs5.com/js/
 ||nxflv.com/nxflv.js
 ||nxhh.net/gw/gw.js
+||nxhwvt.xyz^
 ||nxing.cn/uploads/uploads/*-size1220x
 ||nxl791.com^
 ||nxlidc.ink^
@@ -20161,6 +20170,7 @@ zzzyk.com###Tinfo
 ||vupload.duowan.com^
 ||vuxxtn.xyz^
 ||vv1.pyhfxdm.cn^
+||vvdzucs.cn^
 ||vvfht.fun^
 ||vvsbwny.cn^
 ||vvtztj.xyz^
