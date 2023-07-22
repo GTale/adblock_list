@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202307210228
+! Version: 202307220220
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21658
+! Lenth = 21675
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -2217,6 +2217,7 @@
 @@||studioclassroom.com/ad/
 @@||sudupan.com^*/*.gif
 @@||suning.cn/project/msIndex/js/??
+@@||supercloudsms.com/static/js/taboola_ads.js
 @@||swsc.com.cn/download/ad_images/
 @@||sxjbjt.com^*/ad
 @@||szhr.com.cn^$generichide
@@ -6963,6 +6964,8 @@ news.baidu.com##.swipe-backflow-container
 news.baidu.com#?#.index-list-item:-abp-has(.tip-time:-abp-contains(广告))
 news.china.com.cn##.Wrapper > div[style]
 news.cn2che.com##.banner01
+news.ebc.net.tw###marquee-box
+news.ebc.net.tw##.fncnews-content > div.raw-style > div > p > a[href]
 news.ebc.net.tw##a[href^="http://www.ebcbuzz.com/url/"]
 news.gamebase.com.tw##.PCAD
 news.gamebase.com.tw##.PcNewsUpAds
@@ -9620,16 +9623,15 @@ zzzyk.com###Tinfo
 ||126.net/ntesrich/*/suning-
 ||126.net^$script,redirect=noopjs,domain=rjno1.com
 ||126.net^*analysis
+||1267a.xyz^
 ||127.net/2018/08/15/71ee02b5b61c4090b3ce0116306596c2.jpeg
 ||127.net/external/js6promote
 ||127.net/external/js6public126_
 ||127.net/external/js6public163_
 ||127.net/m/*/promPic.jpg
-||12999.com/JS/
 ||12img.com/ad/
 ||131458.com/union/
 ||1328f.com/js/jquery.js
-||13322.com/newIndex/ad/
 ||1338999.com^
 ||134.73.54.252^
 ||1342a.com/js/jquery.js
@@ -9692,7 +9694,6 @@ zzzyk.com###Tinfo
 ||163disk.com/static/aimgs/d
 ||163disk.com/static/images/51
 ||163disk.com/static/www/
-||163jiankang.com/zhuanqian/m/myad-
 ||164.155.185.254^
 ||168.it168.com^$script
 ||1684sm.com/js/1684/
@@ -12160,6 +12161,7 @@ zzzyk.com###Tinfo
 ||brfgbn.xyz^
 ||brfvyrrp.com^
 ||bridalplums.com^
+||bridgetnbe.com^
 ||brkxgfs.cn^
 ||brkzczn.cn^
 ||brysogsiv.uno^
@@ -12288,6 +12290,7 @@ zzzyk.com###Tinfo
 ||c2000.cn/c2000/
 ||c4d.cn/api.php?mod=ad&adid=
 ||c4d.cn/template/iscwo_zcool/iscwo/ad/
+||c4d4.cn^
 ||c6.friok.com^
 ||c6890.cn^$third-party
 ||c9cc.icu^
@@ -14308,6 +14311,7 @@ zzzyk.com###Tinfo
 ||godie.cyou^
 ||godloveme.cn^
 ||godlu.com^
+||godni.xyz^
 ||gog.cn/sys/online_calc.js
 ||gogfhq.xyz^
 ||gogorenti.wang/js/m_cp
@@ -14631,6 +14635,7 @@ zzzyk.com###Tinfo
 ||hdapp1008-a.akamaihd.net^
 ||hdc.maxli.cn^
 ||hdchina.*/styles/topshow/AD/
+||hdfdsdaw.com^
 ||hdgzta.com^
 ||hdherpc.cn^
 ||hdminfeng.com^
@@ -14857,6 +14862,7 @@ zzzyk.com###Tinfo
 ||hqcx.net/index.php?m=poster&
 ||hqdfh.mobi^
 ||hqdoor.com/Web/
+||hqgearb.icu^
 ||hqol.cn/up/ad/
 ||hqoqbs.xyz^
 ||hqqpw.mobi^
@@ -14978,6 +14984,7 @@ zzzyk.com###Tinfo
 ||hy.huangye88.net^
 ||hy5.com.cn/admin/
 ||hybbs.com/i/$image,object
+||hyeqp.xyz^
 ||hyfumxc.cn^
 ||hyhfimgg.com^
 ||hyk9.xyz^
@@ -15498,6 +15505,7 @@ zzzyk.com###Tinfo
 ||jandan.net^*/3kbw2.png
 ||jandan.net^*/699pic/
 ||jandan.net^*/moyu.png
+||janwzsqi.icu^
 ||jaowd.xyz^
 ||japsmna.cyou^
 ||jatytuo.cn^
@@ -15695,6 +15703,7 @@ zzzyk.com###Tinfo
 ||jkasn.com^
 ||jke1.jianke.com^
 ||jkk7777.xyz^
+||jklhs7u.com^
 ||jknmsdpo.xyz^
 ||jkvbiry.cn^
 ||jkxty.mobi^
@@ -16020,6 +16029,7 @@ zzzyk.com###Tinfo
 ||kdslife.com/kds_2023/kafu.
 ||kdslife.com/ui/ad/
 ||kdsnw.today^
+||kdvmnn.com^
 ||kdw*.com/layer/layer.js
 ||ke4x.xyz^
 ||kebi1.top^$third-party
@@ -16254,6 +16264,7 @@ zzzyk.com###Tinfo
 ||kybzkiw.xyz^
 ||kydb.xyz^
 ||kygso.com/js/lrtk.js
+||kyplpw.com^
 ||kyq3hky.icu^
 ||kyq3xch.icu^
 ||kyqbifz.cn^
@@ -16362,6 +16373,7 @@ zzzyk.com###Tinfo
 ||ledni.xyz^
 ||leeleo.top^$third-party
 ||lefengtv.com/js/tj.js
+||legdeh.fun^
 ||leiersuqd.com^
 ||leiphone.com/uploads/new/category/pic/*/740x140/
 ||leirsw.com^
@@ -16664,6 +16676,7 @@ zzzyk.com###Tinfo
 ||ly6080.com.cn/gg/
 ||lycc72.com/resources/js/content.js
 ||lychangxu.cn^$third-party
+||lycjsix.cn^
 ||lyd.com.cn^*950-90.
 ||lydrnj.xyz^
 ||lyewe.xyz^
@@ -17634,6 +17647,7 @@ zzzyk.com###Tinfo
 ||osnoownmk.fun^
 ||osp45qr.site^
 ||oss-ap-southeast-1.aliyuncs.com/js/copy.js
+||ossfile001.com^
 ||otantgi.cn^
 ||other.v.duowan.com^
 ||othoj.xyz^
@@ -19380,7 +19394,6 @@ zzzyk.com###Tinfo
 ||t3nlink.com^$third-party
 ||t3p58.com^
 ||t4sb9dq7.site^
-||t57.cn/cert.php
 ||t5wm.cc^
 ||t984kfjt37kjdh.wdach.com^$domain=pianba.net
 ||ta.trs.cn^$third-party
@@ -19587,6 +19600,7 @@ zzzyk.com###Tinfo
 ||tl86tv.com/52
 ||tlanyan.pp.ua/wp-content/uploads/meomiao.png
 ||tlhlpcb.xyz^
+||tlprlf.xyz^
 ||tlsynmli.fun^
 ||tlula507.com/Public/js/dui
 ||tlula507.com/Public/js/float
@@ -19731,6 +19745,7 @@ zzzyk.com###Tinfo
 ||tv699.com/AllTemplet/js/
 ||tv699.com/Templet699/js/
 ||tv7box.com/Runtime/Js/
+||tvdpebx.cn^
 ||tvsou.com/js/360ad.js
 ||tvszazx.icu^
 ||tvxqdp.xyz^
@@ -20166,6 +20181,7 @@ zzzyk.com###Tinfo
 ||vqhifd.xyz^
 ||vreephay.com^
 ||vrffwbf.cn^
+||vrlvnz.xyz^
 ||vrmgwvz.cn^
 ||vrrw.net//templets/default/js/ad.js
 ||vs1.exo01.xyz^$image,third-party
@@ -20593,6 +20609,7 @@ zzzyk.com###Tinfo
 ||xchina.life/ad/
 ||xchina.pro/upload/ad/
 ||xcjwq.world^
+||xckj0623.com^
 ||xckyqq.com^
 ||xcmno.xyz^
 ||xcvdd.xyz^

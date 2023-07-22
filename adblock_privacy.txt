@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202307210228
+! Version: 202307220220
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 80043
+! Lenth = 80041
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -5640,6 +5640,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||collegeboard.org/webanalytics/
 @@||collusion.com/static/newrelic.js$script,~third-party
 @@||comcastresidentialservices.tt.omtrdc.net/m2/comcastresidentialservices^$domain=xfinity.com
+@@||comeresaprensasl.tt.omtrdc.net/rest/v*/delivery$domain=elcomercio.es
 @@||comeresaprensasl.tt.omtrdc.net/rest/v*/delivery?$domain=hoy.es
 @@||community.brave.com/t/$xmlhttprequest
 @@||communityenergysolutions.com/ui/assets/gtm/gtm.js$script,~third-party
@@ -5851,6 +5852,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||firstdirect.com^*/logging-code.js
 @@||focus.ti.com^*/metrics-min.js
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
+@@||forms.anthology.com^$domain=anthology.com
 @@||fplay.online/log_event$~third-party,xmlhttprequest
 @@||franceculture.fr/static/vendor/js/xtcore
 @@||freegeoip.net/json/|$domain=load.pelispedia.vip
@@ -6230,6 +6232,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||googletagmanager.com/gtm.js$domain=dzonline.de|wn.de
 @@||googletagmanager.com/gtm.js$domain=easycredit.de
 @@||googletagmanager.com/gtm.js$domain=eda.ru
+@@||googletagmanager.com/gtm.js$domain=elcomercio.es
 @@||googletagmanager.com/gtm.js$domain=elderscrollsonline.com
 @@||googletagmanager.com/gtm.js$domain=eldorado.com.ua
 @@||googletagmanager.com/gtm.js$domain=elnuevodia.com
@@ -7703,6 +7706,8 @@ edeka.de#%#(()=>{window.tC={event:{track(){}}}})();
 edeka.de#%#//scriptlet('prevent-addEventListener', 'bugfix', 'fix')
 edeka.de#%#//scriptlet('prevent-element-src-loading', 'script','tc_DigitalesMarketing')
 eduscho.at#%#//scriptlet("set-constant", "exactagTrack", "noopFunc")
+elcomercio.es#$##engagement-top { display: none !important; }
+elcomercio.es#$#body { overflow: auto !important; }
 elmundo.es#?#body > main[role="main"] > div.ue-l-article:has(> div.ue-l-article__inner > div.ue-l-article__main-column > aside > div[id^="taboola"])
 elpais.com,chip.de,moviepilot.com,madison.com,promiflash.de,trendblog.net,qctimes.com,missoulian.com,chip.eu,promiflash.tv,bix7.com,7riversmarketplace.com,azstarnet.com,huskerextra.com,hawkmania.com,casperstartribune.com,justselect.ru,xonio.com,autosocut.de,thebettendorfnews.com,netcive.com,autocout24.de,lmagazinelincoln.com,lincolnrestaurantweek.com,napavalleywheels.com,thisistucson.com,download.de,billingsgazette.net,autoscount24.de,chipxonio.biz,tucsonestrella.us,teilescout24.eu,celebratenebraska.com,autoscunt.de,mopedscout.com,auto-sout24.de,autocsout24.de,promiflasch.de,autoteilescout.ch,aotoscout.de,motoscout.in,autoscoter24.de,autoskaud.de,ersatzteile-scout24.de,chipxonio.info,kfzscout24.de,reifenscout24.eu,harpers.de,aptshowcase.com,tyrescout24.com,tucsonestrella.org,houstonconews.com,mastercar.de,autoteilescout.net,bikescout24.eu,autoscout25.de,aut0scout.de,zubehoerscout24.de,autosout-24.de,rivervalleybusinessreport.com,teilescout24.net,motor-scout24.eu,unfall-scout.de,tuning-scout24.eu,motoscount24.de,autoascout24.de,reifen-scout24.de,autoteilescout24.org,autoteilescout24.info,motoscout.us,moviecritter.de,autoscouet24.de,utoscout24.de,motor-scout.ch,autoscout23.de,motorrad-scout.net,moto-scout24.pl,motorradscaut24.de,macfrage.net,bikerscout.info,motorscout24.eu,gzlincoln.com,chipxonio.net,automobilscaut.de,capitalnewspapers.com,fahrzeugscout.de,autoscout22.de,motoradscout.eu,motoscout24.mx,motoscout.ro,motoskout.de,ersatzteilscout.de,autoteilescout.de,neighborhoodextra.com,autiscout24.de,motoscout.mx,danceshoppenebraska.com,autoscouting24.de,workbakken.com,auto-scout-2.de,billingsgazzette.com,livewellwyoming.com,autoscont24.de,autoskaud24.de,auto-scount.de,carscout24.de,moto-scout24.mobi,ersatzteilscout24.de,autoscott-24.de,dailystarcalendar.com,montanamessenger.com,tuningscout24.de,notoscout24.de,automobilscout24.de,auto-skout-24.de,it-whitepaper.net,spearfishcommunity.com,atoscout-24.de,autosgout24.de,auto-scouts.de,reifenscout24.com,wyoworks.com,motoscout24.mobi,wheelsforyoukansas.com,motorrad-scout24.info,teilescout24.at,autscout24.de,auto-scaut24.de,teile-scout.com,autoscod24.de,teile-scout.ch,autocout-24.de,chip-video.de,moto-scout.com.cn,lincoln-living.com,motorradscout24.net,ms24.biz,flipsideonline.com,moto-scout24.ro,auotoscout24.de,www-auto-scout24.de,motorradscout24.org,rollerscout.de,kfz-teilescout.de,auto-skout.de,autohausscout24.eu,xonio.at,autohausscout24.de,autoscuot.de,downloadchip.de,autoteile-scout24.info,outdoorboatsrvsmore.com,motorrad-scout24.ch,motoscot.de,as24autocredit.de,auto-scott-24.de,auto-scot-24.de,autoskout-24.de,autosgaud24.de,it-whitepaper.at,elektroautoscout.de,autoscput24.de,motorradscout.eu,autosout.de,foto-video.eu,chip-fotovideo.de,unfallscout24.de,quadscout24.de,motorradscout.org,autos-scout.de,motoscout24.ro,motoscout24.co,teile-scout.net,autodcout24.de,autosccout24.de,autoscout4.de,autoscout-online.de,autoteile-scout.com,aotoscout24.de,audosgaut.de,auto-shout.de,autosckut24.de,game-critter.com,autoscoutvierundzwanzig.de,motorscout24.de,insidenapavalley.com,southernillinoisan.com,audosgaud.de,motorrad-scout24.net,outdoorwheels.com,autoteile-scout.info,autoscaund24.de,autosgaud.de,laestrelladetucson.us,teilescout.org,autoteile-scout.at,autoteilescout24.ch,otoscout.de,auto-skaut24.de,auto-sout-24.de,ersatzteil-scout-24.de,teilescout.com,auto-cout-24.de,wyovarsity.com,aotoscaut.de,autoteile-scout.org,wheelsforyouomaha.com,promiflash.net,gebrauchtwagen-scout.de,motoscout-24.com,motosout24.com,ms24.mobi,autoscout2.de,outoscout24.de,auto-scout24.de,foodcritter.com,promiflash.org,walkacrosswyoming.com,autoteile-scout24.ch,mtfires.com,musicritter.com,mtinbusiness.com,motoscout.info,starcitygolfer.com,autoteilescout24.net,autohausscout.de,autoacout24.de,moto-scout.info,wi-elections.com,auto-skout24.de,autoshot24.de,motosocut24.de,autoscout27.de,chipdigital.de,autoscout24-online.de,teilescout.info,autoscout-xl.de,teilescout24.org,ersatzteilescout-24.at,it-whitepaper.org,krombach24.de,automobilscout.de,finderads.com,freakfestlive.com,ellsworthcommunity.com,motor-scout.de,moto-scout.ch,uatoscout24.de,autoscouts.de,moto-scout24.net,autoscaut24.de,auotscout24.de,ersatzteilescout-24.de,quadcityvarsity.com,motorradscout.ch,unfallautoscout24.com,ersatzteilescout.de,promi-flash.de,estrelladetucson.com,salukigameday.com,autosco24.de,autoteilescout.eu,ersatzteilescout-24.com,download-chip.de,autoscuot-24.de,motorrad-scout24.biz,wwwautoscout.de,motoradscout24.com,wheelsforyounebraska.com,motoscout-24.de,teile-scout24.biz,autoteile-scout.biz,reifenscout.net,auto-skut24.de,auto-scout.de,atoscout.de,chip-fotovideo.eu,chipxonio.org,qcvarsity.com,reifenscout.at,auto-scout-24.de,mooscout24.de,estrelladetucson.net,teile-scout.org,download-chip.mobi,promi-flash.ch,elektroauto-scout.de,woodfordcountyjournal.com,autoscoot24.de,familie-kellers.de,teile-scout24.org,autoscaut-24.de,ersatzteil-scout.de,wheelsforyoumissouri.com,movie-critter.com,tarif.de,auto-scuot-24.de,tuningscout24.net,kfzscout.eu,fahrzeugscout24.de,corridormag.com,autoscout24de.de,oldiescout24.de,autoscount-24.de,autoscaunt.de,car-scout24.de,autosscout24.de,billinggazette.com,autohaus-adermann.de,missoulianentertainer.com,wiprepzone.com,missoulian.net,oldtimer-scout24.de,monsoonalerts.com,xn--motorrderscout24-0nb.de,motoscout24.cn,moto-scout24.de,starcityhealth.com,audoscout24.de,motorradscout24.ch,pc-frage.net,motorradscout.net,xonio.mobi,ms24.cn,motorrad-scout.org,ihrautoscout.com,newjobsnd.com,auto-scout4.de,auttoscout24.de,autocscout24.de,autuscaut.de,autoteile-scout24.biz,autoscoud.de,autosc0ut24.de,ms24.us,moto-scout24.eu,lincolnjournalstar.com,motorrad-scout.mobi,promiflash.ch,unfallscout.de,walkerwatch.net,teilescout24.ch,auto-scou.de,emptystockingclub.com,motoscout2.de,xonio.eu,teilescout.eu,www-autoscout24.de,motorad-scout.eu,ahtoscout.de,utoscout.de,it-whitepaper.info,autoscout20.de,kfzteilescout24.de,mastercar.com,ms24.com.cn,officefrage.net,unfallautoscout24.de,autos-scout24.de,moto-scout.mobi,farmercityjournal.com,teilescout.net,chip-germany.de,kchaiyo.com,moto-scout24.us,moto-scout.in,tuningmarkt.eu,seelakegeorge.com,ascout24.de,motoscuot.de,motorad-scout.de,autoscout-2.de,autosckot.de,motoscout24.net,autoschaut24.de,tyrescout24.eu,poststar.org,bikerscout24.com,audosgaut24.de,motorradscout24.eu,wyomingwheelsforyou.com,autoscouts24.de,tucsonestrella.com,digitalcritter.com,77square.com,autoshout24.de,moto-scout24.biz,reifenscout.ch,autoskaut-24.de,reifen-scout24.com,wwwautoscout-24.de,motoscout24.com,reifenscout24.de,mietwagenscout.com,auto-scot.de,moto-scout24.cn,autoscott24.de,teile-scout.de,autoteilescout24.eu,auoscout24.de,motorbikescout.com,motorradscout.biz,c.de,jahreswagenscout24.de,moto-scout.com,chip-foto-video.eu,autoscuout24.de,motoradscout.net,motorradscout.info,auto-skaut-24.de,auto-scott.de,champions.co,teile-scout24.at,as24.de,www-auto-scout.de,autoteile-scout24.com,autoscott.de,motorradscout-24.de,wwwauto-scout.de,mtoscout24.de,autoscoutt.de,ms24.info,www-autoscout.de,carscout.de,gebrauchtwagen-sout.de,starcitybridal.com,missoulien.com,myautoscout24.de,oldiescout.de,autoteile-scout.ch,motorad-scout24.de,ersatzteilescout.eu,auto-scut24.de,motoscout.biz,auto-scaut-24.de,auto-scount-24.de,chip.at,motoscuot24.de,musiccritter.com,motscout24.de,motor-scout.com,laestrelladetucson.org,crashscout24.de,autoskout24.de,werkstattscout24.com,ahl-freiberg.de,autoscond24.de,chip-linux.com,reifenscout24.info,autooscout24.de,motoscut24.de,motorscout.ch,wyopreps.net,oldtimerscout24.de,promiflash-images.de,a-scout.de,badgerbeat.com,youngtimerscout24.ch,testlabor.de,motorradscout24.com,chiplog.de,blackhillsjournal.net,car-scout-24.de,motoscout.org,autoscoutde.de,autosscout.de,autosout24.de,gebrauchtwagenscout.de,lifeandstylesi.net,motoscout.com,saddlebagnotes.com,autoscuont24.de,meadecountytimestribune.com,motorad-scout.ch,uatoscout.de,autoscuot24.de,motoradscout.de,winecountrysi.com,motorrad-scout-24.net,togetherapartmadison.com,auto-shout24.de,bike-scout24.de,as24shop.de,moto-scout.cn,wyovarsity.net,motoscout24.eu,autoscout28.de,moto-scout.de,kfz-teilescout24.de,bike-scout24.eu,qcpreps.com,sellitnebraska.com,motorbikescout24.eu,autoreifenscout.de,promi-flash.com,evo7.de,missoulian.us,auto-scou24.de,autosocut24.de,auto-scoud.de#%#//scriptlet("abort-current-inline-script", "navigator", "/propertyIsEnumerable.*window\.stop.*\/[A-Za-z0-9\-_]{100}/")
 email.mixmax.com/e/o$image
@@ -14810,7 +14815,6 @@ znak.com##.relap
 ||agner.meraki.artifactory-auth.tt.omtrdc.net^
 ||agnes.waz.de^
 ||agnptjjoajduje6y.sparta.members.tt.omtrdc.net^
-||agoda.com/api/pixel/
 ||agoda.com/api/pixel/index?
 ||agoda.com^$removeparam=tag
 ||agoda.net/v2/track
@@ -14981,9 +14985,7 @@ znak.com##.relap
 ||airserve.net^$third-party
 ||airstorage18-2-02.osp.tt.omtrdc.net^
 ||airsuite.next.tt.omtrdc.net^
-||airtable.com/internal/$xmlhttprequest
-||airtable.com/internal/page_view
-||airtable.com^*/reports
+||airtable.com/internal/
 ||airtable403.tt.omtrdc.net^
 ||airui-us-east-2-1.sandbox.tt.omtrdc.net^
 ||airunit.taobao.com/tracker.*.gif^
@@ -15543,6 +15545,7 @@ znak.com##.relap
 ||am.belambra.co.uk^
 ||am.belambra.com^
 ||am.siemensplmevents.com^
+||am.yahoo.co.jp^
 ||am01-af.recsys.tt.omtrdc.net^
 ||am3s622gcd6m.tt.live^
 ||am730.com.hk^$removeparam=ncid
@@ -17407,7 +17410,6 @@ znak.com##.relap
 ||api.irishrail-s.tt.omtrdc.net^
 ||api.iterative.ly^
 ||api.j4.tt.omtrdc.net^
-||api.jetlore.com/track.png?
 ||api.jpn.sa.dev-sp.tt.omtrdc.net^
 ||api.kanriotasuke.tt.omtrdc.net^
 ||api.keast5.tt.omtrdc.net^
@@ -17458,6 +17460,7 @@ znak.com##.relap
 ||api.ppb35.stage.tt.omtrdc.net^
 ||api.ppb48.stage.tt.omtrdc.net^
 ||api.prd.euw1.aws.tt.omtrdc.net^
+||api.privacyguides.net^
 ||api.prod-dr-aws.tt.omtrdc.net^
 ||api.prod.awse1.tt.omtrdc.net^
 ||api.prod.hkils.hamlet.devices.tt.omtrdc.net^
@@ -20121,6 +20124,7 @@ znak.com##.relap
 ||b92.yahoo.co.jp^
 ||b94.yahoo.co.jp^
 ||b97.yahoo.co.jp^
+||b99.yahoo.co.jp^
 ||ba-1c-4.idmapper.api.api.tt.omtrdc.net^
 ||ba-content.de/cds/log/
 ||ba-stg.tt.omtrdc.net^
@@ -21268,7 +21272,6 @@ znak.com##.relap
 ||bizdev2.tt.omtrdc.net^
 ||bizible.com^$third-party
 ||bizlink.dinifi.com^
-||biznesinfo.az/Scripts/fingerprint.min.js
 ||biznews.oregon.gov^
 ||bizo.com^$third-party
 ||bizrate.com^
@@ -22733,7 +22736,6 @@ znak.com##.relap
 ||c.t-online.de^
 ||c.tbex.ru^
 ||c.telemetry.tt.omtrdc.net^
-||c.tgknt.com^$third-party
 ||c.thredup.com^
 ||c.topya.com^
 ||c.tvpixel.com^$third-party
@@ -23727,7 +23729,6 @@ znak.com##.relap
 ||cdn.megadata.co.kr/dist/prod/enp_tracker_
 ||cdn.melhorplano.net/scripts/tracker/mpt.min.js
 ||cdn.memo.co^$third-party
-||cdn.milffox.com/static/milffox.com/js/gtm.js
 ||cdn.net.elogia.net^
 ||cdn.nwl1.megaknihy.cz/tr.js
 ||cdn.odoscope.cloud^
@@ -26411,7 +26412,6 @@ znak.com##.relap
 ||count.livetv.ru^
 ||count.livetv.sx^
 ||count.ly^$third-party
-||count.manager-magazin.de/nm_trck.gif
 ||count.me.uk^
 ||count.munhwa.com^
 ||count.nuanyuehanxing.com^
@@ -31428,7 +31428,6 @@ znak.com##.relap
 ||distributionneck.com^
 ||distributionneck.com^$third-party
 ||distributiontomatoes.com^
-||distributor.streamroot.io/klara/traffic/usage
 ||distributors.balluff.com^
 ||disturbedquiet.com^
 ||dit.f52c9712-b508-4101-89e7-fe6903309cf7.tt.omtrdc.net^
@@ -32428,7 +32427,6 @@ znak.com##.relap
 ||eb.informabi.com^
 ||eb.o-b-labo.com^
 ||eb.trbas.com^
-||eba-amadeus.netdna-ssl.com^$third-party
 ||ebay.*/beacon/
 ||ebay.com/api/client-logging
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
@@ -33884,7 +33882,6 @@ znak.com##.relap
 ||etyper.com^$third-party
 ||eu-mobile.events.data.microsoft.com^
 ||eu-survey.com^$third-party
-||eu.angsrvr.com/count
 ||eu.business.samsung.com^
 ||eu.cignaglobalhealth.com^
 ||eu.groupondata.com^$third-party
@@ -35155,6 +35152,7 @@ znak.com##.relap
 ||foursquare.com/*/wtrack?event=
 ||foursquare.com/0UqK4c76/init.js
 ||foursquare.com/v2/private/logactions
+||fourtimessmelly.com^
 ||fout.jp^
 ||fout.jp^$third-party
 ||fox.domainr.com^
@@ -43693,7 +43691,6 @@ znak.com##.relap
 ||log.baomoi.com^
 ||log.bitauto.com^
 ||log.bloodsugars.live^
-||log.ca.gov.vn^
 ||log.china.cn^
 ||log.cinematoday.jp^
 ||log.cizion.com^
@@ -49324,6 +49321,7 @@ znak.com##.relap
 ||myseagate-ldapprd.tt.omtrdc.net^
 ||myseostats.com^$third-party
 ||mysexgames.com/statstracker.php
+||mysingleromance.com^
 ||mysite.webroot.com^
 ||mysitetraffic.net^$third-party
 ||myslowicesc.tt.omtrdc.net^
@@ -51106,6 +51104,7 @@ znak.com##.relap
 ||orenyk.sjh2.tt.omtrdc.net^
 ||orest04.tt.omtrdc.net^
 ||org.tt.omtrdc.net^
+||organiccdn.io/assets/sdk/events.m.js
 ||organiccdn.io/assets/sdk/monitor.unit-sdk.js
 ||organicfruitapps.com/analytics
 ||organicfruitapps.com/analytics/
@@ -52362,7 +52361,6 @@ znak.com##.relap
 ||paysd-token-token.global.global.tt.omtrdc.net^
 ||paz.dida-world.com^
 ||pb.i.sogou.com^
-||pb.m.naver.com/abpblock
 ||pbadev22-rt.app.tt.omtrdc.net^
 ||pbbl.co^$third-party
 ||pbc.programbrokerage.com^
@@ -53949,7 +53947,6 @@ znak.com##.relap
 ||prod-clientlog.fastly.newssuite.sinfony.ne.jp^
 ||prod-collector.bigbasket.com^
 ||prod-events.nykaa.com^
-||prod-plague-bacon.miniclippt.com^
 ||prod-sb-appanalytics-us1.servicebus.windows.net^$third-party
 ||prod.ew.srp.navigacloud.com^
 ||prod.fennec.atp.fox^
@@ -54202,6 +54199,7 @@ znak.com##.relap
 ||prx6.destinia.ch^
 ||prynspec.tt.omtrdc.net^
 ||przucu.elkjop.no^
+||ps.azurewaf.microsoft.com/*/event
 ||ps.eyeota.net/pixel^
 ||ps.pmu.fr^
 ||ps02gw-myconnect.tt.omtrdc.net^
@@ -55031,6 +55029,7 @@ znak.com##.relap
 ||raiplaysound.it/hit-service/
 ||rakanto.com/cx_collector/
 ||rake.11st.co.kr^
+||rake.tmap.co.kr^
 ||rakentaja.fi/kuvat/pi.gif$image
 ||rakuten-static.com/com/rat/
 ||rakuten.actonservice.com^
@@ -56229,6 +56228,7 @@ znak.com##.relap
 ||rodeopolice.com^$third-party
 ||rodobensadministrado.tt.omtrdc.net^
 ||roeye.com^$third-party
+||roeyecdn.com^$third-party
 ||rogerscommunicaitonp.tt.omtrdc.net^
 ||rogerscommunications.tt.omtrdc.net^
 ||rogersmedia.tt.omtrdc.net^
@@ -58329,7 +58329,6 @@ znak.com##.relap
 ||secure.josh7cuba.com^
 ||secure.keep0bury.com^
 ||secure.keet1liod.com^
-||secure.keytiles.com/stat.php^
 ||secure.kick1pore.com^
 ||secure.kilo6alga.com^
 ||secure.kota3chat.com^
@@ -63774,7 +63773,6 @@ znak.com##.relap
 ||spikyslave.com^
 ||spingo.tt.omtrdc.net^
 ||spinmedia.com/clarity.min.js
-||spinmediacdn.com/clarity.min.js
 ||spinnaker-js.com^
 ||spinnaker.app-apis.tt.omtrdc.net^
 ||spinnakermgmt.actonservice.com^
@@ -63846,7 +63844,6 @@ znak.com##.relap
 ||sport.ua/pixel/$image
 ||sport2.www.tt.omtrdc.net^
 ||sportal.de/js/cf.analytics.js
-||sportdeutschland.vidibuscloud.net/themes/sportdeutschland*/javascripts/webtrekk.js
 ||sportellafriends-nl-pl-pl.forum.forum.tt.omtrdc.net^
 ||sportex1xd.tt.omtrdc.net^
 ||sporting.domains.co.eu.atlassian-app.tt.omtrdc.net^
@@ -69316,6 +69313,7 @@ znak.com##.relap
 ||thench.net^$third-party
 ||thenestw2-gr-eur.tt.omtrdc.net^
 ||thenewage.next31.next.tt.omtrdc.net^
+||thenextweb.com/geppetto/s.js
 ||theoplayer.com/t?
 ||theorcaproject.tt.omtrdc.net^
 ||theoutsidertimes123.tt.omtrdc.net^
@@ -73122,6 +73120,7 @@ znak.com##.relap
 ||trafficroots.com^$third-party
 ||trafficscanner.pl^$third-party
 ||trafic.ro^$third-party
+||trafico.prensaiberica.es^
 ||trafikkfondet.no^$third-party
 ||trafit.com^$third-party
 ||trafix.ro^$third-party
@@ -75453,7 +75452,6 @@ znak.com##.relap
 ||vengefulgrass.com^
 ||vengefulgrass.com^$third-party
 ||veni.trekkww.space^
-||venlog-1542946650.us-west-2.elb.amazonaws.com^*/beacon.gif?
 ||venssl6.tt.omtrdc.net^
 ||venta-dashboardsb-test.tt.omtrdc.net^
 ||ventes-fr.en.tt.omtrdc.net^
