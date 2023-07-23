@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202307220220
+! Version: 202307230233
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 80041
+! Lenth = 80028
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -1359,6 +1359,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /analytics-ping.
 /analytics-plugin/*
 /analytics-pusher/*
+/analytics-reporter/*
 /analytics-reporter/*/event
 /analytics-sdk.
 /analytics-secure.
@@ -1881,6 +1882,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cnt_js.php?
 /cntpixel.
 /cnvtr.js
+/cocoon-master/lib/analytics/access.
 /cocoon-master/lib/analytics/access.php?
 /coherentpath.link/o/*$image
 /cohesion-latest.
@@ -5505,7 +5507,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||cdn.petametrics.com/*.js$domain=ranker.com
 @@||cdn.petametrics.com^$domain=techgenix.com
 @@||cdn.petametrics.com^$domain=telegraph.co.uk
-@@||cdn.petametrics.com^$script,domain=comics.mecha.cc
 @@||cdn.privatehost.com/videos*/$removeparam
 @@||cdn.questionpro.com/stylesheets/$domain=surveyanalytics.com
 @@||cdn.questionpro.com^$domain=questionpro.*
@@ -6985,7 +6986,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||qualtrics.com/jfe/form/$subdocument
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
-@@||query.petametrics.com^$image,xmlhttprequest,domain=comics.mecha.cc
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=lanacion.com.ar
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=ranker.com
 @@||r10s.jp/com/img/home/t.gif?$domain=24.rakuten.co.jp
@@ -7041,7 +7041,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||rtoaster.jp^$domain=attenir.co.jp
 @@||rtoaster.jp^$script,domain=animate-onlineshop.jp|brainpad.co.jp|hikaritv.net|lexus.jp|peachjohn.co.jp|rurubu.jp|melonbooks.co.jp
 @@||rtoaster.jp^$script,domain=kanaloco.jp
-@@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp|pro.logitec.co.jp
+@@||rtoaster.jp^$script,domain=lexus.jp|melonbooks.co.jp
 @@||rtoaster.jp^$script,domain=store.united-arrows.co.jp
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||rudaw.net/images/pixel.gif$~third-party
@@ -23062,7 +23062,6 @@ znak.com##.relap
 ||canadiantire365.tt.omtrdc.net^
 ||canaldigital.tt.omtrdc.net^
 ||canalplus-bo.net/web/*/tracker/?
-||canalstat.com^$third-party
 ||canarahsbclife.tt.omtrdc.net^
 ||canata.trekkww.fun^
 ||cancanlah.com^$removeparam=click_id
@@ -29869,6 +29868,7 @@ znak.com##.relap
 ||data.information.nettokom.de^
 ||data.information.o2.de^
 ||data.information.whatsappsim.de^
+||data.infranken.de/g/collect
 ||data.janvanderstorm.de^
 ||data.kameleoon.io^
 ||data.keybank.dev.cjmadobe.com^
@@ -32411,6 +32411,9 @@ znak.com##.relap
 ||easydmp.net/collect_
 ||easydmp.net/etag.
 ||easydmp.net/get_delivery_data.
+||easyfundraising.org.uk^$removeparam=efr_campaign
+||easyfundraising.org.uk^$removeparam=efr_medium
+||easyfundraising.org.uk^$removeparam=efr_source
 ||easyhash.de^$third-party
 ||easyhash.io^$third-party
 ||easyhitcounters.com^$third-party
@@ -34686,7 +34689,6 @@ znak.com##.relap
 ||fembed.com/r/collect?
 ||femina.tns-gallup.dk^
 ||fenerbahce.org/cmsapi/webanalytics/
-||fennec.atp.fox^
 ||fensi.plus/*/tracking/
 ||fensi.plus^*/tracking/
 ||feqbqn.rent.com^
@@ -40865,7 +40867,6 @@ znak.com##.relap
 ||ipada.cafe.naver.com^$xmlhttprequest
 ||ipaddresslabs.com^$third-party
 ||ipapi.co^$third-party
-||ipapi.tmbi.com^
 ||ipas-adminspo-admin.tt.omtrdc.net^
 ||ipask.api.tt.omtrdc.net^
 ||ipcam.shop.tt.omtrdc.net^
@@ -42002,7 +42003,6 @@ znak.com##.relap
 ||klix.ba/pixel/
 ||klktmc.parler.co.jp^
 ||klldabck.com^$third-party
-||klm-ea.jscrambler.com^
 ||klm.us/CWZUvc/
 ||klook.com^$removeparam=aid
 ||klook.com^$removeparam=clickId
@@ -43513,7 +43513,6 @@ znak.com##.relap
 ||livestat.com^$third-party
 ||livestats.fr^$third-party
 ||livestats.kaltura.com^
-||livestats.la7.tv^
 ||livestats.matrix.it^
 ||livestory.io/*/collect
 ||livestream.com/sre/analytics-tracker/
@@ -43988,7 +43987,6 @@ znak.com##.relap
 ||looseloaf.com^
 ||lopley.com^$third-party
 ||lord.actonservice.com^
-||lore.circulate.com^
 ||lorenzourban.com^
 ||lorenzourban.com^$third-party
 ||los.2hisnd.com^$third-party
@@ -51460,13 +51458,11 @@ znak.com##.relap
 ||p.hentaiforce.net^
 ||p.ianmjones.com^
 ||p.imgur.com^
-||p.kolplay.com^
 ||p.l1v.ly^
 ||p.logbox.io^
 ||p.marqueplace.com^
 ||p.meilentrio.de^
 ||p.metrilo.com^
-||p.milliyet.com.tr^
 ||p.neil.gg^
 ||p.nqueue.io^
 ||p.pagesjaunes.fr^
@@ -52598,7 +52594,6 @@ znak.com##.relap
 ||personaclick.com^$third-party
 ||personal-pse.mail.tt.omtrdc.net^
 ||personal.sonicwall.com^
-||personalicanvas.com^$third-party
 ||personalizeddecor.tt.omtrdc.net^
 ||personals.tt.omtrdc.net^
 ||personyze.com^$third-party
@@ -54347,7 +54342,6 @@ znak.com##.relap
 ||pulleymarketing.com^$third-party
 ||puls.lv^$third-party
 ||pulsar.ebay.com^
-||pulsarback.mail.ru^
 ||pulse.delta.com^
 ||pulse.mail.ru^$removeparam=/^(udid|DeviceID|ver|appbuild|vendor|model|device_name|device_type|instanceid|device_year|connection_class|appsflyerid)/
 ||pulse.mcdonalds.com^
@@ -63086,6 +63080,7 @@ znak.com##.relap
 ||sohu.com/clk.gif?
 ||sohu.com/count/
 ||sohu.com/ip/$script
+||sohu.com/pccollector
 ||sohu.com/pv.js
 ||sohu.com/pv?
 ||sohu.com/pvpb.gif?
@@ -65257,7 +65252,6 @@ znak.com##.relap
 ||stat.pet^
 ||stat.php-d.com^
 ||stat.pl^$third-party
-||stat.ppstream.com^
 ||stat.pravmir.ru^
 ||stat.prawo.pl^
 ||stat.profinfo.pl^
@@ -66040,7 +66034,6 @@ znak.com##.relap
 ||stats.muchbetteradventures.com^
 ||stats.multiplelenses.com^
 ||stats.multiply.cloud^
-||stats.myangular.life^
 ||stats.napaconnect.ca^
 ||stats.navedislam.com^
 ||stats.nddmed.com^
@@ -70111,7 +70104,6 @@ znak.com##.relap
 ||toro5.media.tt.omtrdc.net^
 ||toronto-content.cresa.com^
 ||toronto071.tt.omtrdc.net^
-||toros.daum.net/toros/imp
 ||torpidtongue.com^
 ||torpidtongue.com^$third-party
 ||torpidtoothpaste.com^
@@ -72359,7 +72351,6 @@ znak.com##.relap
 ||tracker.timesgroup.com^
 ||tracker.tolvnow.com^
 ||tracker.tubecj.com^
-||tracker.tv.sohu.com^
 ||tracker.twenga.
 ||tracker.twenga.pl^
 ||tracker.unbxdapi.com^
@@ -72470,7 +72461,6 @@ znak.com##.relap
 ||tracking.batanga.com^
 ||tracking.battleon.com^
 ||tracking.bbgevent.app^
-||tracking.bd4travel.com^
 ||tracking.bdi-services.de^
 ||tracking.behaarteladies.de^
 ||tracking.bettingexpert.com^
@@ -74073,7 +74063,6 @@ znak.com##.relap
 ||tv.gslb.v.tt.omtrdc.net^
 ||tv.naver.com/resources/release/js_*/player*Logge
 ||tv.okazje.tt.omtrdc.net^
-||tv.sohu.com/upload/trace/
 ||tv.stage.tt.omtrdc.net^
 ||tv.tt.omtrdc.net^
 ||tv1.live.tt.omtrdc.net^
@@ -75643,7 +75632,6 @@ znak.com##.relap
 ||video.laxd.com^$removeparam=ref
 ||video.mangalop.space^
 ||video.mediaset.it/polymediashowanalytics/
-||video.msn.com/report.aspx?
 ||video.oms.eu^$third-party
 ||video.sapglobalmarketingin.tt.omtrdc.net^
 ||video.sites.mx.vistawindowreplacements.sites.tt.omtrdc.net^
@@ -75852,7 +75840,6 @@ znak.com##.relap
 ||visit.prayfashion.com^
 ||visit.sendheirloom.com^
 ||visit.tafensw.edu.au^
-||visit.webhosting.yahoo.com^
 ||visit.webhosting.yahoo.com^$third-party
 ||visit.xchina.pics^
 ||visite.scambi.org^
