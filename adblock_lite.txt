@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202307270140
+! Version: 202307280123
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21763
+! Lenth = 21789
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -9151,6 +9151,8 @@ yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/tp/"]
 yimuhe.com###maincontent3 > div[style^="height"]
 yingav.com##.spots
 yixingjia.com###wp > table[width="960"]
+yiyouliao.com##.yyl-ads-swiper
+yiyouliao.com##.yyl-weiruan-ads-swiper
 yizhibo.com###J_reg_guide
 yjcf360.com##.side_box
 yjcf360.com##.side_box2
@@ -10605,6 +10607,7 @@ zzzyk.com###Tinfo
 ||88148.com/UpFile/a/2016040849191350.jpg
 ||883ads.com^*.js
 ||88448.com/images/appkai980x100.gif
+||8861198.com^
 ||8861200.com^
 ||8861201.com^
 ||8861202.com^
@@ -10914,6 +10917,7 @@ zzzyk.com###Tinfo
 ||a8age.com^
 ||a907907.com^
 ||a962m.xyz^
+||a9able.com^
 ||aa.gushiwen.org^
 ||aa.xiangxiangmf.com^
 ||aa665588aa.com^
@@ -12089,6 +12093,7 @@ zzzyk.com###Tinfo
 ||bkjia.com/bkjia/js/artitle.js
 ||bkjia.com/bkjia/js/banner
 ||bkjia.com/bkjia/js/subnavtop.js
+||bkjlf58.com^
 ||bkvps.com^$third-party
 ||bla01.com^
 ||blackbar.cn^
@@ -12283,6 +12288,7 @@ zzzyk.com###Tinfo
 ||bzdntl.xyz^
 ||bzhanyy.com^*.gif
 ||bzngisyv.xyz^
+||bzxvtj.xyz^
 ||c-5uwzmx78pmca09x24aiux2euavx2ekwu.g00.msn.com^
 ||c-ctrip.com/ResUnionOnline/R3/float/floating_normal.min.js
 ||c-ctrip.com/images/0101r120009e1kn7oCDCA.gif
@@ -14766,6 +14772,7 @@ zzzyk.com###Tinfo
 ||hfqdipw.cn^
 ||hgehse.site^
 ||hgf8hck.com^
+||hghjks2.com^
 ||hgiafe.site^
 ||hgibbei.cyou^
 ||hgpdoa.cn^
@@ -15444,6 +15451,7 @@ zzzyk.com###Tinfo
 ||itavcn.com/pic/news/201802/20180207/image/050N2.gif
 ||itbaoku.cn/Content/jms_
 ||itbear.com.cn/abc/list-and-
+||itbulu.com/banner/
 ||itbwq.xyz^
 ||itc.*^prod=ad&
 ||itc.cn/?prod=rtb&
@@ -15752,6 +15760,7 @@ zzzyk.com###Tinfo
 ||jkk7777.xyz^
 ||jklhs7u.com^
 ||jknmsdpo.xyz^
+||jknnjk.com^
 ||jkvbiry.cn^
 ||jkxty.mobi^
 ||jkxvvv.xyz^
@@ -15781,6 +15790,7 @@ zzzyk.com###Tinfo
 ||jndczg.com^
 ||jndfrqz.com^
 ||jngapkf.cn^
+||jnhgm.com^
 ||jnkangnuo.com^
 ||jnkmwr.xyz^
 ||jnlc.com/www/fund/newsmarket
@@ -16192,6 +16202,7 @@ zzzyk.com###Tinfo
 ||kmu.gwmrb.cn^
 ||kmvbre.com^
 ||kmzayrt.cn^
+||knjmhmk.com^
 ||knk95.cn^
 ||knmwrkw.xyz^
 ||knowmore.cc/style/head.js
@@ -16517,6 +16528,7 @@ zzzyk.com###Tinfo
 ||lihuan.store^
 ||lihuasoft.net/images/ad_
 ||liisex.com/images/banners/
+||liitwrz.icu^
 ||lijie.in^
 ||limessy.xyz^
 ||lindanmiaoxiang.cn^
@@ -16568,6 +16580,7 @@ zzzyk.com###Tinfo
 ||lkdhlp.xyz^
 ||lkidke.com^
 ||lkjrx.xyz^
+||lkmhn.com^
 ||lkmxqq.com^
 ||lknmnnr.xyz^
 ||lkqyqwk.xyz^
@@ -17413,6 +17426,7 @@ zzzyk.com###Tinfo
 ||ngmnhc.xyz^
 ||ngnlaigc.fun^
 ||nhgds.xyz^
+||nhjkm.com^
 ||nhjwh.com^
 ||nhtieoo.cn^
 ||nhyvhmvw.com^
@@ -17457,6 +17471,7 @@ zzzyk.com###Tinfo
 ||nmfww.xyz^
 ||nmgnews.com.cn/sys/online_calc.js
 ||nmhte.xyz^
+||nmkghh.com^
 ||nmtibv.xyz^
 ||nmwbank.cn^
 ||nnfyxd.xyz^
@@ -17626,6 +17641,7 @@ zzzyk.com###Tinfo
 ||okdi.top^
 ||okew.top^
 ||okkkk.com^
+||okmhmkjnm.com^
 ||okmwfq.xyz^
 ||okoc.top^
 ||okod.top^
@@ -19275,6 +19291,7 @@ zzzyk.com###Tinfo
 ||ssl.zy3dku.cn^$third-party
 ||ssnignsb.xyz^
 ||ssnn.net^*-200-250.jpg
+||ssnnn.net^
 ||ssnoownmb.fun^
 ||ssp.21ic.com^
 ||ssp.hinet.net^
@@ -19742,6 +19759,7 @@ zzzyk.com###Tinfo
 ||tprwnvk.cn^
 ||tptoon.com/skin/js/tjtjkk.
 ||tptp001.buzz^
+||tptp002.cfd^
 ||tpvuxt.xyz^
 ||tq.cn/floatcard?
 ||tq121.com.cn/j/ad/
@@ -19769,6 +19787,7 @@ zzzyk.com###Tinfo
 ||tsdm.live/weibo.html
 ||tsdmw.net/img01/MP3/pm_
 ||tsds.tech^
+||tseda6.icu^
 ||tshtbh.xyz^
 ||tsiyun.cn^
 ||tsmirk.xyz^
@@ -20009,6 +20028,7 @@ zzzyk.com###Tinfo
 ||ujfqohk.cn^
 ||ujian.cc^$third-party
 ||ujiasm.com^
+||ujnkn.com^
 ||ukutuy.xyz^
 ||ulfex.cn^$third-party
 ||ulink.cc^$third-party
@@ -20034,6 +20054,7 @@ zzzyk.com###Tinfo
 ||union.yihaodian.com^
 ||unionli.com^$third-party
 ||uniway.cn.com^
+||unjld.com^
 ||unmnkkq.cn^
 ||unpfqc9.com^
 ||unpkg.com^$badfilter
@@ -20105,6 +20126,7 @@ zzzyk.com###Tinfo
 ||uwumr.cn^
 ||uxcnhsf.cn^
 ||uxlidt.ink^
+||uxtruz.xyz^
 ||uxwkiyp.xyz^
 ||uxxux.com/js/zd.js
 ||uygckiy.cn^
@@ -20266,6 +20288,7 @@ zzzyk.com###Tinfo
 ||vrffwbf.cn^
 ||vrlvnz.xyz^
 ||vrmgwvz.cn^
+||vrr.name^
 ||vrrw.net//templets/default/js/ad.js
 ||vs1.exo01.xyz^$image,third-party
 ||vsnoon.com^$third-party
@@ -20768,6 +20791,7 @@ zzzyk.com###Tinfo
 ||xiaoshuoyun.cn^
 ||xiaosss.ren^
 ||xiaoxiuapp.com^
+||xiaoy.name^
 ||xiaoyida.com^$third-party
 ||xiaoyunong13.top^
 ||xiaoz.top/assets/imgurl.js
@@ -21108,6 +21132,7 @@ zzzyk.com###Tinfo
 ||yhdm.so/bar/
 ||yhdm44.com/123.html
 ||yhgumcr.xyz^
+||yhhnjg.com^
 ||yhjccj.cn^
 ||yhjh04.com^
 ||yhsfsdv03.com^
@@ -21466,6 +21491,7 @@ zzzyk.com###Tinfo
 ||zfnclk.buzz^
 ||zfood029.com^
 ||zfteiv.xyz^
+||zfvltd.xyz^
 ||zg.mmyuer.com^
 ||zgctig.cn^
 ||zgfckf.mobi^
