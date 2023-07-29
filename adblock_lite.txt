@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202307280123
+! Version: 202307290123
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21789
+! Lenth = 21804
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -829,12 +829,14 @@
 51credit.com##.main-r-ka
 51credit.com,hkepc.com##tbody[id^="normalthread_"] + tbody:not([id])
 51cto.com###ADsList
+51cto.com###advCanvas
 51cto.com###edu_adver
 51cto.com###f_close_box
 51cto.com###list4
 51cto.com###postform + a[style]
 51cto.com###upopbox_bot
 51cto.com###upopbox_mid
+51cto.com##.ad-jing
 51cto.com##.footer_mask
 51cto.com##.suspend
 51cto.com##.upopbg
@@ -5697,6 +5699,7 @@ iqiyi.com###scrollWrap-vipbuy
 iqiyi.com###videoBuyContainer
 iqiyi.com###widget-jingdongAd
 iqiyi.com###zbsp
+iqiyi.com##.ad-seed
 iqiyi.com##.adBanner980
 iqiyi.com##.banner3
 iqiyi.com##.banner980
@@ -5724,6 +5727,8 @@ iqiyi.com##.m-downApp
 iqiyi.com##.m-hotWords-bottom
 iqiyi.com##.mod_focus-index_list > li:last-child
 iqiyi.com##.oppo
+iqiyi.com##.qy20-h-carousel-wrap[data-focus="ad-focus-image"] .qy20-h-carousel__a
+iqiyi.com##.qy20-h-carousel_con-gray a[href^="http"]:not([href*="iqiyi.com/"])
 iqiyi.com##.rightLink
 iqiyi.com##.rm-header-ad
 iqiyi.com##.rm-logo-ad
@@ -13131,6 +13136,7 @@ zzzyk.com###Tinfo
 ||denpvh.xyz^
 ||dertyhsf.xyz^
 ||destc10.icu^
+||destc8.icu^
 ||deude.ltd^
 ||develenv.com^$third-party
 ||devofei.xyz^
@@ -13848,6 +13854,7 @@ zzzyk.com###Tinfo
 ||fanpingbi*.gaokao.com^
 ||fanquanwang.com/uploads/ad/
 ||fans.*.space/fans/*.php
+||fantuan.name^
 ||fanyi.baidu.com/wise/afd
 ||fanyi100.com.cn^
 ||fanzhuang.net.cn^$third-party
@@ -15755,6 +15762,7 @@ zzzyk.com###Tinfo
 ||jjwxc.net/adsmanage.
 ||jjwxc.net/jjPopup.php
 ||jjwxc.net/jjad*.html$popup
+||jjztrz.xyz^
 ||jkasn.com^
 ||jke1.jianke.com^
 ||jkk7777.xyz^
@@ -15959,6 +15967,7 @@ zzzyk.com###Tinfo
 ||juzi6.com/js/dp.js
 ||juzi6.com/js/gd.js
 ||juzwrl.xyz^
+||jvjlkih.com^
 ||jvkckeg.cn^
 ||jvljnb.xyz^
 ||jvmxrug.xyz^
@@ -17475,6 +17484,7 @@ zzzyk.com###Tinfo
 ||nmtibv.xyz^
 ||nmwbank.cn^
 ||nnfyxd.xyz^
+||nnqwe.xyz^
 ||nntsdp.xyz^
 ||no1.168abc.net/upload/
 ||nogff.top^
@@ -18701,6 +18711,7 @@ zzzyk.com###Tinfo
 ||rss9f.top^
 ||rst2.y3600.cn^
 ||rszqtry.cn^
+||rtborp.xyz^
 ||rtcegcp.cn^
 ||rtdxqq.com^
 ||rthmnj.xyz^
@@ -19352,6 +19363,7 @@ zzzyk.com###Tinfo
 ||static.zongheng.com^*/logger.min.js
 ||statics.woozooo.com/img/*.js$domain=lanzous.com
 ||statis1.mama.cn^
+||statisfile.com^
 ||stats.766.com^
 ||stats.chinaz.com/tool/
 ||stats.chinaz.com/tool_img/
@@ -19412,6 +19424,7 @@ zzzyk.com###Tinfo
 ||supfree.net^$xmlhttprequest
 ||surperverse.com^
 ||suukcn.com^
+||svarub.xyz^
 ||svrojrv.cn^
 ||sw76r85eda3k.com/need/h5.
 ||swadakesb.cyou^
@@ -19504,6 +19517,7 @@ zzzyk.com###Tinfo
 ||tajs.qq.com^
 ||tajxgs.com^
 ||talkfx.*/showTKImg?
+||tamedia.com.tw^$third-party
 ||tan1dian.com^
 ||tan1dian.com^$third-party
 ||tangrenjie.tv/gg/
@@ -21135,6 +21149,7 @@ zzzyk.com###Tinfo
 ||yhhnjg.com^
 ||yhjccj.cn^
 ||yhjh04.com^
+||yhmeinv.com/mh/
 ||yhsfsdv03.com^
 ||yhsmk.com^
 ||yht7.com/web/assets/js/right.js
