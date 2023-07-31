@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202307300143
+! Version: 202307310208
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21823
+! Lenth = 21834
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -2315,6 +2315,7 @@
 @@||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws='
 @@||wx.qq.com/c/=/mpres/*/video_ad_
 @@||wx.qq.com/mmbizwap/*/framead.
+@@||xbeibeix.com^$generichide
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
 @@||xiaoyuanzhao.com/adservice/$domain=shixiseng.com
 @@||xidian.edu.cn^$generichide
@@ -2947,7 +2948,7 @@ bbs.my0511.com##embed[width="970"][height="70"]
 bbs.my0511.com##span.smalltxt
 bbs.pcbeta.com###diynavtop + style + div[class]
 bbs.xmfish.com##.cmp_v
-bbt.tv,btbt.tv,fiime.cn,mmiyue.com,qcheng.cc,xbeibeix.com#@#.google-ad
+bbt.tv,btbt.tv,fiime.cn,mmiyue.com,qcheng.cc#@#.google-ad
 bcbay.com##.ad_txt_box
 bcbay.com##.discuss + table
 bcbay.com##table[id] + table[style="margin:3px auto;"]
@@ -11834,6 +11835,7 @@ zzzyk.com###Tinfo
 ||bcebos.com/725c659194eeebb8c6b970e52e2dc8aa.
 ||bcebos.com/ad/
 ||bcebos.com/contentAdSecend_
+||bcejk.xyz^
 ||bchina-1.xsfaya.com^
 ||bcivqxd.cn^
 ||bcquan.me/front/*_ad
@@ -13629,6 +13631,7 @@ zzzyk.com###Tinfo
 ||eengbalu.fun^
 ||eepw.com.cn/event/action/rightbd/microchip*.js
 ||eepw.com.cn/pub/js/TopFullScreen.js
+||eers0cy.com^
 ||eeyy.cc/style/yxj.js
 ||eeyy.com/otherhtml/js/ad650.js
 ||eeyy.com/otherhtml/poster_js/
@@ -13984,7 +13987,6 @@ zzzyk.com###Tinfo
 ||flighty.cn/images/
 ||flpnnqe.xyz^
 ||flsfzr.cn^
-||flyv.tv/a/$xmlhttprequest
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
 ||fm086.com/Plugins/search
 ||fmblph.xyz^
@@ -14856,6 +14858,7 @@ zzzyk.com###Tinfo
 ||hmcpub.xyz^
 ||hmghmg.com/tb
 ||hmjeiak.cn^
+||hmjhnkas.com^
 ||hmoe12.com/wp-content/uploads/202*.gif
 ||hmpubc.xyz^
 ||hmtoday.com^$third-party
@@ -14929,6 +14932,7 @@ zzzyk.com###Tinfo
 ||hqoqbs.xyz^
 ||hqqpw.mobi^
 ||hqycr.cn^
+||hqzcths.cn^
 ||hr44.com^
 ||hrjg.com.cn^$third-party
 ||hrngmf.com^
@@ -15037,6 +15041,7 @@ zzzyk.com###Tinfo
 ||hxapafn.cn^
 ||hxbt.alading123.com^
 ||hxes.cn^
+||hxhohd.xyz^
 ||hxjs.tool.hexun.com$domain=~quote.hexun.com
 ||hxles.top^
 ||hxpmbb.xyz^
@@ -15230,6 +15235,7 @@ zzzyk.com###Tinfo
 ||iiroz.xyz^
 ||iis7.com/ys/css2018/ggw.js
 ||iisymgs.cn^
+||ijgbuj.xyz^
 ||ijinshan.com/images/gk/game
 ||ijir.cn^
 ||ijkqwopm.xyz^
@@ -15538,6 +15544,7 @@ zzzyk.com###Tinfo
 ||ixuchch.cn^
 ||iy.com.cn^$third-party
 ||iyf.tv/a/$xmlhttprequest
+||iyf.tv/play/$xmlhttprequest
 ||iyingdi.com/goood?
 ||iyodoctor.com^
 ||iytrn.xyz^
@@ -16704,6 +16711,7 @@ zzzyk.com###Tinfo
 ||lsforum.net/cam2/*.gif
 ||lsforum.net/yahooad/
 ||lsjxs.cc/js/html
+||lskmipb.icu^
 ||lslld.xyz^
 ||lsnignsl.xyz^
 ||lsnoownml.fun^
@@ -18162,6 +18170,7 @@ zzzyk.com###Tinfo
 ||putaoys.com/static/js/acb1.js
 ||putonghua520.com/skins/10ym/3jin.gif
 ||putonghua520.com/skins/10ym/baicai.gif
+||puy2.cn^
 ||pv.cheshi.com^
 ||pv.dakawm.cc^$third-party
 ||pv.ldlwdsx.com^$third-party
@@ -18576,6 +18585,7 @@ zzzyk.com###Tinfo
 ||rcxysoj.cn^
 ||rdance.cn^
 ||rdbd.xsread.com^
+||rddsjx.xyz^
 ||rdjnjz.xyz^
 ||rdnucrn.cn^
 ||rdoybkd.cn^
@@ -19621,6 +19631,7 @@ zzzyk.com###Tinfo
 ||thepaper.cn/bottomBanner_
 ||theporn.xyz/static/bet365.gif
 ||theporn.xyz/static/tmp/
+||thesac2.top^
 ||thesac8.top^
 ||theta.sogoucdn.com^
 ||thetestpage.39.net^
