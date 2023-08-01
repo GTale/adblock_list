@@ -1,9 +1,9 @@
 [uniartisan's Adblock List Lite]
-! Version: 202307310208
+! Version: 202308010234
 ! Title:  uniartisan's Adblock List Lite
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 21834
+! Lenth = 21845
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
 #%#var AG_abortOnPropertyWrite=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeSet:function(){b&&console.warn("AdGuard aborted property write: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -5502,6 +5502,7 @@ ifeng.com##div[id^="couplet3_"]
 ifeng.com##div[id^="padhide_"]
 ifeng.com##section[class^="fixSlide-"]
 ifeng.com#?#.box_list:-abp-has(.tuig)
+ifeng.com#?#div[class^="index_yaowen_center"] div[class^="index_news_list_"]:has(a[target="_blank"] + img[src^="https://x0.ifengimg.com/feprod/"])
 ifeng.com#?#div[class^="titleImg-"]:-abp-has(span[class^="source-"]:-abp-contains(推广))
 ifeng.com,qq.com###advert
 ifeng.com,sohu.com##.ad950
@@ -10085,6 +10086,7 @@ zzzyk.com###Tinfo
 ||3987.com/skins/*201
 ||3987.com/statics/tow_skin/new_img/20
 ||39jz.com^
+||39mydp.xyz^
 ||39nw.com^
 ||3alian.net^$third-party
 ||3bmmmesj.life/skin/js/dny.
@@ -13749,6 +13751,7 @@ zzzyk.com###Tinfo
 ||erop.store^
 ||ertgbme.com^
 ||ertjo.xyz^
+||erty0yx.com^
 ||erwgj.xyz^
 ||es3984.review/02_cn_ad/
 ||esanciw.top^
@@ -14081,6 +14084,7 @@ zzzyk.com###Tinfo
 ||fvdoics.cn^
 ||fvffd678.xyz^
 ||fvtrx.cyou^
+||fvxlhn.xyz^
 ||fvzljv.xyz^
 ||fweia.xyz^
 ||fwepd.xyz^
@@ -14717,6 +14721,7 @@ zzzyk.com###Tinfo
 ||hefei64.com^
 ||hefeng-group.net/attach/20200605/Fl05PJWEPUSuVt1x6PeHbHiaQ59J.png
 ||hefrpv.xyz^
+||hegk01a.top^
 ||hegk03a.top^
 ||hegk09a.top^
 ||heha2cpoe.icu^
@@ -16278,6 +16283,7 @@ zzzyk.com###Tinfo
 ||kscly.com^
 ||ksdayhtl.xyz^
 ||ksdr.xyz^
+||kslbahd.top^
 ||ksnignsd.xyz^
 ||ksnoownmd.fun^
 ||kt51.com/bjl666.gif
@@ -16516,6 +16522,7 @@ zzzyk.com###Tinfo
 ||lhdlbp.xyz^
 ||lhiefl.com^
 ||lhot.xyz^
+||lhotajl.icu^
 ||lianaiyx.com/d/js/cst/
 ||lianfu.shop^
 ||lianfuhuang.cn^
@@ -17378,6 +17385,7 @@ zzzyk.com###Tinfo
 ||nbsxazr.icu^
 ||nbzabd.xyz^
 ||nccaer.xyz^
+||ncgqmzm.cn^
 ||nchte.com^
 ||nchxzmhr.com^
 ||ncmxwhf.icu^
@@ -17872,6 +17880,7 @@ zzzyk.com###Tinfo
 ||pbgtpjz.cn^
 ||pbmp.ali213.net/js/
 ||pbrhblu.cn^
+||pbtsjh.xyz^
 ||pbtxt.win^
 ||pc.weizhenwx.com/pc/rich-tf.js$script,redirect=noopjs,domain=zhenbuka3.com|zhenbuka2.com|bukaivip.com
 ||pc6.com/img/
@@ -18415,6 +18424,7 @@ zzzyk.com###Tinfo
 ||qpoiwnelc.com^
 ||qponfva.cn^
 ||qptnew.com^
+||qpztub.xyz^
 ||qq.com/Index/getAdsAndHotspot
 ||qq.com/PL_adT.htm
 ||qq.com/bbs/bbs_topgg.htm
@@ -19449,6 +19459,7 @@ zzzyk.com###Tinfo
 ||suukcn.com^
 ||svarub.xyz^
 ||svrojrv.cn^
+||svvev3.com^
 ||sw76r85eda3k.com/need/h5.
 ||swadakesb.cyou^
 ||swandlb.top^
