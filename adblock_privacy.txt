@@ -1,9 +1,9 @@
 [uniartisan's Privacy List]
-! Version: 202308010234
+! Version: 202308020100
 ! Title:  uniartisan's Privacy List
 ! Expires: 1 days (update frequency)
 ! URL = https://github.com/uniartisan/adblock_list
-! Lenth = 79411
+! Lenth = 79362
 ###cxense-recs-in-article
 ###qoo-counter
 ###ramblerCounter
@@ -975,17 +975,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /GARecord^
 /GlanceCobrowseLoader_
 /GlancePresenceVisitor_
-/GomezTracking.
-/GoogleAdnalyticsJs?
 /GoogleAnalystics.
 /GoogleAnalyticActionLib.
 /GoogleAnalytics?utmac=
 /GoogleAnalyticsBC3.
 /GoogleAnalyticsEvents.
 /GoogleAnalyticsModule.
-/GoogleAnalyticsPlugIn.
 /GoogleAnalyticsPlus/*
-/GoogleAnalyticsTrackingProvider.js
 /HeatmapSessionRecording/*$domain=~plugins.matomo.org|~shop.matomo.org
 /HiroBeacon?
 /Hit.ashx?
@@ -1054,7 +1050,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /PhoenixGoogleAnalytics.
 /PhoenixGoogleAnalytics.min.js
 /PingPixel.
-/Pixel/Script/Behavior?
 /PixelImg.asp
 /PixelNedstat.
 /PixelTracking.
@@ -2002,8 +1997,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /counter/ashow/*
 /counter/collect?
 /counter/ct.php?
-/counter/process.asp?
-/counter/r.pl
 /counter/stat.
 /counter/views/*
 /counter1.gif?
@@ -2045,7 +2038,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /csi?v=2&s=
 /csi?v=3&s=
 /csi_204?$image,other,ping,script
-/csm/analytics;
 /csp_204?
 /csp_log?
 /css/analytics.js$domain=assia.*|assia4.com
@@ -2065,7 +2057,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cx_tracking.js
 /cxense-candy.js
 /cxense-entitlement.js
-/cxense-video/*
 /cxense/cx.js
 /cxf-tracking
 /d.gif?
@@ -2155,7 +2146,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /eTagP/*
 /e_stat?g_id=
 /eatms.js
-/ebay_analytics.
 /ebonetag.js
 /ebs/tracking.
 /ebs/tracking/*
@@ -2233,7 +2223,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /event.cgi?
 /event.gif?
 /event.php?campaign=
-/event/?ra=
 /event/beacon|
 /event/fingerprint
 /event/img?type=
@@ -2248,14 +2237,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /event/visit?
 /event?&event=
 /event?adblk=
-/event?auditLinkReceived=
 /event?eventType=
 /event?event_id=
 /event?pmo=
 /event?ref=
 /event?sendBeacon=
 /event?stat_
-/event?t=view&
 /event?token=
 /event?tub_id=
 /eventLog.ajax
@@ -2302,6 +2289,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /exittracker.
 /exittraffic.
 /exmo.email/open.html
+/exp-metrika.js$domain=russia-tv.online
 /expcount/*
 /experiment/impressions.js
 /extendedAnalytics.
@@ -2507,11 +2495,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /gate.amnesty-international.*/open.php?
 /gatrack.
 /gatracking.
-/gatrackingcampaigns/*
 /gatrackthis.
 /gatrackwww.
 /gb-tracker-
-/gc?id=*&refurl=
 /gc?refurl=
 /gcount.pl?
 /gcui_vidtracker/*
@@ -2519,7 +2505,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /gemius.3.15.js
 /gemius.js
 /gemius1.js
-/gemiusAudience.
 /gemius_
 /gen204/*
 /gen204?
@@ -2543,33 +2528,20 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /geolocation?utm_
 /geomap.js?
 /geov2.js
-/get-pro/*&fingerprint=
-/get-tracking-data
 /get/*/inventory|
 /get/*/live/_/jts.js
-/get?affid=$script
 /getIbleStats?
-/getThirdPartyTracking?
-/getTotalHits.
-/get_browser_info.
 /get_cdns?$third-party,xmlhttprequest
 /get_geoip?
-/get_site_data?account_id=
 /get_site_data?requestUUID=
 /get_tracking_url.
 /getbglog.js
 /getclicky.
 /getclicky_
-/getcookie.php?
-/getcount?ids=
 /getlog.gif?
-/getnortonsealimaget.js
 /getstats.js.php
-/gifbanner?
-/gifstats.
 /gigyaGAIntegration.
 /gingeranalytics.
-/glbltrackjs.
 /global-analytics.js
 /global/analytics/*
 /global/ga.js?
@@ -2577,10 +2549,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /global_analytics.
 /global_tracking.js
 /globalpagetracking.js
-/glogger.js
-/gmasst.gif?guid=
-/gn_analytics.
-/gn_tracking.
 /goAnalytics.
 /google-analyticator/*
 /google-analyticator/*$script
@@ -2596,9 +2564,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /googleAnalytics1.
 /googleAnalytics4.
 /googleAnalyticsBase_
-/googleAnalyticsBottom.
 /googleAnalyticsDataLayer.
-/googleAnalyticsOutgoingLinks.
 /googleAnalyticsTracking.
 /googleEventTracking.
 /googleTracker.
@@ -2606,11 +2572,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /google_analitycs.
 /google_analytics3_
 /google_analytics4.js
-/google_page_track
 /google_tag.
 /google_tag/*
 /google_tag/*$script
-/google_tag_extra.
 /google_tracker.
 /googleana.
 /googleanalyze1.
@@ -2729,28 +2693,19 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /iframe-tracker.js
 /iframe.tracker.js
 /iframetracker.
-/image.articleview?
 /image.ng/*
 /imageTracking.
 /images/top100.gif
 /img.gif?
 /img/bcn.gif?
-/img/gnt.gif?
-/img/gut.gif?
 /img?eid=
-/img_stat2.
 /imgcount.cgi?
 /imgcount.php?
 /imgevent?
 /imgtracker.
 /imp.gif?
 /imp.php?
-/imp/nurl?
-/imp/rtm?
-/imp/www.
 /imp2.js?
-/imp?reqid=
-/imp?sid=
 /imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
@@ -2763,9 +2718,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /impression.php?
 /impression.pl?
 /impression.track?
-/impression/cmp2?
 /impression/inline?
-/impression/stream/*
 /impression/track?
 /impression/widget?
 /impression?ad=
@@ -2938,8 +2891,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /linktracker/*
 /linktracking.
 /livecounter.php?wid=
+/liveinternet.js$domain=russia-tv.online
 /livestats.js
-/livestats.php?
 /livezilla/server.php?request=track&
 /ljcounter/*
 /llbmetrics.
@@ -3142,6 +3095,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /media_viewed_tracking.
 /medialaanUniversalTracker.
 /mediametrie.js
+/mediascope.js$domain=russia-tv.online
 /mediateGA.js
 /megacounter/*
 /mendelstats.
@@ -3365,8 +3319,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /om.gif?
 /om_ctrack.
 /om_tracking_
-/omega?ad_
-/omega?tceRow_
 /omni-tracking.
 /omniture-scode-prod.
 /omniture.do;
@@ -3452,7 +3404,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /page/page_view
 /page/unload?
 /pageCounter.adp?
-/pageLevelOmniture.
 /pageTag?
 /pageTracker/?
 /pageTrackerEvent.
@@ -3591,17 +3542,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pixel-manager.js?
 /pixel-page.html
 /pixel-prod.
-/pixel-prometeo.
 /pixel-render/*
 /pixel-track.
 /pixel-track/*
 /pixel-tracking.
 /pixel.*/track/*
-/pixel.ashx?
-/pixel.aspx?
 /pixel.cgi?
 /pixel.fingerprint.
-/pixel.gif/sensor?
 /pixel.gif?
 /pixel.jsp?
 /pixel.mathtag.com/*
@@ -3609,10 +3556,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pixel.swf?
 /pixel.track
 /pixel.track?
-/pixel/?__tracker
 /pixel/?block_id=*&hash=*&host=
-/pixel/?random_number=
-/pixel/PageStatistics.gif?
 /pixel/email/*$image
 /pixel/impression/*
 /pixel/impression?
@@ -3626,8 +3570,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pixel2.gif?
 /pixel?cid=
 /pixel?id=
-/pixel?m=
-/pixel?sm_
 /pixel?tag=
 /pixel?type=
 /pixelArticolo?
@@ -4995,6 +4937,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /yad_sortab_cetlog.js
 /yandex-metrica-watch/*
 /yandex-metrika.js
+/yandex-metrika.js$domain=russia-tv.online
 /yastat.js
 /yell-analytics-
 /yell-analytics.
@@ -6748,6 +6691,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 @@||metrics.us.playstation.com/b/ss/
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
 @@||miclaro.com.gt/assets/analytics$domain=miclaro.com.gt
+@@||micro.rubiconproject.com/prebid/dynamic/13128.js$domain=ladbible.com|unilad.com|unilad.co.uk|gamingbible.com|tyla.com|sportbible.com
 @@||microsoft.com/click/services/RioTracking2.js
 @@||middleware.p7s1.io/galileo/v1/player/metadata/$domain=galileo.tv
 @@||middleware.p7s1.io/galileo/v1/tracking$domain=galileo.tv
@@ -16154,6 +16098,7 @@ znak.com##.relap
 ||amazon.*$removeparam=hydadcr
 ||amazon.*$removeparam=ingress
 ||amazon.*$removeparam=initialIssue
+||amazon.*$removeparam=linkCode
 ||amazon.*$removeparam=linkId
 ||amazon.*$removeparam=pd_rd_i
 ||amazon.*$removeparam=pd_rd_r
@@ -16170,6 +16115,7 @@ znak.com##.relap
 ||amazon.*$removeparam=qid
 ||amazon.*$removeparam=rdc
 ||amazon.*$removeparam=refRID
+||amazon.*$removeparam=th
 ||amazon.*$removeparam=ts_id
 ||amazon.*$removeparam=visitId
 ||amazon.*$removeparam=vtr
@@ -31745,6 +31691,7 @@ znak.com##.relap
 ||dynameex.com^$third-party
 ||dynamic-content.croquetteland.com^
 ||dynamicyield.com/batch?
+||dynamicyield.com/dpx?
 ||dynamicyield.com/imp?
 ||dynamicyield.com/uia?
 ||dynamicyield.com/var?
@@ -35290,7 +35237,6 @@ znak.com##.relap
 ||gasgvkv0.hb-fa-stage.tt.omtrdc.net^
 ||gastdn.wolfandbadger.com^
 ||gatan.actonservice.com^
-||gate.hockeyapp.net/*/track
 ||gate.upclick.com/btn/visitor.min.js
 ||gatehousemedia.com/wickedlocal/ip.js
 ||gatemputertrk.com^
@@ -38547,6 +38493,7 @@ znak.com##.relap
 ||ilcdn.fi^*/Bootstrap.js
 ||ilepwo.bonprix.at^
 ||ilfmju.right-on.co.jp^
+||ilikenews.com/core/modules/statistics/statistics.php
 ||ilinks.petalcard.com^
 ||iljmp.com^$third-party
 ||ilk10.az^$third-party
@@ -49359,6 +49306,7 @@ znak.com##.relap
 ||netinsight.actonservice.com^
 ||netjets.tt.omtrdc.net^
 ||netkeiba.com^$removeparam=rf
+||netlify-rum.netlify.app^
 ||netmailcsr11.net.anwalt.de^
 ||netmarvel.hb-api.tt.omtrdc.net^
 ||netmera-web.com^$third-party
@@ -69868,6 +69816,7 @@ znak.com##.relap
 ||tpa7.iahorro.com^
 ||tpad.tt.omtrdc.net^
 ||tpalpi1mvd014.tt.omtrdc.net^
+||tpcs.payu.in/pixelwithcookie.gif$domain=hindustantimes.com
 ||tpe-testeme.c.pad.tt.omtrdc.net^
 ||tpe.theparticipanteffect.com^
 ||tpeq02-oy.tt.omtrdc.net^
@@ -72035,7 +71984,6 @@ znak.com##.relap
 ||tracker.remp-beam.golem.de^
 ||tracker.remp.sme.sk^
 ||tracker.roitesting.com^
-||tracker.rqmob.com^
 ||tracker.samplicio.us^
 ||tracker.secretescapes.com^
 ||tracker.selectivv.com^
@@ -74666,7 +74614,6 @@ znak.com##.relap
 ||utrack.buybox.click/bb4shop.js
 ||utrack.hexun.com^
 ||utraff.com^$third-party
-||uts-front.line-apps.com^
 ||uts.auction.co.kr
 ||uts.auction.co.kr^
 ||utsgw.gmarket.co.kr/vi/send
@@ -76966,6 +76913,7 @@ znak.com##.relap
 ||wise.com^$removeparam=partnerID
 ||wise.com^$removeparam=partnerizecampaignID
 ||wisedialogbankspa.tt.omtrdc.net^
+||wiseref.com^$third-party
 ||wisetrack.net^$third-party
 ||wishloop.com^$third-party
 ||wissen.sage.de^
@@ -77123,6 +77071,7 @@ znak.com##.relap
 ||worldbank71.tt.omtrdc.net^
 ||worldflagcounter.com^$third-party
 ||worldgravity.com^$third-party
+||worldhistory.org/analytics/pageview.js
 ||worldlinesa.tt.omtrdc.net^
 ||worldlogger.com^$third-party
 ||worldmtcs.nhk.jp^
@@ -77143,6 +77092,7 @@ znak.com##.relap
 ||wowcherlimited.tt.omtrdc.net^
 ||wowgame.jp/countup.asp
 ||wowma.jp^$removeparam=wadd
+||wowow.co.jp/API/new_prg/get_tracking_url.php
 ||wozdcc.vidaxl.at^
 ||wp-blog.bsinteractive.hb.tt.omtrdc.net^
 ||wp-blog.www.att.hb.tt.omtrdc.net^
@@ -77396,6 +77346,7 @@ znak.com##.relap
 ||www-dev3.buildbot-dev.tt.omtrdc.net^
 ||www-dev7.sjc05.tt.omtrdc.net^
 ||www-direct.autoguide.com/eventStream
+||www-direct.motorcycle.com/eventStream
 ||www-dishpurchasingcorporation.hb-api.tt.omtrdc.net^
 ||www-ebis.384.co.jp^
 ||www-es-ar-globalowner.cf.app.tt.omtrdc.net^
